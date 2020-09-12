@@ -17,9 +17,9 @@
   "Description": {
     "Id": "vehicledef_MANTICORE_RAC",
     "Name": "Manticore (Davion)",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Packing a potent array of heavy weapons, the Heavy Tank is a serious threat to any Tank or Mech that encounters it.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Manticore",
-    "Cost": 12772000,
+    "Cost": 13276000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -105,15 +105,15 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
+      "MountedLocation": "Right",
+      "ComponentDefID": "Ammo_Light_Rotary_Flak_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Ammo_Light_Rotary_Precision_AC5",
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -161,6 +161,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -176,7 +182,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_ferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

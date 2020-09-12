@@ -2,9 +2,9 @@
   "Description": {
     "Id": "vehiclechassisdef_OLIPHANT_SUPERHEAVY_TANK",
     "Name": "Unknown Vehicle",
-    "Details": "",
+    "Details": "Slow, insanely durable and packing the sort of firepower that makes an Atlas look like a pop gun, these units are the ultimate line breakers or line holders.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "STRIKER",
-    "Cost": 58441250,
+    "Cost": 99346000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -15,7 +15,7 @@
   "HardpointDataDefID": "hardpointdatadef_heavylrm",
   "PrefabIdentifier": "chrprfvhcl_heavylrmbase",
   "PrefabBase": "heavylrm",
-  "Tonnage": 150,
+  "Tonnage": 200,
   "weightClass": "ASSAULT",
   "BattleValue": 2151,
   "TopSpeed": 85,
@@ -113,14 +113,6 @@
     {
       "Location": "Turret",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false

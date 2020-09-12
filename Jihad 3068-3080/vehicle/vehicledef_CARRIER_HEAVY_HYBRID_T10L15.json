@@ -24,9 +24,9 @@
   "Description": {
     "Id": "vehicledef_CARRIER_HEAVY_HYBRID_T10L15",
     "Name": "Heavy Hybrid Carrier (TBM10/LRM15)",
-    "Details": "",
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Designed to support allies from range, the Carrier can hang back behind friendly lines where it's lack of armor isn't a concern.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "",
-    "Cost": 6793800,
+    "Cost": 7468800,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -71,14 +71,14 @@
   "inventory": [
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Weapon_MINE_DISPENSER15",
+      "ComponentDefID": "Weapon_MINE_DISPENSER10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Weapon_MINE_DISPENSER15",
+      "ComponentDefID": "Weapon_MINE_DISPENSER10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -222,6 +222,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

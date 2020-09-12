@@ -10,6 +10,7 @@
       "unit_lance_assassin",
       "unit_advanced",
       "unit_bracket_med",
+      "Republic",
       "WordOfBlake",
       "steiner",
       "davion"
@@ -20,7 +21,7 @@
   "Description": {
     "Id": "vehicledef_MANTICORE_LBX",
     "Name": "Manticore (LBX)",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Trading speed or weapons for armor, the Heavy Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Manticore",
     "Cost": 4333600,
     "Rarity": 0,
@@ -134,6 +135,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

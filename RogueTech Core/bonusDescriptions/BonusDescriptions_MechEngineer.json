@@ -7,6 +7,18 @@
       "Full": "FAILSAFE AMMO BOX NOT FOR USE"
     },
     {
+      "Bonus": "VitalComponent",
+      "Short": "Vital",
+      "Long": "Vital Component",
+      "Full": "If this component is destroyed for any reason the whole unit will be killed"
+    },
+    {
+      "Bonus": "FullyAmphibious",
+      "Short": "Amphibious",
+      "Long": "Fully Amphibious",
+      "Full": "Amphibious Unit; Not slowed down or stopped by Water, even Deep Water."
+    },
+    {
       "Bonus": "HeatResistance",
       "Short": "{0}HeatResistance",
       "Long": "{0}HeatResistance",
@@ -411,13 +423,13 @@
     {
       "Bonus": "Explodium",
       "Short": "{0} Multiplier",
-      "Long": "{0} Missifre Multiplier",
+      "Long": "{0} Misfire Multiplier",
       "Full": "Weapon has a {0} misfire multiplier - recoil x multiplier = misfire chance"
     },
     {
       "Bonus": "ExplodiumFlat",
       "Short": "{0} Misfire Chance",
-      "Long": "{0} Missifre Chance",
+      "Long": "{0} Misfire Chance",
       "Full": "Weapon has a {0} misfire chance - mitigated by Gunnery"
     },
     {
@@ -430,19 +442,85 @@
       "Bonus": "AmmoJAMFlat",
       "Short": "{0} Jam Chance",
       "Long": "{0} Jam Chance",
-      "Full": "Ammo adds a flat {0} jam chance - mitigated by Gunnery"
+      "Full": "Ammo adds a {0} jam chance - mitigated by Gunnery"
     },
     {
       "Bonus": "WeaponJAMFlat",
       "Short": "{0} Jam Chance",
       "Long": "{0} Jam Chance",
-      "Full": "Weapon has a flat {0} jam chance - mitigated by Gunnery"
+      "Full": "Weapon has a {0} jam chance - mitigated by Gunnery"
     },
     {
       "Bonus": "WeaponJAMFlatShot",
-      "Short": "{0} Jam Chance",
-      "Long": "{0} Jam Chance",
-      "Full": "Weapon has a flat {0} jam chance per shot - mitigated by Gunnery"
+      "Short": "{0} Jam Per Shot",
+      "Long": "{0} Jam Per Shot",
+      "Full": "Weapon has a {0} jam chance per shot - mitigated by Gunnery"
+    },
+    {
+      "Bonus": "JamChancePerShot",
+      "Short": "{0} Jam Per Shot",
+      "Long": "{0} Jam Per Shot",
+      "Full": "Weapon has a {0} jam chance per shot"
+    },
+    {
+      "Bonus": "MisfireChancePerShot",
+      "Short": "{0} Misfire Per Shot",
+      "Long": "{0} Misfire Per Shot",
+      "Full": "Weapon has {0} chance per shot to be damaged when firing"
+    },
+    {
+      "Bonus": "MGJamChance",
+      "Short": "{0} Jam Per Shot",
+      "Long": "{0} Jam Per Shot",
+      "Full": "Weapon has a {0} jam chance per shot above 3"
+    },
+    {
+      "Bonus": "MisfireChanceMode1",
+      "Short": "{0} Misfire {1}",
+      "Long": "{0} Misfire {1}",
+      "Full": "Weapon has {0} chance to be damaged when firing in {1} mode"
+    },
+    {
+      "Bonus": "MisfireChanceMode2",
+      "Short": "{0} Misfire {1}",
+      "Long": "{0} Misfire {1}",
+      "Full": "Weapon has {0} chance to be damaged when firing in {1} mode"
+    },
+    {
+      "Bonus": "MisfireChanceMode3",
+      "Short": "{0} Misfire {1}",
+      "Long": "{0} Misfire {1}",
+      "Full": "Weapon has {0} chance to be damaged when firing in {1} mode"
+    },
+    {
+      "Bonus": "MisfireChanceMode4",
+      "Short": "{0} Misfire {1}",
+      "Long": "{0} Misfire {1}",
+      "Full": "Weapon has {0} chance to be damaged when firing in {1} mode"
+    },
+    {
+      "Bonus": "JamChanceMode1",
+      "Short": "{0} Jam {1}",
+      "Long": "{0} Jam {1}",
+      "Full": "Weapon has {0} jam chance when firing in {1} mode"
+    },
+    {
+      "Bonus": "JamChanceMode2",
+      "Short": "{0} Jam {1}",
+      "Long": "{0} Jam {1}",
+      "Full": "Weapon has {0} jam chance when firing in {1} mode"
+    },
+    {
+      "Bonus": "JamChanceMode3",
+      "Short": "{0} Jam {1}",
+      "Long": "{0} Jam {1}",
+      "Full": "Weapon has {0} jam chance when firing in {1} mode"
+    },
+    {
+      "Bonus": "JamChanceMode4",
+      "Short": "{0} Jam {1}",
+      "Long": "{0} Jam {1}",
+      "Full": "Weapon has {0} jam chance when firing in {1} mode"
     },
     {
       "Bonus": "ShotsFiredAC",
@@ -1727,6 +1805,12 @@
       "Short": "EMP",
       "Long": "EMP {0}",
       "Full": "EMP reduces enemy cooling efficiency by {0}"
+    },
+    {
+      "Bonus": "EMPRECOIL",
+      "Short": "EMP",
+      "Long": "EMP {0}",
+      "Full": "EMP increases enemy refire penalty by {0}"
     },
     {
       "Bonus": "PPCDEBUFF",

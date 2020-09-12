@@ -18,9 +18,9 @@
   "Description": {
     "Id": "vehicledef_CHALCHIUHTTOTOLIN_CHEM",
     "Name": "Chalchiuhtotolin Support Tank (Chemical Laser)",
-    "Details": "",
+    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Intended as a scout or vanguard unit, the Medium Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
     "Icon": "Chevalier",
-    "Cost": 7714584,
+    "Cost": 7772084,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -142,14 +142,14 @@
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_SRM_SRM4_STREAK_CLAN",
+      "ComponentDefID": "Weapon_SRM_SRM6_STREAK_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_SRM_SRM4_STREAK_CLAN",
+      "ComponentDefID": "Weapon_SRM_SRM6_STREAK_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 3,
       "DamageLevel": "Functional"
@@ -184,21 +184,19 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -209,6 +207,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

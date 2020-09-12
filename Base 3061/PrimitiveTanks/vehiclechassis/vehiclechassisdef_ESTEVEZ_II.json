@@ -2,9 +2,9 @@
   "Description": {
     "Id": "vehiclechassisdef_ESTEVEZ_II",
     "Name": "Estevez II",
-    "Details": "",
-    "Icon": "MANTICORE",
-    "Cost": 8876800,
+    "Details": "Long range fire support assets, Artillery vehicles mount the big guns that pound stuff into metallic dust. An attempt to field Artillery as a replacement for a Tank Destroyer or MBT, weapons and speed are traded for increased armor.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
+    "Icon": "Estevez",
+    "Cost": 7925701,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -15,7 +15,7 @@
   "HardpointDataDefID": "hardpointdatadef_m1",
   "PrefabIdentifier": "chrprfvhcl_m1",
   "PrefabBase": "m1",
-  "Tonnage": 90,
+  "Tonnage": 80,
   "weightClass": "ASSAULT",
   "BattleValue": 993,
   "TopSpeed": 85,
@@ -120,6 +120,10 @@
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {

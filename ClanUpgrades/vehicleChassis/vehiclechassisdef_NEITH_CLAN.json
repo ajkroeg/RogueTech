@@ -1,10 +1,13 @@
 {
+  "CustomParts": {
+    "MoveCost": "FullyAmphibiousMove"
+  },
   "Description": {
     "Id": "vehiclechassisdef_NEITH_CLAN",
     "Name": "Neith Scout Vehicle",
-    "Details": "",
-    "Icon": "MANTICORE",
-    "Cost": 8539800,
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Carrying an array of ranged weapons, the Medium Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>",
+    "Icon": "Chevalier",
+    "Cost": 9987000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -100,6 +103,10 @@
     {
       "Location": "Turret",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false

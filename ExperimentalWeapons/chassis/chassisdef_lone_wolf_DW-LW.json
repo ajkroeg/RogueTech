@@ -167,7 +167,7 @@
     }
   ],
   "Description": {
-    "Cost": 1.3206983E7,
+    "Cost": 15055377,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -183,7 +183,8 @@
     "items": [
       "OmniMech",
       "HeroMech",
-      "SocietyMech"
+      "SocietyMech",
+      "mr-resize-1.0-1.1-1.1"
     ],
     "tagSetSourceFile": ""
   },

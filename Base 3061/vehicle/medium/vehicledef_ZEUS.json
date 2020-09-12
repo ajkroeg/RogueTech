@@ -21,9 +21,9 @@
   "Description": {
     "Id": "vehicledef_ZEUS",
     "Name": "Zeus ZUS-1",
-    "Details": "",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Carrying an array of ranged weapons, the Medium Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "",
-    "Cost": 2328359,
+    "Cost": 2297359,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -96,7 +96,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -111,6 +111,13 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_Inferno_Mortar",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_SAM_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -135,6 +142,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

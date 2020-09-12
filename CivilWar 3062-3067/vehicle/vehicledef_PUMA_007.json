@@ -1,7 +1,7 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-2.67",
+      "mr-resize-2.00",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -22,9 +22,9 @@
   "Description": {
     "Id": "vehicledef_PUMA_007",
     "Name": "Puma PAT-007",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Puma",
-    "Cost": 22368450,
+    "Cost": 23782200,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -53,9 +53,9 @@
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 130,
+      "CurrentArmor": 140,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 130,
+      "AssignedArmor": 140,
       "DamageLevel": "Functional"
     },
     {
@@ -215,6 +215,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -244,7 +250,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_heavyferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

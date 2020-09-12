@@ -11,6 +11,7 @@
       "unit_bracket_med",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "unit_solaris",
       "davion",
       "kurita",
       "liao",
@@ -36,7 +37,6 @@
       "castile",
       "hanse",
       "tortuga",
-      "locals",
       "auriganmercenaries",
       "nofaction",
       "MercenaryReviewBoard",
@@ -83,9 +83,9 @@
   "Description": {
     "Id": "vehicledef_HETZER_SRM",
     "Name": "Hetzer (SRM)",
-    "Details": "",
+    "Details": "Instead of the autocannon, the 2957 SRM variant of the Hetzer utilized five SRM-6s and three tons of ammunition.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Hetzer",
-    "Cost": 961600,
+    "Cost": 940000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -158,14 +158,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_SRM_half",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_ListenKill_SRM_half",
+      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -197,6 +190,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

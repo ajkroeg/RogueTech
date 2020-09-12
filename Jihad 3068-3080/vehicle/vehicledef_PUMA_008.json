@@ -1,7 +1,7 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-2.67",
+      "mr-resize-2.00",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -12,9 +12,7 @@
       "unit_advanced",
       "unit_bracket_high",
       "unit_command",
-      "WordOfBlake",
-      "comstar",
-      "taurianconcordat"
+      "WordOfBlake"
     ],
     "tagSetSourceFile": ""
   },
@@ -22,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_PUMA_008",
     "Name": "Puma PAT-008",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Puma",
-    "Cost": 38995125,
+    "Cost": 37025625,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -39,16 +37,16 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 175,
+      "CurrentArmor": 180,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 175,
+      "AssignedArmor": 180,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 175,
+      "CurrentArmor": 180,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 175,
+      "AssignedArmor": 180,
       "DamageLevel": "Functional"
     },
     {
@@ -146,7 +144,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -160,7 +165,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM_half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -168,6 +173,20 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Swarmi_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -199,6 +218,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",
@@ -237,23 +262,9 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
       "ComponentDefID": "emod_armorslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_Cockpit_StarCorps_Improved",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Turret",

@@ -33,9 +33,9 @@
   "Description": {
     "Id": "vehicledef_COLOSPECIAL_PEPPER_PIRATE",
     "Name": "Pepperbox Pepperbox RLPH-PP",
-    "Details": "",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Packing a potent array of weapons, this Medium Tank excels at killing other vehicles.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "",
-    "Cost": 1300709,
+    "Cost": 1285209,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -154,6 +154,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

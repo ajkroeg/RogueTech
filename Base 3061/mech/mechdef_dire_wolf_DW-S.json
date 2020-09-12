@@ -11,6 +11,7 @@
       "unit_advanced",
       "unit_assault",
       "unit_jumpOK",
+      "Republic",
       "clansgeneric",
       "clanburrock",
       "clancloudcobra",
@@ -27,13 +28,14 @@
       "clansteelviper",
       "clansmokejaguar",
       "clansnowraven",
-      "clanwolf"
+      "clanwolf",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_dire_wolf_DW-S",
   "Description": {
-    "Cost": 2368149,
+    "Cost": 2699585,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": null,
@@ -44,7 +46,7 @@
     "Details": "The S configuration is intended for the close confines of urban and jungle warfare. The S configurations primary weapon is a massive LB-X Autocannon/20 which is capable of disabling most light and medium 'Mechs in a single blast. This is backed up by a single Large Pulse Laser to provide some long range firepower should the Dire Wolf S be caught in the open. Additional short range firepower is provided by five Medium Pulse Lasers and two Streak SRM-4 launchers. Two Anti-Personnel Pods and two Machine Guns provide exceptional anti infantry capabilities. The S configuration has added mobility with three jump jets allowing it to jump up to ninety meters.",
     "Icon": "Direwolf1"
   },
-  "simGameMechPartCost": 2368149,
+  "simGameMechPartCost": 2699585,
   "Version": 1,
   "RequiredToSpawnCompanyTags": {
     "items": [],

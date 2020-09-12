@@ -22,9 +22,9 @@
   "Description": {
     "Id": "vehicledef_PADILLA_HEAVY_LRM",
     "Name": "Padilla Heavy Artillery Tank (LRM)",
-    "Details": "",
-    "Icon": "",
-    "Cost": 15185625,
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Packing a potent array of heavy weapons, the Heavy Tank is a serious threat to any Tank or Mech that encounters it.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
+    "Icon": "Padilla",
+    "Cost": 16953125,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -57,13 +57,6 @@
       "CurrentInternalStructure": 40,
       "AssignedArmor": 60,
       "DamageLevel": "Functional"
-    },
-    {
-      "Location": "Turret",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 60,
-      "DamageLevel": "Functional"
     }
   ],
   "inventory": [
@@ -89,14 +82,42 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_Laser_TAG",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Left",
-      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_HE",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Left",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -124,6 +145,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -142,13 +169,6 @@
       "ComponentDefID": "emod_armorslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Tank_Turret",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",

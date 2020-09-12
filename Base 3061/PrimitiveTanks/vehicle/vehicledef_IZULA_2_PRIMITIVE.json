@@ -62,7 +62,7 @@
   "Description": {
     "Id": "vehicledef_IZULA_2_PRIMITIVE",
     "Name": "Izula II",
-    "Details": "",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Trading speed or weapons for armor, the Medium Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Crusader",
     "Cost": 1059250,
     "Rarity": 0,
@@ -109,13 +109,6 @@
   "inventory": [
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_HEAVY_ROCKETLAUNCHER5",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
       "ComponentDefID": "Weapon_MachineGun_ARRAY",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -133,13 +126,6 @@
       "ComponentDefID": "Weapon_LRM_FLARELAUNCHER5",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_LRM_INFERNOLAUNCHER5",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
@@ -204,6 +190,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

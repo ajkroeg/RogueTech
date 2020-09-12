@@ -11,6 +11,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -83,7 +84,7 @@
   "Description": {
     "Id": "vehicledef_PIKE",
     "Name": "Pike Support Vehicle",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Carrying an array of ranged weapons, the Heavy Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Pike",
     "Cost": 1904000,
     "Rarity": 0,
@@ -225,6 +226,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

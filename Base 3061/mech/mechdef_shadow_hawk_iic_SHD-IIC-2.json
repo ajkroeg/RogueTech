@@ -18,7 +18,7 @@
   },
   "ChassisID": "chassisdef_shadow_hawk_iic_SHD-IIC-2",
   "Description": {
-    "Cost": 200893,
+    "Cost": 206500,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
@@ -29,7 +29,7 @@
     "Details": "A Clan Tech Shadowhawk. This variant is designed for long-range, direct-fire support.",
     "Icon": "Shadowhawkiic"
   },
-  "simGameMechPartCost": 200893,
+  "simGameMechPartCost": 206500,
   "Version": 1,
   "Locations": [
     {

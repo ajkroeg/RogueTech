@@ -11,6 +11,7 @@
       "unit_bracket_med",
       "unit_predator",
       "unit_noconvoy",
+      "Republic",
       "steiner",
       "davion"
     ],
@@ -20,8 +21,8 @@
   "Description": {
     "Id": "vehicledef_Marten_SSRM4",
     "Name": "Marten Scout VTOL (SSRM-4)",
-    "Details": "",
-    "Icon": "",
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Carrying an array of ranged weapons, the Light VTOL is designed to support allied units from range.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 13/20 Hex: 390/600 Meters.</color></b>",
+    "Icon": "Marten",
     "Cost": 1998750,
     "Rarity": 0,
     "Purchasable": false
@@ -99,6 +100,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

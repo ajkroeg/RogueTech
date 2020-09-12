@@ -25,13 +25,14 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_shadow_hawk_iic_SHD-IIC-1",
   "Description": {
-    "Cost": 197326,
+    "Cost": 206500,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": null,
@@ -42,7 +43,7 @@
     "Details": "A Clan Tech Shadowhawk. The first version of the Shadow Hawk IIC that Inner Sphere forces encountered is meant for close-range fighting, and appears to be designed with urban warfare in mind.",
     "Icon": "Shadowhawkiic"
   },
-  "simGameMechPartCost": 197326,
+  "simGameMechPartCost": 206500,
   "Version": 1,
   "Locations": [
     {

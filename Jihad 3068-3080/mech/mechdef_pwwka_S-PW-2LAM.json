@@ -10,14 +10,13 @@
       "unit_advanced",
       "unit_bracket_low",
       "unit_LAM",
-      "comstar",
       "WordOfBlake"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_pwwka_S-PW-2LAM",
   "Description": {
-    "Cost": 75755,
+    "Cost": 77115,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": null,
@@ -28,7 +27,7 @@
     "Details": "Classified.",
     "Icon": "uixTxrIcon_pwwka"
   },
-  "simGameMechPartCost": 75755,
+  "simGameMechPartCost": 77115,
   "Version": 1,
   "Locations": [
     {

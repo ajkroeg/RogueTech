@@ -41,9 +41,9 @@
   "Description": {
     "Id": "vehicledef_Predator_LBX",
     "Name": "Predator Tank Destroyer (LBX)",
-    "Details": "",
-    "Icon": "Predator_",
-    "Cost": 1759575,
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Intended as a scout or vanguard unit, the Medium Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>",
+    "Icon": "Hetzer",
+    "Cost": 2495450,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -51,50 +51,50 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 225,
+      "CurrentArmor": 300,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 225,
+      "AssignedArmor": 300,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 80,
+      "CurrentArmor": 120,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 80,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 80,
+      "CurrentArmor": 120,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 80,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 60,
+      "CurrentArmor": 85,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 60,
+      "AssignedArmor": 85,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Front",
       "ComponentDefID": "Weapon_Autocannon_AC20_LBX",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -122,6 +122,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -137,7 +143,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_heavyferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

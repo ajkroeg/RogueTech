@@ -37,9 +37,9 @@
   "Description": {
     "Id": "vehicledef_SVANTOVIT_ATM_CLAN",
     "Name": "Svantovit IFV",
-    "Details": "",
-    "Icon": "",
-    "Cost": 9338100,
+    "Details": "This Svantovit is a Jihad era variant, which has been nicknamed the Masada. While its armor protection remains the same as with the original, the rest of the vehicle has changed. The Svantovit's fusion engine is swapped out with a space saving XL Fusion Engine. This allows for the vehicle's Infantry Bay to be increased to 5 tons, allowing for Battle Armor travel in it. Mounted on the turret are a pair of AP Gauss Rifles and an ATM-9 Launcher .\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 11/17 Hex: 330/510 Meters.</color></b>",
+    "Icon": "Svantovit",
+    "Cost": 9763102,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -126,6 +126,18 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -133,17 +145,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

@@ -12,6 +12,7 @@
       "unit_legendary",
       "unit_bracket_high",
       "unit_command",
+      "Republic",
       "wordofblake",
       "comstar",
       "steiner",
@@ -52,9 +53,9 @@
   "Description": {
     "Id": "vehicledef_ZHUKOV_LBX_RISC",
     "Name": "Zhukov (LBX)",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Packing a potent array of heavy weapons, the Heavy Tank is a serious threat to any Tank or Mech that encounters it.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Zhukov",
-    "Cost": 10695125,
+    "Cost": 10870125,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -134,13 +135,6 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_ER_HMRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
       "ComponentDefID": "Ammo_AmmunitionBox_ListenKill_HMRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -156,13 +150,6 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -194,6 +181,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

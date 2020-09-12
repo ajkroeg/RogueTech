@@ -18,9 +18,9 @@
   "Description": {
     "Id": "vehicledef_APC_KU_TURHAN2_CLAN",
     "Name": "Ku Wheeled Assault Tank",
-    "Details": "",
+    "Details": "This variant returns the Ku back to its parent design's original mission of infantry fighting vehicle / troops transport. The Fusion Engine is exchanged for an XL model, which opens more room in the vehicle. A 10 ton Infantry Bay is installed in the vehicle's hull. All of the Ku's original weaponry is removed in favor of a pair of turret mounted ER Medium Lasers. For anti-infantry defense, a pair of AP Gauss Rifles are mounted on the vehicle. One is placed in the turret and the other is mounted in the front of the vehicle.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 7/11 Hex: 210/330 Meters.</color></b>",
     "Icon": "Ku",
-    "Cost": 4504375,
+    "Cost": 12766877,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -93,10 +93,22 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Gear_Guardian_ECM_CLAN",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Front",
@@ -107,17 +119,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",
@@ -129,6 +133,13 @@
     {
       "MountedLocation": "Right",
       "ComponentDefID": "Gear_Wheeled_Right",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_CASE_CLAN",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

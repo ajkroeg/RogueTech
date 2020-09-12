@@ -12,6 +12,7 @@
       "unit_legendary",
       "unit_risc",
       "unit_noconvoy",
+      "Republic",
       "wordofblake",
       "comstar",
       "steiner",
@@ -52,9 +53,9 @@
   "Description": {
     "Id": "vehicledef_Mantis_RISC",
     "Name": "Mantis",
-    "Details": "",
-    "Icon": "",
-    "Cost": 3537752,
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Carrying an array of ranged weapons, the Light VTOL is designed to support allied units from range.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>",
+    "Icon": "Mantis",
+    "Cost": 3987750,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -90,9 +91,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 15,
+      "CurrentArmor": 10,
       "CurrentInternalStructure": 10,
-      "AssignedArmor": 15,
+      "AssignedArmor": 10,
       "DamageLevel": "Functional"
     }
   ],
@@ -138,6 +139,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Turret",

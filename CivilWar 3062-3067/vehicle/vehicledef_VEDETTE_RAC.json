@@ -12,6 +12,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "Republic",
       "davion",
       "steiner"
     ],
@@ -21,7 +22,7 @@
   "Description": {
     "Id": "vehicledef_VEDETTE_RAC",
     "Name": "Vedette (RAC)",
-    "Details": "",
+    "Details": "An advanced Vedette variant, the Ultra AC and machine gun are swapped for a Rotary AC/5, boasting even heavier damage capacity.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
     "Icon": "Vedette",
     "Cost": 2067501,
     "Rarity": 0,
@@ -107,6 +108,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

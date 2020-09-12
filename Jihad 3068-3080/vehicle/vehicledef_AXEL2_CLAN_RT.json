@@ -12,6 +12,7 @@
       "unit_lance_vanguard",
       "unit_indirectFire",
       "unit_bracket_med",
+      "Republic",
       "clanghostbear",
       "rasalhague"
     ],
@@ -21,9 +22,9 @@
   "Description": {
     "Id": "vehicledef_AXEL2_CLAN_RT",
     "Name": "Axel IIC Heavy Tank",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Trading speed or weapons for armor, the Heavy Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Axel",
-    "Cost": 13347290,
+    "Cost": 12692900,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -59,9 +60,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 225,
+      "CurrentArmor": 235,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 225,
+      "AssignedArmor": 235,
       "DamageLevel": "Functional"
     }
   ],
@@ -71,13 +72,6 @@
       "ComponentDefID": "Weapon_Gauss_Magshot_Clan",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_AMS_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
@@ -110,13 +104,6 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_half",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -131,7 +118,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -159,6 +146,12 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -166,10 +159,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

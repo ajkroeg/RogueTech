@@ -12,6 +12,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -88,7 +89,7 @@
   "Description": {
     "Id": "vehicledef_CARRIER_LASER",
     "Name": "Laser Carrier",
-    "Details": "",
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Deadly at mid to short ranged combat, the Carrier is armed with a mix of heavy weapons tailored for mech busting.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "ACCarrier",
     "Cost": 2380800,
     "Rarity": 0,
@@ -211,6 +212,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -240,6 +247,34 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engineslots_ICE_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -387,34 +422,6 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Tank_Coolant_System",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

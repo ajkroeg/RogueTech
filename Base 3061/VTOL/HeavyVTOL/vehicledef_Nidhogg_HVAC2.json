@@ -70,9 +70,9 @@
   "Description": {
     "Id": "vehicledef_Nidhogg_HVAC2",
     "Name": "Nidhogg Gunship",
-    "Details": "",
+    "Details": "Slow, insanely durable and packing the sort of firepower that makes an Atlas look like a pop gun, these units are the ultimate line breakers or line holders. Armed with Artillery or long ranged support weapons, the Super Heavy Tank excels at pounding enemy formations into shrapnel.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>",
     "Icon": "NidhoggVTOL",
-    "Cost": 10834253,
+    "Cost": 12908750,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -87,41 +87,34 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 175,
+      "CurrentArmor": 170,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 175,
+      "AssignedArmor": 170,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 175,
+      "CurrentArmor": 170,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 175,
+      "AssignedArmor": 170,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 140,
+      "CurrentArmor": 130,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 140,
+      "AssignedArmor": 130,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
+      "CurrentArmor": 15,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 10,
+      "AssignedArmor": 15,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_Artillery_ArrowIV_Oneshot",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
     {
       "MountedLocation": "Front",
       "ComponentDefID": "Weapon_Autocannon_AC2_HYPER",
@@ -138,6 +131,13 @@
     },
     {
       "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Bomb_2_LightAA_Twin",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
       "ComponentDefID": "Weapon_LRM_FLARELAUNCHER_AMS",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -146,13 +146,6 @@
     {
       "MountedLocation": "Right",
       "ComponentDefID": "Weapon_Bomb_2_LightAA_Twin",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_Bomb_ArrowIV",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -187,6 +180,13 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Generic_AP",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Gear_Sensors_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -200,6 +200,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Rear",
       "ComponentDefID": "Gear_Vehicle_STEALTH",
       "ComponentDefType": "Upgrade",
@@ -211,6 +217,13 @@
       "ComponentDefID": "Gear_VTOL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Vehicle_VTOL_JetBooster",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {

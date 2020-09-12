@@ -1,10 +1,13 @@
 {
-"Custom": {
-	"AssemblyVariant": {
+  "Custom": {
+    "AssemblyVariant": {
       "PrefabID": "Fashih",
       "Exclude": false,
       "Include": true
     }
+  },
+  "CustomParts": {
+    "MoveCost": "PowerArmor"
   },
   "FixedEquipment": [
     {
@@ -85,7 +88,7 @@
     }
   ],
   "Description": {
-    "Cost": 76364,
+    "Cost": 78750,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",

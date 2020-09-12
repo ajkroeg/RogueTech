@@ -9,9 +9,11 @@
       "unit_lance_vanguard",
       "unit_lance_assassin",
       "unit_generic",
-      "unit_bracket_med",
+      "unit_bracket_low",
       "unit_vehicle_apc",
       "unit_indirectFire",
+      "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -91,9 +93,9 @@
   "Description": {
     "Id": "vehicledef_PROWLER_SUCCESSION",
     "Name": "Prowler Multi-Terrain Vehicle",
-    "Details": "",
-    "Icon": "",
-    "Cost": 1986584,
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
+    "Icon": "Prowler",
+    "Cost": 2304335,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -212,6 +214,18 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_CargoCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_EnviroSealing",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

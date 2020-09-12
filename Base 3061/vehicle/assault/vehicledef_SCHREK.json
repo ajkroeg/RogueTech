@@ -10,6 +10,7 @@
       "unit_lance_assassin",
       "unit_generic",
       "unit_bracket_med",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -82,7 +83,7 @@
   "Description": {
     "Id": "vehicledef_SCHREK",
     "Name": "Schrek PPC Carrier",
-    "Details": "",
+    "Details": "Developed by Aldis in 2813 to overcome the heat issues which hampered the effectiveness of their  Demolisher tank, the company took an entirely different tack, replacing the Demolisher's mammoth autocannons with a trio of PPCs and enough Heat Sinks to fire them continuously.  While highly effective when firing from cover and the perfect partner to the short-ranged Demolisher, the design is unpopular with crews due to the Schrek's limited mobility and pitifully low seven tons of armor, which makes it highly vulnerable to counter-battery fire. \n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Schrek",
     "Cost": 3716100,
     "Rarity": 0,
@@ -168,6 +169,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

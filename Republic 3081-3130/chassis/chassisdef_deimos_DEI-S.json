@@ -5,6 +5,11 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Deimos",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": [
       {
         "Location": "Head",
@@ -75,7 +80,7 @@
     }
   ],
   "Description": {
-    "Cost": 1.1802893E7,
+    "Cost": 13451887,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",

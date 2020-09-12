@@ -20,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_RHINO_STREAK",
     "Name": "Rhino Fire Support Tank (Streak)",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Rhino",
-    "Cost": 21986100,
+    "Cost": 22698900,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -101,8 +101,15 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_SRM_SRM4_CLAN",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Streak_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Protected_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -134,6 +141,25 @@
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Streak_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Front",
@@ -144,17 +170,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

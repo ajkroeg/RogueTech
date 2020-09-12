@@ -11,6 +11,7 @@
       "unit_bracket_med",
       "unit_noconvoy",
       "unit_predator",
+      "Republic",
       "comstar",
       "WordOfBlake",
       "steiner",
@@ -92,9 +93,9 @@
   "Description": {
     "Id": "vehicledef_DI_MULTI",
     "Name": "DI Multipurpose VTOL",
-    "Details": "",
-    "Icon": "",
-    "Cost": 4150667,
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Intended as a scout or vanguard unit, the Light VTOL is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
+    "Icon": "DIMultipurpose",
+    "Cost": 4517336,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -103,35 +104,35 @@
     {
       "Location": "Front",
       "CurrentArmor": 130,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 18,
       "AssignedArmor": 130,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
       "CurrentArmor": 150,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 18,
       "AssignedArmor": 150,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
       "CurrentArmor": 150,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 18,
       "AssignedArmor": 150,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 105,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 105,
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 18,
+      "AssignedArmor": 110,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
       "CurrentArmor": 10,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 18,
       "AssignedArmor": 10,
       "DamageLevel": "Functional"
     }
@@ -160,6 +161,13 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_VTOL_Chin_Turret",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -178,6 +186,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

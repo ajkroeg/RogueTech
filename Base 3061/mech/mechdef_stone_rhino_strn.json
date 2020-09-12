@@ -25,13 +25,14 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_stone_rhino_strn",
   "Description": {
-    "Cost": 656500,
+    "Cost": 674896,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -42,7 +43,7 @@
     "Details": "A Clan redesign of 'Amaris Folly'. ",
     "Icon": "stonerhino"
   },
-  "simGameMechPartCost": 656500,
+  "simGameMechPartCost": 674896,
   "Version": 1,
   "Locations": [
     {

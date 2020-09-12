@@ -26,13 +26,14 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_wolverine_WVR-C",
   "Description": {
-    "Cost": 319236,
+    "Cost": 322214,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
@@ -43,7 +44,7 @@
     "Details": "This BattleMech was solely designed to spite Clanners' distaste for everything Wolverine.",
     "Icon": "uixTxrIcon_wolverine"
   },
-  "simGameMechPartCost": 319236,
+  "simGameMechPartCost": 322214,
   "Version": 1,
   "Locations": [
     {

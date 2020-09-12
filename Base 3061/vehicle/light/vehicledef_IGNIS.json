@@ -36,9 +36,9 @@
   "Description": {
     "Id": "vehicledef_IGNIS",
     "Name": "Ignis",
-    "Details": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Trading speed or weapons for armor, the Light Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Ignis",
-    "Cost": 1317550,
+    "Cost": 1447553,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -103,8 +103,29 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Left",
       "ComponentDefID": "Ammo_AmmunitionBox_AOE_HeavyFlamer",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Ammo_AmmunitionBox_Sticky_HeavyFlamer",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HeavyFlamer",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_HeavyFlamer",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -112,13 +133,6 @@
     {
       "MountedLocation": "Turret",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_half",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Ammo_AmmunitionBox_Sticky_HeavyFlamer",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -152,6 +166,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -161,6 +181,13 @@
     {
       "MountedLocation": "Right",
       "ComponentDefID": "Gear_Tracked_Right",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_InfantryCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

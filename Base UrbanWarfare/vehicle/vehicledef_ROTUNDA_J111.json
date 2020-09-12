@@ -56,8 +56,8 @@
   "Description": {
     "Id": "vehicledef_ROTUNDA_J111",
     "Name": "Rotunda Recon Vehicle",
-    "Details": "",
-    "Icon": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Carrying an array of ranged weapons, the Light Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
+    "Icon": "Rotunda",
     "Cost": 479967,
     "Rarity": 0,
     "Purchasable": false
@@ -142,6 +142,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

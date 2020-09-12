@@ -9,6 +9,7 @@
       "unit_legendary",
       "unit_release",
       "unit_bracket_high",
+      "BLACKLISTED",
       "clansgeneric",
       "clanwolf",
       "clanfiremandrill",
@@ -31,7 +32,7 @@
   },
   "ChassisID": "chassisdef_black_knight_iic_BL-IIC",
   "Description": {
-    "Cost": 494000,
+    "Cost": 521594,
     "Rarity": 10,
     "Purchasable": true,
     "Manufacturer": null,
@@ -42,7 +43,7 @@
     "Details": "This is a ClanTech Upgraded Black Knight. ",
     "Icon": "uixTxrIcon_blackknight"
   },
-  "simGameMechPartCost": 494000,
+  "simGameMechPartCost": 521594,
   "Version": 1,
   "Locations": [
     {

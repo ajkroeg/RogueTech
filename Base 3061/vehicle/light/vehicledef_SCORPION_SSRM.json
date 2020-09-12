@@ -10,6 +10,7 @@
       "unit_lance_vanguard",
       "unit_advanced",
       "unit_bracket_low",
+      "unit_solaris",
       "kurita",
       "rasalhague",
       "locals",
@@ -35,9 +36,9 @@
   "Description": {
     "Id": "vehicledef_SCORPION_SSRM",
     "Name": "Scorpion (Streak SRM)",
-    "Details": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Packing a small, but potent array of weapons, this Light Tank excels at killing light tanks.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Scorpion",
-    "Cost": 1871459,
+    "Cost": 1868959,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -142,6 +143,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

@@ -12,53 +12,7 @@
       "unit_bracket_high",
       "unit_demolisher",
       "comstar",
-      "ives",
-      "kurita",
-      "marik",
-      "steiner",
-      "aurigandirectorate",
-      "auriganpirates",
-      "castile",
-      "elysia",
-      "hanse",
-      "illyrian",
-      "locals",
-      "lothian",
-      "marian",
-      "magistracyofcanopus",
-      "oberon",
-      "outworld",
-      "taurianconcordat",
-      "tortuga",
-      "valkyrate",
-      "auriganmercenaries",
-      "nofaction",
-      "MercenaryReviewBoard",
-      "betrayers",
-      "FlakJackals",
-      "LocalsBrockwayRefugees",
-      "SelfEmployed",
-      "MasonsMarauders",
-      "SteelBeast",
-      "KellHounds",
-      "RazorbackMercs",
-      "HostileMercenaries",
-      "EmeraldDawn",
-      "SianTriumphant",
-      "ProfHorvat",
-      "RedHareRegiment",
-      "EdCorbu",
-      "DuchyOfAndurien",
-      "BlackCalderaDefense",
-      "HouseNakano",
-      "GrayDeathLegion",
-      "BlackCalderaDefense_Hidden",
-      "SelfEmployed_Yang",
-      "SecuritySolutionsInc",
-      "PaladinProtectionLLC",
-      "HouseKhulan",
-      "INVALID_UNSET",
-      "clanwolf"
+      "WordOfBlake"
     ],
     "tagSetSourceFile": ""
   },
@@ -66,7 +20,7 @@
   "Description": {
     "Id": "vehicledef_DEMOLISHER_HPPC",
     "Name": "HPPC Demolisher",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Packing a potent array of heavy weapons, the Assault Tank can comfortably kill any Mech or Tank it encounters.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Demolisher",
     "Cost": 13544100,
     "Rarity": 0,
@@ -76,23 +30,23 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 330,
+      "CurrentArmor": 320,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 330,
+      "AssignedArmor": 320,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 270,
+      "CurrentArmor": 260,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 270,
+      "AssignedArmor": 260,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 270,
+      "CurrentArmor": 260,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 270,
+      "AssignedArmor": 260,
       "DamageLevel": "Functional"
     },
     {
@@ -104,9 +58,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 290,
+      "CurrentArmor": 280,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 290,
+      "AssignedArmor": 280,
       "DamageLevel": "Functional"
     }
   ],
@@ -145,6 +99,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

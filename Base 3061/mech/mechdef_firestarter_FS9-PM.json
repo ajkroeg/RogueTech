@@ -47,7 +47,7 @@
   },
   "ChassisID": "chassisdef_firestarter_FS9-PM",
   "Description": {
-    "Cost": 124266,
+    "Cost": 127642,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": null,
@@ -58,7 +58,7 @@
     "Details": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces.",
     "Icon": "uixTxrIcon_firestarter"
   },
-  "simGameMechPartCost": 124266,
+  "simGameMechPartCost": 127642,
   "Version": 1,
   "Locations": [
     {

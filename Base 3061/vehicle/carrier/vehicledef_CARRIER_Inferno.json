@@ -12,6 +12,7 @@
       "unit_bracket_med",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -38,7 +39,6 @@
       "auriganpirates",
       "aurigandirectorate",
       "auriganrestoration",
-      "locals",
       "auriganmercenaries",
       "nofaction",
       "MercenaryReviewBoard",
@@ -85,9 +85,9 @@
   "Description": {
     "Id": "vehicledef_CARRIER_Inferno",
     "Name": "SRM Carrier",
-    "Details": "",
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Deadly at mid to short ranged combat, the Carrier is armed with a mix of heavy weapons tailored for mech busting.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "SRMcarrier",
-    "Cost": 4712000,
+    "Cost": 4680000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -209,7 +209,7 @@
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Ammo_AmmunitionBox_Inferno_SRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -248,6 +248,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

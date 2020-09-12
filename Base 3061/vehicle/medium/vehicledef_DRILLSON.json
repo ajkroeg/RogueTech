@@ -11,6 +11,7 @@
       "unit_hover",
       "unit_generic",
       "unit_bracket_high",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -37,7 +38,6 @@
       "auriganpirates",
       "aurigandirectorate",
       "auriganrestoration",
-      "locals",
       "auriganmercenaries",
       "nofaction",
       "MercenaryReviewBoard",
@@ -84,7 +84,7 @@
   "Description": {
     "Id": "vehicledef_DRILLSON",
     "Name": "Drillson Hover Tank",
-    "Details": "",
+    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Intended as a scout or vanguard unit, the Medium Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
     "Icon": "Drillson",
     "Cost": 2703334,
     "Rarity": 0,
@@ -212,6 +212,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

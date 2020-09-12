@@ -11,6 +11,7 @@
       "unit_zephyr",
       "unit_advanced",
       "unit_bracket_med",
+      "Republic",
       "comstar"
     ],
     "tagSetSourceFile": ""
@@ -19,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_ZEPHYR_OMNI_C",
     "Name": "Zephyr (OmniDrone-C)",
-    "Details": "",
+    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Intended as a scout or vanguard unit, the Medium Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
     "Icon": "Zephyr",
-    "Cost": 4939500,
+    "Cost": 5183625,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -66,7 +67,21 @@
   "inventory": [
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefID": "Weapon_HEAVY_ROCKETLAUNCHER5",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_Reengineered",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_Reengineered",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -97,13 +112,6 @@
       "ComponentDefID": "Weapon_POD_M",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
@@ -133,6 +141,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",
@@ -185,6 +199,20 @@
     },
     {
       "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

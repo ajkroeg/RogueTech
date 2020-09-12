@@ -31,7 +31,7 @@
   "Description": {
     "Id": "vehicledef_SCHREK_PIRATE",
     "Name": "Shrek II",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Schrek",
     "Cost": 5724900,
     "Rarity": 0,
@@ -41,37 +41,37 @@
   "Locations": [
     {
       "Location": "Front",
+      "CurrentArmor": 160,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 160,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 140,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 140,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
       "CurrentArmor": 120,
       "CurrentInternalStructure": 40,
       "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
-      "Location": "Left",
-      "CurrentArmor": 100,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
-      "DamageLevel": "Functional"
-    },
-    {
-      "Location": "Right",
-      "CurrentArmor": 100,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
-      "DamageLevel": "Functional"
-    },
-    {
-      "Location": "Rear",
-      "CurrentArmor": 100,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
-      "DamageLevel": "Functional"
-    },
-    {
       "Location": "Turret",
-      "CurrentArmor": 140,
+      "CurrentArmor": 160,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 140,
+      "AssignedArmor": 160,
       "DamageLevel": "Functional"
     }
   ],
@@ -117,6 +117,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

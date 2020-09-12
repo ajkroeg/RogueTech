@@ -56,7 +56,7 @@
   },
   "ChassisID": "chassisdef_wolfhound_WLF-1A",
   "Description": {
-    "Cost": 128810,
+    "Cost": 130000,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
@@ -67,7 +67,7 @@
     "Details": "A common field refit employed by some MechWarriors, this model simply removes the rear mounted medium laser and adds an extra heat sink.",
     "Icon": "uixTxrIcon_wolfhound"
   },
-  "simGameMechPartCost": 128810,
+  "simGameMechPartCost": 130000,
   "Version": 1,
   "Locations": [
     {

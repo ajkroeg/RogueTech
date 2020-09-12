@@ -15,7 +15,8 @@
       "unit_legendary",
       "unit_bracket_high",
       "unit_stealth",
-	  "unit_wraith",
+      "unit_wraith",
+      "Republic",
       "wordofblake",
       "comstar",
       "locals",
@@ -45,19 +46,19 @@
     ],
     "tagSetSourceFile": ""
   },
-  "RequiredToSpawnCompanyTags" : {
-        "items" : [
-            "flashpoint_Riskybuisness_complete"
-        ],
-        "tagSetSourceFile" : ""
-    },
+  "RequiredToSpawnCompanyTags": {
+    "items": [
+      "flashpoint_Riskybuisness_complete"
+    ],
+    "tagSetSourceFile": ""
+  },
   "ChassisID": "vehiclechassisdef_Wraith_PPC",
   "Description": {
     "Id": "vehicledef_Wraith_PPC",
     "Name": "Wraith",
-    "Details": "This Serpentus Series OmniVehicle, Wraith Superheavy Hovercraft, is designed as a Stealthed Support Plattform, equipped with Experimental Vehicular NullSignatureSystem, 24 tons of Turret Podspace and a generous 6 tons CASE'd Munitions Feed. Unlike other Word of Blake Tanks does this not have a DNI despite its Advanced Electronics.",
+    "Details": "This Serpentus Series OmniVehicle, Wraith Superheavy Hovercraft, is designed as a Stealthed Support Plattform, equipped with Experimental Vehicular NullSignatureSystem, 24 tons of Turret Podspace and a generous 6 tons CASE'd Munitions Feed. Unlike other Word of Blake Tanks does this not have a DNI despite its Advanced Electronics.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 7/11 Hex: 210/330 Meters.</color></b>",
     "Icon": "Pegasus",
-    "Cost": 68682303,
+    "Cost": 69499800,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -130,14 +131,14 @@
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_RISC_MML_5",
+      "ComponentDefID": "Weapon_RISC_MML_10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_RISC_MML_5",
+      "ComponentDefID": "Weapon_RISC_MML_10",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"
@@ -167,104 +168,6 @@
       "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_MagPulse_SRM",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-	{
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -333,6 +236,13 @@
     },
     {
       "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_boosted_C3_Master",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
       "ComponentDefID": "Tank_CASE",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -376,6 +286,41 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "Tank_Coolant_System",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

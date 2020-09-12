@@ -23,7 +23,7 @@
   "Description": {
     "Id": "vehicledef_REGULATOR_ARROW",
     "Name": "Regulator (Arrow IV)",
-    "Details": "",
+    "Details": "Long range fire support assets, Artillery vehicles mount the big guns that pound stuff into metallic dust. Designed to support allies from range, Artillery can throw a variety of payloads down range; ranging from standard artillery to FASCAM or Inferno loads.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
     "Icon": "Regulator",
     "Cost": 3876000,
     "Rarity": 0,
@@ -116,6 +116,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

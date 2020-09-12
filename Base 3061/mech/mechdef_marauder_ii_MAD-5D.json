@@ -16,7 +16,7 @@
   },
   "ChassisID": "chassisdef_marauder_ii_MAD-5D",
   "Description": {
-    "Cost": 514346,
+    "Cost": 519151,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -27,7 +27,7 @@
     "Details": "The Marauder II 5D is a Davion refit to showcase both UAC10 and a Massive 400XXL Engine.",
     "Icon": "uixTxrIcon_marauderii"
   },
-  "simGameMechPartCost": 514346,
+  "simGameMechPartCost": 519151,
   "Version": 1,
   "Locations": [
     {

@@ -82,9 +82,9 @@
   "Description": {
     "Id": "vehicledef_VACHIR_SUPERHEAVY_TANK",
     "Name": "Vachir Qorchi",
-    "Details": "",
+    "Details": "\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "",
-    "Cost": 93920292,
+    "Cost": 90998417,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -99,23 +99,23 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 650,
+      "CurrentArmor": 675,
       "CurrentInternalStructure": 126,
-      "AssignedArmor": 650,
+      "AssignedArmor": 675,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 650,
+      "CurrentArmor": 675,
       "CurrentInternalStructure": 126,
-      "AssignedArmor": 650,
+      "AssignedArmor": 675,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 425,
+      "CurrentArmor": 450,
       "CurrentInternalStructure": 126,
-      "AssignedArmor": 425,
+      "AssignedArmor": 450,
       "DamageLevel": "Functional"
     },
     {
@@ -273,6 +273,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

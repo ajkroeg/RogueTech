@@ -11,6 +11,7 @@
       "unit_advanced",
       "unit_indirectFire",
       "unit_bracket_low",
+      "Republic",
       "WordOfBlake"
     ],
     "tagSetSourceFile": ""
@@ -19,8 +20,8 @@
   "Description": {
     "Id": "vehicledef_CHEVALIER_MML",
     "Name": "Chevalier Light Tank (MML)",
-    "Details": "",
-    "Icon": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Intended as a scout or vanguard unit, the Light Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>",
+    "Icon": "Chevalier",
     "Cost": 2914980,
     "Rarity": 0,
     "Purchasable": false
@@ -57,9 +58,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 115,
+      "CurrentArmor": 120,
       "CurrentInternalStructure": 20,
-      "AssignedArmor": 115,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     }
   ],
@@ -119,6 +120,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

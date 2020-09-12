@@ -1,18 +1,18 @@
 {
   "CustomParts": {
     "AOEHeight": 75,
-    "FiringArc": 120,
+    "FiringArc": 90,
     "Unaffected": {
       "DesignMasks": "true",
       "Pathing": "true",
-      "MoveClamp": 0.25,
+      "MoveClamp": 0.5,
       "Fire": "true",
       "Landmines": "true",
       "MoveCostBiome": "false"
     },
     "MoveCostModPerBiome": {
-      "DesignMaskBiomeMartianVacuum": 2.5,
-      "DesignMaskBiomeLunarVacuum": 4.0
+      "DesignMaskBiomeMartianVacuum": 2,
+      "DesignMaskBiomeLunarVacuum": 3
     },
     "TieToGroundOnDeath": "true",
     "HighestLOSPosition": {
@@ -310,8 +310,8 @@
   "Description": {
     "Id": "vehiclechassisdef_Cavalry",
     "Name": "Cavalry Attack Helicopter",
-    "Details": "",
-    "Icon": "STRIKER",
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Intended as a scout or vanguard unit, the Light VTOL is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 10/15 Hex: 300/450 Meters.</color></b>",
+    "Icon": "Cavalry",
     "Cost": 711945,
     "Rarity": 0,
     "Purchasable": false
@@ -324,7 +324,7 @@
   "PrefabIdentifier": "chrprfvhcl_warriorvtol",
   "PrefabBase": "warriorvtol",
   "Tonnage": 25,
-  "weightClass": "MEDIUM",
+  "weightClass": "LIGHT",
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,

@@ -19,9 +19,9 @@
   "Description": {
     "Id": "vehicledef_APC_TURHAN_AMS",
     "Name": "Turhan APC (Kurita)",
-    "Details": "",
-    "Icon": "",
-    "Cost": 6925625,
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
+    "Icon": "Turhan",
+    "Cost": 7475627,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -73,6 +73,20 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -90,6 +104,13 @@
       "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_HE",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
@@ -126,6 +147,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

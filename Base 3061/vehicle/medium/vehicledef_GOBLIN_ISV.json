@@ -11,6 +11,8 @@
       "unit_advanced",
       "unit_bracket_med",
       "unit_vehicle_apc",
+      "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -62,9 +64,9 @@
   "Description": {
     "Id": "vehicledef_GOBLIN_ISV",
     "Name": "Goblin ISV",
-    "Details": "",
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Goblin",
-    "Cost": 2831125,
+    "Cost": 2831127,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -183,6 +185,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

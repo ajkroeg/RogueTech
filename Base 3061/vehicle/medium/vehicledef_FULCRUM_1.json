@@ -12,6 +12,8 @@
       "unit_advanced",
       "unit_bracket_high",
       "unit_predator",
+      "unit_solaris",
+      "Republic",
       "steiner",
       "davion",
       "magistracyofcanopus",
@@ -79,7 +81,7 @@
   "Description": {
     "Id": "vehicledef_FULCRUM_1",
     "Name": "Fulcrum I",
-    "Details": "",
+    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Packing a potent array of weapons, this Medium Tank excels at killing other vehicles.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 10/15 Hex: 300/450 Meters.</color></b>",
     "Icon": "Fulcrum",
     "Cost": 9855667,
     "Rarity": 0,
@@ -186,6 +188,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

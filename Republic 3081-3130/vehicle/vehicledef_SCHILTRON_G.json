@@ -11,9 +11,8 @@
       "unit_advanced",
       "unit_bracket_high",
       "unit_command",
+      "Republic",
       "WordOfBlake",
-      "betrayers",
-      "comstar",
       "davion",
       "kurita",
       "marik",
@@ -42,9 +41,9 @@
   "Description": {
     "Id": "vehicledef_SCHILTRON_G",
     "Name": "Schiltron G",
-    "Details": "",
-    "Icon": "",
-    "Cost": 18619709,
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
+    "Icon": "Schiltron",
+    "Cost": 18842834,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -89,7 +88,14 @@
   "inventory": [
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_Autocannon_AC10_HYPER",
+      "ComponentDefID": "Weapon_Autocannon_AC2_LIGHT",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Autocannon_AC2_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 4,
       "DamageLevel": "Functional"
@@ -124,14 +130,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_HVAC_AC10",
+      "ComponentDefID": "Ammo_AmmunitionBox_Flak_AC2",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_HVAC_AC10",
+      "ComponentDefID": "Ammo_AmmunitionBox_Incendiary_AC2",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -170,6 +176,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

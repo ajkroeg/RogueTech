@@ -12,9 +12,8 @@
       "unit_advanced",
       "unit_bracket_high",
       "unit_command",
+      "Republic",
       "WordOfBlake",
-      "betrayers",
-      "comstar",
       "davion",
       "kurita",
       "marik",
@@ -43,9 +42,9 @@
   "Description": {
     "Id": "vehicledef_SCHILTRON_E",
     "Name": "Schiltron E",
-    "Details": "",
-    "Icon": "",
-    "Cost": 21249084,
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
+    "Icon": "Schiltron",
+    "Cost": 22267059,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -131,8 +130,29 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Swarmi_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -159,15 +179,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Thunder_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Thunder_LRM",
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_AP_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -181,14 +194,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Caseless_AC5",
+      "ComponentDefID": "Ammo_AmmunitionBox_AP_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Precision_AC5",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -213,6 +226,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

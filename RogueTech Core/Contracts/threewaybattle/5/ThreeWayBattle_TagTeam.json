@@ -14,7 +14,33 @@
     "shortDescription": "We have a situation here and we'd like your help. We've detected a joint task force of {TEAM_TAR.FactionDef.Demonym} and {TEAM_TAR_ALLY.FactionDef.Demonym} units operating openly on the planet. We need to hunt them down and turn them to scrap, but even if we do manage to find them, our own forces aren't up to the task of engaging that many enemies at once. We'd like you to send a lance to accompany our own team; the two of you can then engage the enemy together and negate their numerical advantage.",
     "longDescription": "I'd prefer to handle things ourselves, but if they want us to play babysitter, I suppose that's what we'll do.",
     "salvagePotential": 16,
-    "requirementList": [],
+    "requirementList": [
+    {
+            "Scope": "StarSystem",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": ["planet_other_gamesworld"],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "Target.IsOwner",
+                    "op": "Equal",
+                    "val": 1,
+                    "valueConstant": null
+                },
+                {
+                    "obj": "Employer.AuriganPirates",
+                    "op": "Equal",
+                    "val": 0,
+                    "valueConstant": null
+                }
+            ]
+        }
+    ],
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
     "encounterPlayStyle": "SinglePlayer",
@@ -3592,7 +3618,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Hostile to All Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3667,7 +3693,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Target Forces Secondary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3692,7 +3718,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3717,7 +3743,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Target Forces 2 Secondary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3742,7 +3768,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3767,7 +3793,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

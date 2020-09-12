@@ -9,6 +9,7 @@
       "unit_legendary",
       "unit_bracket_med",
       "unit_indirectFire",
+      "BLACKLISTED",
       "clansgeneric",
       "clanwolf",
       "clanfiremandrill",
@@ -31,7 +32,7 @@
   },
   "ChassisID": "chassisdef_catapult_iic_CPLT-IIC",
   "Description": {
-    "Cost": 507417,
+    "Cost": 521594,
     "Rarity": 10,
     "Purchasable": true,
     "Manufacturer": null,
@@ -42,7 +43,7 @@
     "Details": "A Heavier Clan Tech upgraded Catapult. ",
     "Icon": "uixTxrIcon_catapult"
   },
-  "simGameMechPartCost": 507417,
+  "simGameMechPartCost": 521594,
   "Version": 1,
   "Locations": [
     {

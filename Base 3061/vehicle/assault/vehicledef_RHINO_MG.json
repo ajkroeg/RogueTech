@@ -10,6 +10,7 @@
       "unit_indirectFire",
       "unit_generic",
       "unit_bracket_high",
+      "unit_solaris",
       "WordOfBlake",
       "davion",
       "ives",
@@ -83,7 +84,7 @@
   "Description": {
     "Id": "vehicledef_RHINO_MG",
     "Name": "Rhino (MG)",
-    "Details": "",
+    "Details": "This 2653 version of the Rhino drops the LRM 10 and replaces it with a SRM 6 and 3 Machine Guns with half a ton of ammo.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Rhino",
     "Cost": 4601700,
     "Rarity": 0,
@@ -232,6 +233,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

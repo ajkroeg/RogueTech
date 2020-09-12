@@ -2,9 +2,9 @@
   "Description": {
     "Id": "vehiclechassisdef_HAHNUNAH_CLAN_SUPERHEAVY_TANK",
     "Name": "Unknown Vehicle",
-    "Details": "",
+    "Details": "\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "STRIKER",
-    "Cost": 63747100,
+    "Cost": 123631101,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -67,7 +67,12 @@
   "Locations": [
     {
       "Location": "Front",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 750,
@@ -76,22 +81,6 @@
     {
       "Location": "Left",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -105,22 +94,6 @@
     {
       "Location": "Right",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -144,6 +117,14 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {

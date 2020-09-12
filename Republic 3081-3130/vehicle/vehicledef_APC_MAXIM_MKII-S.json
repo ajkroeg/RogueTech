@@ -11,7 +11,7 @@
       "unit_indirectFire",
       "unit_vehicle_apc",
       "unit_bracket_med",
-      "comstar",
+      "Republic",
       "steiner"
     ],
     "tagSetSourceFile": ""
@@ -20,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_APC_MAXIM_MKII-S",
     "Name": "Maxim MKII Transport (Infantry Support)",
-    "Details": "",
-    "Icon": "",
-    "Cost": 4968000,
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>",
+    "Icon": "MaximMKII",
+    "Cost": 5903002,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -164,6 +164,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Hover_Left",
       "ComponentDefType": "Upgrade",
@@ -186,7 +192,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_heavyferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

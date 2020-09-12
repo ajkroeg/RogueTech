@@ -34,9 +34,9 @@
   "Description": {
     "Id": "vehicledef_GOBLIN_X",
     "Name": "Goblin-X",
-    "Details": "",
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Goblin",
-    "Cost": 6171200,
+    "Cost": 9306827,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -51,16 +51,16 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 160,
+      "CurrentArmor": 165,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 160,
+      "AssignedArmor": 165,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 160,
+      "CurrentArmor": 165,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 160,
+      "AssignedArmor": 165,
       "DamageLevel": "Functional"
     },
     {
@@ -137,6 +137,13 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Generic_AP",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Gear_PPC_Capacitator",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -162,6 +169,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

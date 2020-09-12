@@ -18,10 +18,10 @@
   "ChassisID": "vehiclechassisdef_DEMOLISHER-IIX",
   "Description": {
     "Id": "vehicledef_DEMOLISHER-IIX",
-    "Name": "Demolisher IIX",
-    "Details": "",
+    "Name": "Demolisher II-X",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Trading speed or weapons for armor, the Assault Tank is almost impossible to kill.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "DemolisherII",
-    "Cost": 21025000,
+    "Cost": 21550000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -29,23 +29,23 @@
   "Locations": [
     {
       "Location": "Front",
+      "CurrentArmor": 295,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 295,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
       "CurrentArmor": 275,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 275,
       "DamageLevel": "Functional"
     },
     {
-      "Location": "Left",
-      "CurrentArmor": 265,
-      "CurrentInternalStructure": 50,
-      "AssignedArmor": 265,
-      "DamageLevel": "Functional"
-    },
-    {
       "Location": "Right",
-      "CurrentArmor": 265,
+      "CurrentArmor": 275,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 265,
+      "AssignedArmor": 275,
       "DamageLevel": "Functional"
     },
     {
@@ -57,9 +57,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 270,
+      "CurrentArmor": 295,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 270,
+      "AssignedArmor": 295,
       "DamageLevel": "Functional"
     }
   ],
@@ -129,6 +129,18 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -136,17 +148,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

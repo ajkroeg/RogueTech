@@ -10,6 +10,7 @@
       "unit_lance_assassin",
       "unit_advanced",
       "unit_bracket_high",
+      "Republic",
       "WordOfBlake",
       "davion",
       "kurita",
@@ -45,9 +46,9 @@
   "Description": {
     "Id": "vehicledef_SCHREK_C3M",
     "Name": "Schrek Command Tank",
-    "Details": "",
+    "Details": "Developed during the Jihad this Shreck variant replaced one standard PPC with a Light PPC. This freed enough space and weight to add a C3 Master, Guardian ECM Suite, and an Anti-Missile System.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Schrek",
-    "Cost": 6948900,
+    "Cost": 9953100,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -99,6 +100,13 @@
     },
     {
       "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
       "ComponentDefID": "Weapon_PPC_PPC_1-Donal",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -127,14 +135,14 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_C3",
+      "ComponentDefID": "Gear_C3_Master",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+      "ComponentDefID": "Gear_Guardian_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -159,6 +167,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

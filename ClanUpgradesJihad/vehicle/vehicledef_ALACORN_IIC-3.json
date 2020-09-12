@@ -23,9 +23,9 @@
   "Description": {
     "Id": "vehicledef_ALACORN_IIC-3",
     "Name": "Alacorn IIC-3",
-    "Details": "This Clan upgraded Alacorn mounts twin Gauss Rifles and a HAG40 with 10 tons of ammo. Developed in 2587, the Alacorn attracted a reputation in the SLDF as an effective and dependable tank. Deployed throughout the Periphery, General Aleksandr Kerensky was reported to have taken hundreds of them during the Exodus. Although some of the earliest versions mount various autocannons the Alacorn became famous for it's array of gauss rifles. Their combination of heavy punch and long range makes the Alacorn a threat to any unit on the field. \n\n <b><color=#ffcc00> Tracked:</color></b> Slow but able to cross most terrain. \n\n <b><color=#ffcc00> Fusion:</color></b> Expensive engine that works in a Vacuum.",
+    "Details": "This Clan upgraded Alacorn mounts twin Gauss Rifles and a HAG40 with 10 tons of ammo. Developed in 2587, the Alacorn attracted a reputation in the SLDF as an effective and dependable tank. Deployed throughout the Periphery, General Aleksandr Kerensky was reported to have taken hundreds of them during the Exodus. Although some of the earliest versions mount various autocannons the Alacorn became famous for it's array of gauss rifles. Their combination of heavy punch and long range makes the Alacorn a threat to any unit on the field. \n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Alacorn",
-    "Cost": 35710545,
+    "Cost": 37382670,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -33,37 +33,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 320,
+      "CurrentArmor": 300,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 320,
+      "AssignedArmor": 300,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 260,
+      "CurrentArmor": 245,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 260,
+      "AssignedArmor": 245,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 260,
+      "CurrentArmor": 245,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 260,
+      "AssignedArmor": 245,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 100,
+      "CurrentArmor": 120,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 100,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 260,
+      "CurrentArmor": 250,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 260,
+      "AssignedArmor": 250,
       "DamageLevel": "Functional"
     }
   ],
@@ -97,27 +97,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Left",
       "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS_double",
       "ComponentDefType": "AmmunitionBox",
@@ -133,14 +112,21 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS",
+      "ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefID": "Gear_FCS_GaussPlus",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -165,6 +151,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

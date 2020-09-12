@@ -10,6 +10,7 @@
       "unit_indirectFire",
       "unit_generic",
       "unit_bracket_high",
+      "unit_solaris",
       "WordOfBlake",
       "davion",
       "ives",
@@ -83,9 +84,9 @@
   "Description": {
     "Id": "vehicledef_RHINO_SL",
     "Name": "Rhino (SL)",
-    "Details": "",
+    "Details": "This 2840 version of the Rhino drops the LRM 10 and replaces it with a SRM 6 and 4 Small Lasers.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Rhino",
-    "Cost": 4752900,
+    "Cost": 4698900,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -207,14 +208,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
+      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Incendiary_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -239,6 +240,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

@@ -11,6 +11,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -39,7 +40,6 @@
       "castile",
       "tortuga",
       "auriganpirates",
-      "locals",
       "auriganmercenaries",
       "nofaction",
       "MercenaryReviewBoard",
@@ -86,9 +86,9 @@
   "Description": {
     "Id": "vehicledef_BULLDOG_AC",
     "Name": "Bulldog (AC)",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Carrying an array of ranged weapons, the Heavy Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Bulldog",
-    "Cost": 1069600,
+    "Cost": 1076000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -175,7 +175,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_half",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -214,6 +214,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

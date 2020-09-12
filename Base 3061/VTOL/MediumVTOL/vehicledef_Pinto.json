@@ -11,6 +11,7 @@
       "unit_bracket_med",
       "unit_noconvoy",
       "unit_predator",
+      "Republic",
       "wordofblake",
       "comstar",
       "jarnfolk",
@@ -24,9 +25,9 @@
   "Description": {
     "Id": "vehicledef_Pinto",
     "Name": "Pinto Attack VTOL",
-    "Details": "",
-    "Icon": "",
-    "Cost": 4232000,
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Intended as a scout or vanguard unit, the Light VTOL is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 10/15 Hex: 300/450 Meters.</color></b>",
+    "Icon": "Pinto",
+    "Cost": 4232002,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -62,9 +63,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 0,
+      "CurrentArmor": 10,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 0,
+      "AssignedArmor": 10,
       "DamageLevel": "Functional"
     }
   ],
@@ -124,6 +125,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

@@ -10,6 +10,7 @@
       "unit_bracket_high",
       "unit_advanced",
       "unit_assault",
+      "Republic",
       "clansgeneric",
       "clanburrock",
       "clancloudcobra",
@@ -26,13 +27,14 @@
       "clansteelviper",
       "clansmokejaguar",
       "clansnowraven",
-      "clanwolf"
+      "clanwolf",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_dire_wolf_DW-X",
   "Description": {
-    "Cost": 2368149,
+    "Cost": 2699585,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": null,
@@ -43,7 +45,7 @@
     "Details": "This variant carries a Targeting Computer to guide the fire of a Large Pulse Laser, Heavy Medium Laser, twin ER Micro Lasers, an Ultra AC/10 and the solid shot of an LB 5-X autocannon. To provide missile support, the Daishi X carries an ATM 6 with a ton of each ammunition type, a head mounted Streak SRM-2, and an SRM-4 and LRM-15. The SRM-4 and LRM-15 are each equipped with an Artemis IV FCS.",
     "Icon": "Direwolf1"
   },
-  "simGameMechPartCost": 2368149,
+  "simGameMechPartCost": 2699585,
   "Version": 1,
   "RequiredToSpawnCompanyTags": {
     "items": [],

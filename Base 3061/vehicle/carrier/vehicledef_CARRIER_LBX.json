@@ -28,7 +28,8 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
@@ -36,7 +37,7 @@
   "Description": {
     "Id": "vehicledef_CARRIER_LBX",
     "Name": "LB-X Carrier",
-    "Details": "",
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Deadly at mid to short ranged combat, the Carrier is armed with a mix of heavy weapons tailored for mech busting.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "ACCarrier",
     "Cost": 3878400,
     "Rarity": 0,
@@ -178,6 +179,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

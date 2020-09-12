@@ -27,13 +27,14 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_kit_fox_KF-D",
   "Description": {
-    "Cost": 393925,
+    "Cost": 401000,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": null,
@@ -44,7 +45,7 @@
     "Details": "The Kit Fox D is configured for indirect fire support, mounting dual LRM-15 racks as well as a LRM-5. A Narc Missile Beacon is also carried, which may be exploited by the Kit Fox D itself, as the targeting systems of Clan LRMs lack a minimum range; this literally allows the Kit Fox D to run up to an enemy and mark them for increased accuracy, and then fall back, firing the entire time.",
     "Icon": "uixTxrIcon_kitfox"
   },
-  "simGameMechPartCost": 393925,
+  "simGameMechPartCost": 401000,
   "Version": 1,
   "Locations": [
     {

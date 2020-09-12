@@ -13,6 +13,7 @@
       "unit_risc",
       "unit_elite",
       "unit_noconvoy",
+      "Republic",
       "wordofblake",
       "comstar",
       "steiner",
@@ -53,9 +54,9 @@
   "Description": {
     "Id": "vehicledef_Cascatelle_RISC",
     "Name": "Cascatelle",
-    "Details": "",
-    "Icon": "",
-    "Cost": 24132300,
+    "Details": "A monster of a unit, these heavily armed VTOL's are the epitome of the Gunship.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault VTOL is designed to smash targets at range.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>",
+    "Icon": "Cascatelle",
+    "Cost": 24420300,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -63,9 +64,9 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 225,
+      "CurrentArmor": 220,
       "CurrentInternalStructure": 42,
-      "AssignedArmor": 225,
+      "AssignedArmor": 220,
       "DamageLevel": "Functional"
     },
     {
@@ -91,9 +92,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
+      "CurrentArmor": 20,
       "CurrentInternalStructure": 42,
-      "AssignedArmor": 10,
+      "AssignedArmor": 20,
       "DamageLevel": "Functional"
     }
   ],
@@ -138,6 +139,27 @@
       "ComponentDefID": "Weapon_Streak_MML_5",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_Bomb_DaisyCutter",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_Bomb_DaisyCutter",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Weapon_LRM_FLARELAUNCHER_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
@@ -202,6 +224,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

@@ -19,9 +19,9 @@
   "Description": {
     "Id": "vehicledef_POLEMOS_SOCIETY",
     "Name": "Polemos Wheeled APC (Society)",
-    "Details": "",
-    "Icon": "",
-    "Cost": 1584200,
+    "Details": "APCs are not fighting vehicles, their main function is to transport infantry squads from one battle to another. However, many APC variants sacrifice troop capacity to mount significant weaponry.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 6/9 Hex: 180/270 Meters.</color></b>",
+    "Icon": "BollaTwinSRM",
+    "Cost": 2946202,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -57,9 +57,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 115,
+      "CurrentArmor": 120,
       "CurrentInternalStructure": 20,
-      "AssignedArmor": 115,
+      "AssignedArmor": 120,
       "DamageLevel": "Functional"
     }
   ],
@@ -149,6 +149,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Tank_LimitedAmphibious",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Wheeled_Left",
       "ComponentDefType": "Upgrade",
@@ -178,7 +184,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_clanferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

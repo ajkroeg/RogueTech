@@ -1,7 +1,7 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-2.67",
+      "mr-resize-2.00",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks",
@@ -32,9 +32,9 @@
   "Description": {
     "Id": "vehicledef_PUMA_005_PIRATE",
     "Name": "Pirate Puma PAT-005",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault Tank is designed to smash targets at range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Puma",
-    "Cost": 12889500,
+    "Cost": 13533000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -100,7 +100,7 @@
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_MINE_DISPENSER10",
+      "ComponentDefID": "Weapon_MINE_DISPENSER20",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -114,7 +114,7 @@
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_MINE_DISPENSER10",
+      "ComponentDefID": "Weapon_MINE_DISPENSER20",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -131,6 +131,13 @@
       "ComponentDefID": "Weapon_Laser_MediumLaser_Chemical_Internal",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Weapon_Laser_TAG_pirate",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
@@ -138,13 +145,6 @@
       "ComponentDefID": "Weapon_PPC_PPCER_JRCAP",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_REMOTE_SENSOR",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {
@@ -202,6 +202,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

@@ -10,6 +10,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -75,7 +76,7 @@
   "Description": {
     "Id": "vehicledef_KINGSCORPION",
     "Name": "King Scorpion",
-    "Details": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Intended as a scout or vanguard unit, the Light Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Kingscorpion",
     "Cost": 1581751,
     "Rarity": 0,
@@ -182,6 +183,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

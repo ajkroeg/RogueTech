@@ -1,7 +1,7 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-2.67",
+      "mr-resize-2.00",
       "unit_vehicle",
       "unit_vehicle_clan",
       "unit_assault",
@@ -35,9 +35,9 @@
   "Description": {
     "Id": "vehicledef_PUMA-2_CLAN",
     "Name": "Puma PAT-IIC-2",
-    "Details": "",
+    "Details": "A clantech upgrade to the Royal Puma, this support tank is assigned to second line units.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Puma",
-    "Cost": 34727550,
+    "Cost": 35032238,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -180,7 +180,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Chaff_LRM_half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -194,17 +194,30 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ATM",
+      "ComponentDefID": "Ammo_AmmunitionBox_HE_ATM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Incendiary_LRM_half",
+      "ComponentDefID": "Ammo_AmmunitionBox_Swarm_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Swarm_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Front",
@@ -215,10 +228,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",
@@ -243,7 +255,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_clstandard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

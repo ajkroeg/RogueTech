@@ -24,9 +24,9 @@
   "Description": {
     "Id": "vehicledef_Donar_CAS",
     "Name": "Donar (CAS)",
-    "Details": "",
-    "Icon": "",
-    "Cost": 5218490,
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Packing a small, but potent array of weapons, this Light VTOL can kill an enemy unit under the right circumstances.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
+    "Icon": "Donar",
+    "Cost": 5643490,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -34,9 +34,9 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 80,
+      "CurrentArmor": 75,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 80,
+      "AssignedArmor": 75,
       "DamageLevel": "Functional"
     },
     {
@@ -55,9 +55,9 @@
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 55,
+      "CurrentArmor": 45,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 55,
+      "AssignedArmor": 45,
       "DamageLevel": "Functional"
     },
     {
@@ -106,6 +106,18 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -113,17 +125,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Rear",

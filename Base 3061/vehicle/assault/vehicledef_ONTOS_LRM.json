@@ -26,9 +26,9 @@
   "Description": {
     "Id": "vehicledef_ONTOS_LRM",
     "Name": "Ontos Mk.3",
-    "Details": "",
+    "Details": "This 2876 variant of the Ontos removes the Medium Lasers and their supporting equipment for a more efficient pair of LRM-20 missile racks. The existing LRM-5s are upgraded to LRM-10 racks.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Ontos",
-    "Cost": 6668513,
+    "Cost": 6649013,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -101,14 +101,7 @@
     },
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Ammo_AmmunitionBox_ListenKill_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -122,7 +115,14 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Swarm_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -154,6 +154,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

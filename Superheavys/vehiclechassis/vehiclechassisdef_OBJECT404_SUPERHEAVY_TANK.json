@@ -2,9 +2,9 @@
   "Description": {
     "Id": "vehiclechassisdef_OBJECT404_SUPERHEAVY_TANK",
     "Name": "Small Military Building",
-    "Details": "",
+    "Details": "\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "STRIKER",
-    "Cost": 52471250,
+    "Cost": 85351000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -15,7 +15,7 @@
   "HardpointDataDefID": "hardpointdatadef_schreck",
   "PrefabIdentifier": "chrPrfVhcl_schreck",
   "PrefabBase": "schreck",
-  "Tonnage": 150,
+  "Tonnage": 200,
   "weightClass": "ASSAULT",
   "BattleValue": 2151,
   "TopSpeed": 85,
@@ -69,10 +69,6 @@
       "Location": "Front",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
           "Omni": false
         }
@@ -86,10 +82,6 @@
       "Location": "Left",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
           "Omni": false
         }
@@ -102,10 +94,6 @@
     {
       "Location": "Right",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -150,10 +138,6 @@
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {

@@ -9,6 +9,8 @@
       "unit_lance_tank",
       "unit_generic",
       "unit_bracket_high",
+      "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -65,7 +67,7 @@
   "Description": {
     "Id": "vehicledef_BRUTUS_PPC",
     "Name": "Brutus Mk.II Assault Tank",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Trading speed or weapons for armor, the Heavy Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Brutus",
     "Cost": 3543750,
     "Rarity": 0,
@@ -179,6 +181,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

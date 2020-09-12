@@ -33,9 +33,9 @@
   "Description": {
     "Id": "vehicledef_MARKSMAN_PIRATE",
     "Name": "Pegleg Marksman",
-    "Details": "",
-    "Icon": "",
-    "Cost": 8825850,
+    "Details": "Long range fire support assets, Artillery vehicles mount the big guns that pound stuff into metallic dust. Designed to support allies from range, Artillery can throw a variety of payloads down range; ranging from standard artillery to FASCAM or Inferno loads.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
+    "Icon": "Marksman",
+    "Cost": 9136875,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -50,16 +50,16 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 105,
+      "CurrentArmor": 115,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 105,
+      "AssignedArmor": 115,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 105,
+      "CurrentArmor": 115,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 105,
+      "AssignedArmor": 115,
       "DamageLevel": "Functional"
     },
     {
@@ -94,16 +94,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MECHMORTAR_2",
+      "ComponentDefID": "Weapon_VehicleGrenadeLauncher",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_Laser_LargeLaser_MediumHeavy",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
@@ -123,6 +116,20 @@
     {
       "MountedLocation": "Front",
       "ComponentDefID": "Ammo_AmmunitionBox_Flare_Mortar_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -177,6 +184,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -192,7 +205,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_heavyferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },
@@ -227,20 +240,6 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engineslots_light_center",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

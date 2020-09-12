@@ -17,7 +17,7 @@
   "Description": {
     "Id": "vehicledef_DEMON_CX-2",
     "Name": "Demon CX-2 Refit",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Packing a potent array of heavy weapons, the Heavy Tank is a serious threat to any Tank or Mech that encounters it.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
     "Icon": "Demon",
     "Cost": 6360900,
     "Rarity": 0,
@@ -70,17 +70,17 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_MINE_DISPENSER10",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Left",
       "ComponentDefID": "Weapon_Laser_MediumLaser_1-Intek",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_MINE_DISPENSER15",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_MINE_DISPENSER10",
+      "ComponentDefID": "Weapon_MINE_DISPENSER15",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional"
@@ -154,6 +154,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Wheeled_Left",
       "ComponentDefType": "Upgrade",
@@ -172,13 +178,6 @@
       "ComponentDefID": "emod_armorslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Tank_Turret",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",

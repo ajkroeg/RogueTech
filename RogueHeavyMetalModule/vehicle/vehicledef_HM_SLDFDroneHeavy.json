@@ -1,6 +1,7 @@
 {
   "VehicleTags": {
     "items": [
+      "unit_tracks",
       "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
@@ -9,9 +10,9 @@
   "Description": {
     "Id": "vehicledef_HM_SLDFDroneHeavy",
     "Name": "SLDF Heavy Drone",
-    "Details": "",
-    "Icon": "",
-    "Cost": 0,
+    "Details": "Description missing.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
+    "Icon": "SLDFDrone",
+    "Cost": 9242100,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -111,6 +112,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -133,7 +140,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_ferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

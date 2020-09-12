@@ -10,6 +10,7 @@
       "unit_lance_assassin",
       "unit_advanced",
       "unit_bracket_med",
+      "Republic",
       "davion"
     ],
     "tagSetSourceFile": ""
@@ -18,7 +19,7 @@
   "Description": {
     "Id": "vehicledef_MYRMIDON_INF",
     "Name": "Myrmidon Anti-Infantry",
-    "Details": "",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Trading speed or weapons for armor, the Medium Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
     "Icon": "Myrmidon",
     "Cost": 2210367,
     "Rarity": 0,
@@ -146,6 +147,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

@@ -13,7 +13,7 @@
       "unit_bracket_high",
       "unit_indirectfire",
       "unit_arrow",
-      "comstar",
+      "Republic",
       "steiner",
       "davion",
       "clanwolf",
@@ -41,9 +41,9 @@
   "Description": {
     "Id": "vehicledef_HADUR",
     "Name": "Hadur Fast Support Vehicle",
-    "Details": "",
-    "Icon": "",
-    "Cost": 20035000,
+    "Details": "Long range fire support assets, Artillery vehicles mount the big guns that pound stuff into metallic dust. Mounting large calibre weapons, Artillery excels at killing targets from afar.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
+    "Icon": "Hadur",
+    "Cost": 20535000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -123,14 +123,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_ArrowIV",
+      "ComponentDefID": "Ammo_AmmunitionBox_Guided_ArrowIV",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -165,6 +158,12 @@
     },
     {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -172,17 +171,16 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Tank_Sensors_Generic",
+      "ComponentDefID": "emod_armorslots_clstandard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "emod_armorslots_clanferrosfibrous",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

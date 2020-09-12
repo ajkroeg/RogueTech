@@ -12,6 +12,7 @@
       "unit_advanced",
       "unit_legendary",
       "unit_bracket_high",
+      "Republic",
       "wordofblake",
       "comstar",
       "steiner",
@@ -52,9 +53,9 @@
   "Description": {
     "Id": "vehicledef_WINSTON_RX",
     "Name": "Winston Mk.X",
-    "Details": "",
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Carrying an array of ranged weapons, the Heavy Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
     "Icon": "Winston",
-    "Cost": 21931275,
+    "Cost": 22271275,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -83,16 +84,16 @@
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 175,
+      "CurrentArmor": 160,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 175,
+      "AssignedArmor": 160,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 230,
+      "CurrentArmor": 275,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 230,
+      "AssignedArmor": 275,
       "DamageLevel": "Functional"
     }
   ],
@@ -208,6 +209,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

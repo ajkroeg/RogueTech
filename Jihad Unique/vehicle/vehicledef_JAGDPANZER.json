@@ -20,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_JAGDPANZER",
     "Name": "Jagdpanzer II",
-    "Details": "",
-    "Icon": "JAGDPANZER",
-    "Cost": 4562402,
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Packing a potent array of weapons, this Medium Tank excels at killing other vehicles.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
+    "Icon": "Hetzer",
+    "Cost": 4819200,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -44,9 +44,9 @@
     },
     {
       "Location": "Right",
-      "CurrentArmor": 220,
+      "CurrentArmor": 110,
       "CurrentInternalStructure": 20,
-      "AssignedArmor": 220,
+      "AssignedArmor": 110,
       "DamageLevel": "Functional"
     },
     {
@@ -122,6 +122,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Wheeled_Left",
       "ComponentDefType": "Upgrade",
@@ -137,7 +143,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+      "ComponentDefID": "Gear_Guardian_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

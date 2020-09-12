@@ -25,9 +25,9 @@
   "Description": {
     "Id": "vehicledef_BEHEMOTH_HVAC",
     "Name": "Behemoth (Ranger)",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack. Trading speed or weapons for armor, the Assault Tank is almost impossible to kill.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
     "Icon": "Behemoth",
-    "Cost": 6780667,
+    "Cost": 6010667,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -42,23 +42,23 @@
     },
     {
       "Location": "Left",
-      "CurrentArmor": 275,
+      "CurrentArmor": 265,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 275,
+      "AssignedArmor": 265,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 275,
+      "CurrentArmor": 265,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 275,
+      "AssignedArmor": 265,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 210,
+      "CurrentArmor": 190,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 210,
+      "AssignedArmor": 190,
       "DamageLevel": "Functional"
     },
     {
@@ -184,13 +184,6 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_BAP",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
       "ComponentDefID": "Gear_Reactive_Plating",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -216,6 +209,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

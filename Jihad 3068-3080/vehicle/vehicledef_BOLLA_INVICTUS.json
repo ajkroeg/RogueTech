@@ -21,9 +21,9 @@
   "Description": {
     "Id": "vehicledef_BOLLA_INVICTUS",
     "Name": "Bolla Invictus",
-    "Details": "",
-    "Icon": "",
-    "Cost": 12722452,
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Carrying an array of ranged weapons, the Heavy Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
+    "Icon": "Bolla",
+    "Cost": 13112452,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -142,6 +142,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

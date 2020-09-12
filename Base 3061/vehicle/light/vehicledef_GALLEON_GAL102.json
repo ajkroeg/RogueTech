@@ -12,6 +12,8 @@
       "unit_galleon",
       "unit_noconvoy",
       "unit_predator",
+      "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -83,7 +85,7 @@
   "Description": {
     "Id": "vehicledef_GALLEON_GAL102",
     "Name": "Galleon GAL-102",
-    "Details": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Intended as a scout or vanguard unit, the Light Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 7/11 Hex: 210/330 Meters.</color></b>",
     "Icon": "Galleon",
     "Cost": 2198950,
     "Rarity": 0,
@@ -176,6 +178,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

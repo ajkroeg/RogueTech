@@ -12,7 +12,7 @@
       "unit_bracket_low",
       "NoBiome_lunarVacuum",
       "NoBiome_martianVacuum",
-      "magistracyofcanopus",
+      "unit_solaris",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -85,7 +85,7 @@
   "Description": {
     "Id": "vehicledef_GALLEON_GAL200",
     "Name": "Galleon GAL-200",
-    "Details": "",
+    "Details": "Fast and versatile, the Light Tank is poorly suited to direct combat but has a variety of other uses. Intended as a scout or vanguard unit, the Light Tank is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 7/11 Hex: 210/330 Meters.</color></b>",
     "Icon": "Galleon",
     "Cost": 375050,
     "Rarity": 0,
@@ -178,6 +178,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

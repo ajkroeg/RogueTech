@@ -29,13 +29,14 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "society"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_mongoose_MON-66B",
   "Description": {
-    "Cost": 72953,
+    "Cost": 73595,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": null,
@@ -46,7 +47,7 @@
     "Details": "The 66b is an upgraded version of the 66 that was used by the SLDF Royal units in 2740. ",
     "Icon": "mongoose"
   },
-  "simGameMechPartCost": 72953,
+  "simGameMechPartCost": 73595,
   "Version": 1,
   "Locations": [
     {

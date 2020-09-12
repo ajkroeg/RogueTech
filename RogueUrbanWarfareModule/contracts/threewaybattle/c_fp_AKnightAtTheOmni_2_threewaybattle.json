@@ -14,7 +14,33 @@
     "shortDescription": "A Pirate lance was able to escape before we hit their base. Intercept the escaping lance and destroy it.",
     "longDescription": "Someone snuck out the back door, Commander. Make sure they dont' get away.",
     "salvagePotential": "24",
-    "requirementList": [],
+    "requirementList": [
+    {
+            "Scope": "StarSystem",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": ["planet_other_gamesworld"],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "Target.IsOwner",
+                    "op": "Equal",
+                    "val": 1,
+                    "valueConstant": null
+                },
+                {
+                    "obj": "Employer.AuriganPirates",
+                    "op": "Equal",
+                    "val": 0,
+                    "valueConstant": null
+                }
+            ]
+        }
+    ],
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
     "contractType": "ThreeWayBattle",
@@ -2212,7 +2238,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Hostile to All Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",
@@ -2287,7 +2313,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Target Forces Secondary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",
@@ -2312,7 +2338,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",
@@ -2337,7 +2363,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Target Forces 2 Secondary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",
@@ -2362,7 +2388,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",
@@ -2387,7 +2413,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . Inbound hostile Dropship detected, drop zone marked.",
+                    "words": "Inbound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": "1",
                         "g": "1",

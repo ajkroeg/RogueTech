@@ -9,6 +9,8 @@
       "unit_lance_assassin",
       "unit_advanced",
       "unit_bracket_med",
+      "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "davion",
@@ -27,8 +29,8 @@
   "Description": {
     "Id": "vehicledef_PARTISAN_AAA",
     "Name": "Partisan Air Defense Tank",
-    "Details": "",
-    "Icon": "",
+    "Details": "The Partisan Air Defense Tank is a significant upgrade designed to engage and destroy Clan fighters. The older ICE was replaced by a fusion engine. Its armor was replaced with  Ferro-Fibrous Armor, drastically increasing its protection. A C3 Slave Unit provides for better coordination with the rest of its unit, increasing accuracy. Finally, its weapons complement was replaced with twin LB 10-X ACs partnered with a pair of  Autocannon/2s for long range fire.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
+    "Icon": "Partisan",
     "Cost": 7422300,
     "Rarity": 4,
     "Purchasable": false
@@ -155,6 +157,12 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",

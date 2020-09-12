@@ -639,7 +639,8 @@
 								"OmniHandActuator",
 								"MeleeActuator",
 								"MeleeSTAB",
-								"MeleeACC"
+								"MeleeACC",
+								"ActuatorEnhancementSystem"
 							]
 						}
 					}
@@ -776,6 +777,7 @@
 								"ArmHandActuator",
 								"OmniLowerActuator",
 								"OmniHandActuator",
+								"ActuatorEnhancementSystem",
 								"MeleeActuator",
 								"MeleeSTAB",
 								"MeleeACC",

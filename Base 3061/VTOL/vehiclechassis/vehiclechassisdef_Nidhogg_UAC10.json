@@ -1,18 +1,18 @@
 {
   "CustomParts": {
     "AOEHeight": 75,
-    "FiringArc": 120,
+    "FiringArc": 90,
     "Unaffected": {
       "DesignMasks": "true",
       "Pathing": "true",
-      "MoveClamp": 0.25,
+      "MoveClamp": 0.5,
       "Fire": "true",
       "Landmines": "true",
       "MoveCostBiome": "false"
     },
     "MoveCostModPerBiome": {
-      "DesignMaskBiomeMartianVacuum": 2.5,
-      "DesignMaskBiomeLunarVacuum": 4.0
+      "DesignMaskBiomeMartianVacuum": 2,
+      "DesignMaskBiomeLunarVacuum": 3
     },
     "TieToGroundOnDeath": "true",
     "HighestLOSPosition": {
@@ -119,7 +119,7 @@
   "Description": {
     "Id": "vehiclechassisdef_Nidhogg_UAC10",
     "Name": "Nidhogg Gunship",
-    "Details": "",
+    "Details": "A monster of a unit, these heavily armed VTOL's are the epitome of the Gunship.  Line breakers and fire support platforms, these are usually found in the front of an attack. Carrying an array of ranged weapons, the Assault VTOL is designed to smash targets at range.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
     "Icon": "NidhoggVTOL",
     "Cost": 12810000,
     "Rarity": 0,
@@ -207,7 +207,7 @@
       "Location": "Left",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -224,7 +224,7 @@
       "Location": "Right",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {

@@ -11,6 +11,7 @@
       "unit_legendary",
       "unit_advanced",
       "unit_bracket_med",
+      "unit_predator",
       "auriganpirates"
     ],
     "tagSetSourceFile": ""
@@ -19,9 +20,9 @@
   "Description": {
     "Id": "vehicledef_MYRMIDON_TATE",
     "Name": "Myrmidon P (Tate)",
-    "Details": "",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Trading speed or weapons for armor, the Medium Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>",
     "Icon": "Myrmidon",
-    "Cost": 2309767,
+    "Cost": 3496267,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -66,42 +67,14 @@
   "inventory": [
     {
       "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
+      "ComponentDefID": "Weapon_MachineGun_ARRAY_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Weapon_MachineGun_LIGHT",
+      "ComponentDefID": "Weapon_MachineGun_ARRAY_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -117,6 +90,13 @@
       "MountedLocation": "Turret",
       "ComponentDefID": "Ammo_AmmunitionBox_Tracer_LMG",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Generic_AP",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -149,6 +129,12 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
+    },
+    {
       "MountedLocation": "Left",
       "ComponentDefID": "Gear_Tracked_Left",
       "ComponentDefType": "Upgrade",
@@ -164,7 +150,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "emod_armorslots_lightferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },

@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_Narc_Haywire",
-        "Name": "Narc Ammo",
+        "Name": "Haywire Narc Ammo",
         "UIName": "Haywire",
         "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
         "Icon": null,
@@ -58,9 +58,34 @@
             "statisticData": {
                 "statName": "AccuracyModifier",
                 "operation": "Float_Add",
-                "modValue": "1.0",
+                "modValue": "2.0",
                 "modType": "System.Single"
             }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "effectTargetType": "NotSet",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LoseEvasion",
+                "Name": "EVASIVE MOVE",
+                "Details": "This unit generates 1 fewer evasive pips from movement.",
+                "Icon": "uixSvgIcon_action_evasivemove"
+            },
+            "statisticData": {
+                "statName": "EvasivePipsGainedAdditional",
+                "operation": "Int_Add",
+                "modValue": "-1",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
         },
         {
             "durationData": {
@@ -98,50 +123,6 @@
                 "operation": "Float_Multiply",
                 "modValue": "0.85",
                 "modType": "System.Single"
-            }
-        },
-        {
-            "durationData": {
-                "duration": 2,
-                "ticksOnActivations": true,
-                "useActivationsOfTarget": true,
-                "ticksOnEndOfRound": false,
-                "ticksOnMovements": false,
-                "stackLimit": 6,
-                "clearedWhenAttacked": false
-            },
-            "targetingData": {
-                "effectTriggerType": "OnHit",
-                "triggerLimit": 0,
-                "extendDurationOnTrigger": 0,
-                "specialRules": "NotSet",
-                "effectTargetType": "NotSet",
-                "range": 0,
-                "forcePathRebuild": false,
-                "forceVisRebuild": false,
-                "showInTargetPreview": false,
-                "showInStatusPanel": false,
-                "hideApplicationFloatie": true
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "HAYWIRE-Effect2",
-                "Name": "HAYWIRED",
-                "Details": "The Mech's Movement is reduced.",
-                "Icon": "uixSvgIcon_status_sensorsImpaired"
-            },
-            "nature": "Debuff",
-            "statisticData": {
-                "statName": "RunSpeed",
-                "operation": "Float_Multiply",
-                "modValue": "0.85",
-                "modType": "System.Single",
-                "additionalRules": "NotSet",
-                "targetCollection": "NotSet",
-                "targetWeaponCategory": "NotSet",
-                "targetWeaponType": "NotSet",
-                "targetAmmoCategory": "NotSet",
-                "targetWeaponSubType": "NotSet"
             }
         },
         {

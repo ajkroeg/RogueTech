@@ -8,12 +8,16 @@
     "BonusDescriptions": {
       "Bonuses": [
         "ERLaser",
-        "IsLaser",
-        "LosTech"
+        "IsLaser"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02006"
+      "SortKey": "02381"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

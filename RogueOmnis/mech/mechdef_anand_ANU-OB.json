@@ -14,7 +14,8 @@
       "unit_thumper",
       "locals",
       "auriganmercenaries",
-      "auriganpirates"
+      "auriganpirates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -28,7 +29,7 @@
     "UIName": "Anand ANU-OB",
     "Id": "mechdef_anand_ANU-OB",
     "Name": "Marauder ANU-OB",
-    "Details": "The Anand is another Prototype of the Morrigan Project, named for a Goddess that protects the Land has this Omni Received special care to it's protective abilitys",
+    "Details": "The Anand is another Prototype of the Morrigan Project, named for a Goddess that protects the Land has this Omni Received special care to it's protective abilitys\n\n<b><color=#e62e00>Quirk: Morrigan C3i</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>",
     "Icon": "Anand"
   },
   "simGameMechPartCost": 1604906,
@@ -126,7 +127,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensors_Recon",
+      "ComponentDefID": "Gear_Sensors_Huntress",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,

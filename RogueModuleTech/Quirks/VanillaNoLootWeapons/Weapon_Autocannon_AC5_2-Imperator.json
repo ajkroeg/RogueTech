@@ -12,7 +12,7 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "ImperatorAC+",
+        "ImperatorAC",
         "RapidFireAC: 30%",
         "DakkaBoom: 45",
         "IsAC"
@@ -20,6 +20,11 @@
     },
     "InventorySorter": {
       "SortKey": "01002"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -54,7 +59,7 @@
   "AttackRecoil": 2,
   "Instability": 11.25,
   "FlatJammingChance": 0.1,
-  "GunneryJammingMult": 0.02,
+  "GunneryJammingMult": 0.01,
   "GunneryJammingBase": 1,
   "FireTerrainChance": 0.0375,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
@@ -100,7 +105,7 @@
       "AIHitChanceCap": 0.4,
       "DamageOnJamming": true,
       "FlatJammingChance": 0.3,
-      "GunneryJammingMult": 0.02,
+      "GunneryJammingMult": 0.01,
       "GunneryJammingBase": 1
     }
   ],

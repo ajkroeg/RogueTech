@@ -5,6 +5,9 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.18
+    },
     "AssemblyVariant": {
       "PrefabID": "VultureMKII",
       "Exclude": false,
@@ -28,6 +31,14 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Combat_Computer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -44,7 +55,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -76,14 +87,6 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Combat_Computer",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_VultureMKII_Turret",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
@@ -100,7 +103,7 @@
     "UIName": "Vulture MK II",
     "Id": "chassisdef_vulture_mk_ii_MDD-MKIIP",
     "Name": "Vulture MK II",
-    "Details": "This looks like one of Skobels MKII Vultures, and it looks way to pristine to have been Battlefield Salvage, something ain't right here, Boss",
+    "Details": "This looks like one of Skobels MKII Vultures, and it looks way to pristine to have been Battlefield Salvage, something ain't right here, Boss\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
     "Icon": "Vulturemkii"
   },
   "VariantName": "MDD-MKIIP",

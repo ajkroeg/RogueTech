@@ -20,6 +20,7 @@
       "Faction_Employer",
       "Faction_Target",
       "Faction_TargetsAlly",
+      "Republic",
       "comstar",
       "WordOfBlake",
       "steiner",
@@ -75,7 +76,8 @@
       "HouseKhulan",
       "BlackWidowCompany",
       "BaumannGroup",
-      "BountyHunterAssociates"
+      "BountyHunterAssociates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -89,7 +91,7 @@
     "UIName": "Stalker STK-4N",
     "Id": "mechdef_stalker_STK-4N",
     "Name": "Stalker STK-4N",
-    "Details": "By removing one of the LRM launchers and adding more Heat Sinks, the Stalker 4N can dish out more damage per round without as much fear of baking the pilot alive.",
+    "Details": "By removing one of the LRM launchers and adding more Heat Sinks, the Stalker 4N can dish out more damage per round without as much fear of baking the pilot alive.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.13</color></b>",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 452619,
@@ -203,7 +205,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_255",
+      "ComponentDefID": "Gear_Engine_255",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,

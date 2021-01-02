@@ -13,7 +13,7 @@
     "goodFaithStatementOverride": null,
     "shortDescription": "Bishop has let us know a full blown Terra Form Infestation is going on here. Massive ammounts of Cockroach type Infestation. Need to wipe them out. Though attacking the opposing factions assests may drive our standing down with them, Our employer will be thrilled just to get rid of the infestation.",
     "longDescription": "Lets Squish some bugs.",
-    "salvagePotential": 12,
+    "salvagePotential": 4,
     "requirementList": [
         {
             "Scope": "Company",
@@ -47,7 +47,7 @@
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 4,
+    "maxNumberOfPlayerUnits": 12,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": -1,
     "mechMinTonnages": [
@@ -490,7 +490,7 @@
                 "name": "Lance_Enemy_OpposingForce",
                 "lanceDefId": "lancedef_carapace_d6_light",
                 "lanceTagSet": {
-                    "items": [],
+                    "items": [ "lancedef_carapace_d6_light" ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "lanceExcludedTagSet": {
@@ -514,7 +514,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -547,7 +547,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -580,7 +580,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -613,7 +613,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -648,7 +648,7 @@
                 "name": "Lance_Enemy_Ambushers",
                 "lanceDefId": "lancedef_carapace_d6_light",
                 "lanceTagSet": {
-                    "items": [],
+                    "items": [ "lancedef_carapace_d6_light" ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "lanceExcludedTagSet": {
@@ -672,7 +672,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -705,7 +705,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -738,7 +738,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -771,7 +771,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"

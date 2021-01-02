@@ -11,15 +11,19 @@
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 0.1,
-            "StabilityDamagePerAmmo": 0.01
+            "ExplosionDamagePerAmmo": 0.05,
+            "StabilityDamagePerAmmo": 0.05
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "Protected: 90%",
-                "LMGAmmo: 160"
-            ]
-        },
+                "Protected: 95%",
+                "LMGAmmo: 160",
+        "AmmoCost: 5"
+      ]
+    },
+	"AmmoCost" : {
+      "PerUnitCost" : 5
+    },	
         "InventorySorter": {
             "SortKey": "000031"
         }
@@ -27,7 +31,7 @@
     "AmmoID": "Ammunition_LMG",
     "Capacity": 160,
     "Description": {
-        "Cost": 20000,
+        "Cost": 8800,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "CASE'd",
@@ -35,7 +39,7 @@
         "UIName": "Ammo LMG [SAFE]",
         "Id": "Ammo_AmmunitionBox_Protected_LMG",
         "Name": "LMG Ammo",
-        "Details": "Protected Ammo Bins are specially designed to reduce the damaged caused by an ammo explosion. \n\n<b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
+        "Details": "Protected Ammo Bins are specially designed to reduce the damaged caused by an ammo explosion. \n\n<b><color=#00ffff> Ctrl+click on ammunition counter to eject ammo.</color> </b>",
         "Icon": "MachineGun"
     },
     "BonusValueA": "",

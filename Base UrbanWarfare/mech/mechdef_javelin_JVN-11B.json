@@ -10,6 +10,7 @@
       "unit_generic",
       "unit_predator",
       "unit_dlc",
+      "Republic",
       "steiner",
       "davion",
       "auriganmercenaries",
@@ -38,7 +39,8 @@
       "SelfEmployed_Yang",
       "SecuritySolutionsInc",
       "PaladinProtectionLLC",
-      "HouseKhulan"
+      "HouseKhulan",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -52,7 +54,7 @@
     "UIName": "Javelin JVN-11B",
     "Id": "mechdef_javelin_JVN-11B",
     "Name": "Javelin JVN-11B",
-    "Details": "The Javelin is a dangerous 'Mech for its tonnage, especially against other light mechs and some mediums. The JVN-10N also makes a decent light 'Mech hunter-killer.",
+    "Details": "The Javelin is a dangerous 'Mech for its tonnage, especially against other light mechs and some mediums. The JVN-10N also makes a decent light 'Mech hunter-killer.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
     "Icon": "uixTxrIcon_javelin"
   },
   "simGameMechPartCost": 77816,
@@ -166,7 +168,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_BAP",
+      "ComponentDefID": "Gear_BeagleActiveProbe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -182,7 +184,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_180",
+      "ComponentDefID": "Gear_Engine_180",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,

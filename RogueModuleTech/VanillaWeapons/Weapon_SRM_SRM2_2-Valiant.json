@@ -14,6 +14,11 @@
     },
     "InventorySorter": {
       "SortKey": "03005"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Missile",
@@ -48,6 +53,7 @@
   "AttackRecoil": 1,
   "Instability": 2,
   "FireTerrainChance": 0.01,
+  "ProjectileSpeedMultiplier": 1.5,
   "StatusEffectsPerHit": true,
   "ImprovedBallistic": true,
   "WeaponEffectID": "WeaponEffect-Weapon_SRM2",

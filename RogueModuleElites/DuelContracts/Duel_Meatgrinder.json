@@ -45,6 +45,27 @@
                     "valueConstant": "55"
                 }
             ]
+        },
+        {
+            "Scope": "StarSystem",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [
+                    "planet_other_gamesworld"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 0,
+                    "valueConstant": null
+                }
+            ]
         }
     ],
     "OnContractSuccessResults": [
@@ -95,7 +116,7 @@
     ],
     "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 4,
+    "maxNumberOfPlayerUnits": 12,
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
     "contractObjectiveList": [
@@ -148,7 +169,7 @@
                         {
                             "typeString": "System.Single",
                             "name": "ContractBonusRewardPct",
-                            "value": 0.4
+                            "value": 0.1
                         }
                     ]
                 }
@@ -189,7 +210,7 @@
                         {
                             "typeString": "System.Single",
                             "name": "ContractBonusRewardPct",
-                            "value": 0.4
+                            "value": 0.1
                         }
                     ]
                 }

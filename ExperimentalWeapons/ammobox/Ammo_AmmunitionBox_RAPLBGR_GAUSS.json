@@ -8,9 +8,13 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "RAPLBGRAmmo: 40",
-                "InertAmmo"
+                "InertAmmo",
+         "AmmoCost: 500"
             ]
-        },
+        },		
+		"AmmoCost" : {
+      "PerUnitCost" : 500
+		},
         "InventorySorter": {
             "SortKey": "000028"
         },
@@ -19,7 +23,7 @@
     "AmmoID": "Ammunition_RAPLBGR",
     "Capacity": 40,
     "Description": {
-        "Cost": 50000,
+        "Cost": 165000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
@@ -27,7 +31,7 @@
         "UIName": "Ammo RAPLBGR Gauss",
         "Id": "Ammo_AmmunitionBox_RAPLBGR_GAUSS",
         "Name": "Gauss Ammo",
-        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b>\n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type</color> </b>",
+        "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b>\n\n <b><color=#00ffff>/color> </b>",
         "Icon": "HAGR"
     },
     "BonusValueA": "",

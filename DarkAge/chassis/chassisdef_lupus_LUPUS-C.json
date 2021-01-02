@@ -5,6 +5,14 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.07
+    },
+    "AssemblyVariant": {
+      "PrefabID": "lupus",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "CustomParts": {
@@ -14,13 +22,22 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Hyper_Extending_Actuators",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -30,19 +47,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -52,19 +67,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Hyper_Extending_Actuators",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": null,
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -77,7 +80,7 @@
     "UIName": "Lupus",
     "Id": "chassisdef_lupus_LUPUS-C",
     "Name": "Lupus",
-    "Details": "A Dark Age variant of the Lupus, the Lupus C pairs Improved Heavy Lasers with a Targeting Computer and a Supercharger.",
+    "Details": "A Dark Age variant of the Lupus, the Lupus C pairs Improved Heavy Lasers with a Targeting Computer and a Supercharger.\n\n<b><color=#e62e00>Quirk: Hyper-Extending Actuactors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.07</color></b>",
     "Icon": "uixTxrIcon_lupus"
   },
   "VariantName": "LUPUS-C",

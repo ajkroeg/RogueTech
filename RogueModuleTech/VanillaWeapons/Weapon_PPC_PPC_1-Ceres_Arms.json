@@ -3,19 +3,27 @@
     "Category": [
       {
         "CategoryID": "w/e/p/ppc"
+      },
+      {
+        "CategoryID": "CritsPPC2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "CeresArmsPPC",
-        "PPCDEBUFF: 1",
+        "PPCDEBUFF: 2",
         "WpnRecoil: 1",
-        "MineClearanceBoom: 1",
-        "ModesCanMisfire"
+        "MineClearanceBoom: 2",
+        "JamChanceMode1: 50, FIOFF"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02011"
+      "SortKey": "02232"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",
@@ -37,18 +45,18 @@
   "EvasivePipsIgnored": 0,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": -1,
+  "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
-  "APArmorShardsMod": 0.2,
-  "APMaxArmorThickness": 52.0,
-  "APCriticalChanceMultiplier": 0.1,
+  "APArmorShardsMod": 0.25,
+  "APMaxArmorThickness": 75,
+  "APCriticalChanceMultiplier": 0.125,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 1,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 8,
+  "Instability": 10,
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
     "Cost": 200000,
@@ -73,21 +81,25 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "ClearMineFieldRadius": 8,
+  "ClearMineFieldRadius": 16,
   "Modes": [
     {
       "Id": "FION",
       "UIName": "FION",
+      "Name": "Field Inhibitor ON",
+      "Description": "PPC operates normally.",
       "isBaseMode": true,
       "AIHitChanceCap": 0.1
     },
     {
       "Id": "FIOFF",
       "UIName": "FIOFF",
+      "Name": "Field Inhibitor OFF",
+      "Description": "Disabled FI removes Minimum Range but has a 50% Chance to Misfire. Mitigated by Jam Reduction.",
       "isBaseMode": false,
       "FlatJammingChance": 0.5,
-      "GunneryJammingMult": 0.075,
-      "GunneryJammingBase": 5,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1,
       "MinRange": -90.0,
       "AccuracyModifier": 0.0,
       "AIHitChanceCap": 0.99,
@@ -131,7 +143,7 @@
       "statisticData": {
         "statName": "LV_ECM_JAMMED",
         "operation": "Int_Add",
-        "modValue": "1",
+        "modValue": "2",
         "modType": "System.Int32"
       }
     }

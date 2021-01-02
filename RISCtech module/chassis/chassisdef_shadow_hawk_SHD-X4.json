@@ -1,17 +1,34 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.14
+    },
+    "AssemblyVariant": {
+      "PrefabID": "shadowhawklam",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_JumpAttack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structure_phoenix_LAM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_Engine_phoenix_LAM",
+      "ComponentDefID": "Gear_Engine_phoenix_LAM",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -31,15 +48,6 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_JumpAttack",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
       "DamageLevel": "Functional"
     },
     {
@@ -65,10 +73,10 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Shadow Hawk",
+    "UIName": "Shadow Hawk LAM",
     "Id": "chassisdef_shadow_hawk_SHD-X4",
-    "Name": "Shadow Hawk",
-    "Details": "Mostly a Museum piece was this Shadow Hawk rebuild on request for a Paladins 'Special Associate', sporting upgrades sourced from basically everywhere is it able to strike unseen basically anywhere at anytime even during Planet wide Engagements.",
+    "Name": "Shadow Hawk LAM",
+    "Details": "Mostly a Museum piece was this Shadow Hawk rebuild on request for a Paladins 'Special Associate', sporting upgrades sourced from basically everywhere is it able to strike unseen basically anywhere at anytime even during Planet wide Engagements.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.14</color></b>",
     "Icon": "ShadowhawkLAM"
   },
   "VariantName": "SHD-X4",

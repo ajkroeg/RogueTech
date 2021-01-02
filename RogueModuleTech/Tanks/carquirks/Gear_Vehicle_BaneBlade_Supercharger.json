@@ -7,7 +7,8 @@
     ],
     "Flags": {
       "flags": [
-        "no_salvage"
+        "no_salvage",
+        "not_broken"
       ]
     },
     "Weights": {
@@ -49,7 +50,7 @@
   "BattleValue": 0,
   "InventorySize": 1,
   "Tonnage": 0,
-  "AllowedLocations": "CenterTorso",
+  "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],

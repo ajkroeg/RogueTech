@@ -11,24 +11,30 @@
       "unit_role_scout",
       "unit_predator",
       "unit_littlefriend",
-      "clansgeneric",
+      "comstar",
+      "WordOfBlake",
+      "steiner",
+      "marik",
+      "kurita",
+      "davion",
+      "liao",
+      "rasalhague",
+      "outworld",
+      "locals",
+      "auriganmercenaries",
+      "EmeraldDawn",
+      "SianTriumphant",
+      "DuchyOfAndurien",
+      "BlackCalderaDefense",
+      "HouseNakano",
+      "BlackCalderaDefense_Hidden",
       "clanwolf",
-      "clanfiremandrill",
-      "clanstaradder",
-      "clancoyote",
       "clanjadefalcon",
-      "clansteelviper",
-      "clanicehellion",
-      "clangoliathscorpion",
       "clandiamondshark",
       "clanhellshorses",
       "clansnowraven",
       "clanghostbear",
-      "clansmokejaguar",
-      "clancloudcobra",
       "clannovacat",
-      "clanburrock",
-      "locals",
       "auriganmercenaries",
       "LocalsBrockwayRefugees",
       "MasonsMarauders",
@@ -40,7 +46,8 @@
       "RedHareRegiment",
       "EdCorbu",
       "SecuritySolutionsInc",
-      "PaladinProtectionLLC"
+      "PaladinProtectionLLC",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -54,7 +61,7 @@
     "UIName": "Dasher DSR-F",
     "Id": "mechdef_dasher_DSR-F",
     "Name": "Dasher DSR-F",
-    "Details": "The F configuration of the Fire Moth is an excellent jungle or urban scout. The 'Mech has an Active Probe to allow it to detect enemy ambushes. For anti-infantry use, the 'Mech has two Anti-Personnel Gauss Rifles and a flamer; three ER Medium Lasers mounted for use against armored targets. ",
+    "Details": "Powered by a 200 rated XL Engine and mounting MASC, the 20 ton Fire Moth is one of the fastest Mechs ever created. Designed for scouting and as an Elemental transport, the Fire Moth entered production in 2874. A combination of Ferro Fibrous and Endo Steel give the Fire Moth 7.5 tons of Pod Space. The Fire Moth F is armed with a trio of ER Medium Lasers and a trio of AP Gauss Rifles. An Active Probe increases the F’s utility as a scout. <b><color=#e62e00>Drop Cost Multiplier: 0.98.</color></b>\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
     "Icon": "uixTxrIcon_dasher"
   },
   "simGameMechPartCost": 303670,
@@ -140,7 +147,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -151,7 +157,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -162,7 +167,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -173,7 +177,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -184,7 +187,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -195,7 +197,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -206,7 +207,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -217,7 +217,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -228,7 +227,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -239,7 +237,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -250,7 +247,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -261,7 +257,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -272,7 +267,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -283,7 +277,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -294,7 +287,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -305,7 +297,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -316,7 +307,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -327,7 +317,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -338,7 +327,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -349,7 +337,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -360,7 +347,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -371,7 +357,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -382,7 +367,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -393,7 +377,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -404,7 +387,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -415,7 +397,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -426,7 +407,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -437,7 +417,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -448,7 +427,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -459,7 +437,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -470,7 +447,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -481,7 +457,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -492,7 +467,6 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -503,7 +477,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -514,7 +487,6 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

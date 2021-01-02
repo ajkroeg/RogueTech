@@ -1,30 +1,29 @@
 {
     "Custom": {
-		"Category": [
-		{
-			"CategoryID": "PositiveQuirk"
-		}],
-		"BonusDescriptions": {
-			"Bonuses": [
+        "Category": [
+            {
+                "CategoryID": "PositiveQuirk"
+            }
+        ],
+        "BonusDescriptions": {
+            "Bonuses": [
                 "PPCCAPHEAT: -5%",
-				"Quirk"
-			]
-		},
-		"InventorySorter": {
-			"SortKey": "00201"
-		},
-		"Flags": {
-		  "flags": [
-			"not_broken",
-			"not_destroyed",
-			"default",
-			"ignore_damage",
-			"no_salvage"
-		  ]
-		},
-		"MechConfiguration" : {
-					
-		}
+                "Quirk"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        },
+        "Flags": {
+            "flags": [
+                "not_broken",
+                "not_destroyed",
+                "default",
+                "ignore_damage",
+                "no_salvage"
+            ]
+        },
+        "MechConfiguration": {}
     },
     "StatName": null,
     "RelativeModifier": 0,
@@ -66,25 +65,57 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "StatusEffect-FCS_AC21",
+                "Id": "StatusEffect-QuirkCoolPPC",
                 "Name": "Cooling Jacket",
                 "Details": "-5% Heat for PPCs.",
                 "Icon": "uixSvgIcon_equipment_TTS"
             },
             "nature": "Buff",
             "statisticData": {
-            "statName": "HeatGenerated",
-            "operation": "Float_Multiply",
-            "modValue": "0.95",
-            "modType": "System.Single",
-			"additionalRules": "NotSet",
-			"targetCollection": "Weapon",
-			"targetWeaponCategory": "NotSet",
-			"targetWeaponType": "PPC",
-			"targetAmmoCategory": "NotSet",
-			"targetWeaponSubType": "NotSet"
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.95",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "PPC",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "PPC"
             }
-        }		
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-QuirkCoolPPCER",
+                "Name": "Cooling Jacket",
+                "Details": "-5% Heat for PPCs.",
+                "Icon": "uixSvgIcon_equipment_TTS"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.95",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "PPC",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "PPCER"
+            }
+        }
     ],
     "ComponentTags": {
         "items": [

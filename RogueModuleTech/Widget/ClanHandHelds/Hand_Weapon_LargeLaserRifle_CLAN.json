@@ -2,6 +2,9 @@
   "Custom": {
     "Category": [
       {
+        "CategoryID": "HandHeldNoArmMelee"
+      },
+      {
         "CategoryID": "HandHeld"
       },
       {
@@ -13,8 +16,12 @@
         "HandHeld: 6",
         "ChemicalLaser",
         "HandHeldAmmo: 20",
+		"AmmoCost: 200",
         "HandHeldArmored"
       ]
+    },
+	"AmmoCost" : {
+      "PerUnitCost" : 200
     },
     "InventorySorter": {
       "SortKey": "02008"
@@ -101,12 +108,16 @@
     {
       "Id": "x1",
       "UIName": "STD",
+	  "Name": "Standard",
+      "Description": "Weapon fires a Standard Shot",
       "isBaseMode": true,
       "AIHitChanceCap": 0.1
     },
     {
       "Id": "x2",
       "UIName": "DMG",
+	  "Name": "Damage",
+      "Description": "Weapon fires a Damaging Double Charged Shot",
       "isBaseMode": false,
 	  "DamagePerShot": 40,
       "AIHitChanceCap": 0.4,
@@ -115,10 +126,12 @@
 	{
       "Id": "x3",
       "UIName": "ER",
+	  "Name": "Standard",
+      "Description": "Weapon fires a Extented Range Shot at higher Ammo Cost",
       "isBaseMode": false,
 	  "MaxRange": 600.0,
       "ShortRange": 150.0,
-      "MiddleRange": 300.0,
+      "MediumRange": 300.0,
       "LongRange": 450.0,
 	  "DistantVariance": 0.55,
   "DistantVarianceReversed": false,

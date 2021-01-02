@@ -3,7 +3,8 @@
     "Category": [
       {
         "CategoryID": "w/e/l/heavy"
-      }
+      },
+	  {"CategoryID": "CritsLaser4"}
     ],
     "ComponentExplosion": {
       "ExplosionDamage": 90,
@@ -18,7 +19,7 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "02009"
+      "SortKey": "02463"
     },
     "Flags": {
       "flags": [
@@ -81,7 +82,7 @@
     "UIName": "Hyper Laser",
     "Id": "Weapon_Laser_HyperLargeLaser",
     "Name": "Hyper Laser",
-    "Details": "The RISC Hyper Laser is a experimental heavy laser derived from the Clan's Improved Heavy Laser family. Hyper Lasers are the ultimate development in the heavy lasers technology, but it was constructed by the RISC engineers, instead of the Clans. Thanks to the pushing the limits in laser shielding and plasma lasing chemistry, the Hyper Laser is a very destructive and extreme range weapon, but the thermal and physical stress of immense scale make this weapon very prone to explosive malfunction. <b><color=#099ff2>VOLATILE!</color></b> \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+    "Details": "The RISC Hyper Laser is a experimental heavy laser derived from the Clan's Improved Heavy Laser family. Hyper Lasers are the ultimate development in the heavy lasers technology, but it was constructed by the RISC engineers, instead of the Clans. Thanks to the pushing the limits in laser shielding and plasma lasing chemistry, the Hyper Laser is a very destructive and extreme range weapon, but the thermal and physical stress of immense scale make this weapon very prone to explosive malfunction. <b><color=#099ff2>VOLATILE!</color></b> ",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
@@ -100,22 +101,26 @@
     {
       "Id": "Std",
       "UIName": "STD",
+	  "Name": "Standard",
+		"Description": "Hyperlaser fires in Standard Mode. 20% Chance to Misfire. Mitigated by Jam Reduction.",
       "isBaseMode": true,
       "FlatJammingChance": 0.2,
       "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0,
+      "GunneryJammingBase": 1,
       "ColorChangeRule": "t0",
       "ColorSpeedChange": 0
     },
     {
       "Id": "Overcharge",
       "UIName": "OC",
+	  "Name": "Overcharge",
+		"Description": "Overcharge the Hyperlaser for Massive Damage. 30% Chance to Misfire. Mitigated by Jam Reduction.",
       "isBaseMode": false,
       "DamagePerShot": 40,
       "HeatGenerated": 30,
       "FlatJammingChance": 0.30,
       "GunneryJammingMult": 0.01,
-      "GunneryJammingBase": 0,
+      "GunneryJammingBase": 1,
       "ColorChangeRule": "t1",
       "ColorSpeedChange": 0
     }

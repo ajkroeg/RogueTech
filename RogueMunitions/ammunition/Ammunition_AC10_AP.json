@@ -1,7 +1,7 @@
 {
    "Description": {
       "Id": "Ammunition_AC10_AP",
-      "Name": "AC/10 Ammo",
+      "Name": "Armor Piercing AC/10 Ammo",
       "UIName": "AP",
       "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
       "Icon": null,
@@ -28,5 +28,8 @@
       }
    ],
    "ColorSpeedChange": 5,
-   "ColorChangeRule": "t0"
+   "ColorChangeRule": "t0",
+   "APArmorShardsMod": 1,
+  "APMaxArmorThickness": 120,
+  "APCriticalChanceMultiplier": 0.3
 }

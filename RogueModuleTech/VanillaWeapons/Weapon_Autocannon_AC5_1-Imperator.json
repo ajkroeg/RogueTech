@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon2"
       }
     ],
     "ComponentExplosion": {
@@ -13,8 +16,8 @@
     "BonusDescriptions": {
       "Bonuses": [
         "ImperatorAC",
-        "WeaponJAMFlat: 5%",
-        "RapidFireAC: 30%",
+        "WeaponJAMFlat: 10%",
+        "RapidFireAC: 15%",
         "DakkaBoom: 45",
         "ModesCanMisfire",
         "IsAC"
@@ -22,6 +25,11 @@
     },
     "InventorySorter": {
       "SortKey": "01002"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -36,7 +44,7 @@
   ],
   "AmmoCategory": "AC5",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 4,
+  "HeatGenerated": 3,
   "Damage": 45,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -55,7 +63,6 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
   "Instability": 11.25,
-  "FlatJammingChance": 0.05,
   "FireTerrainChance": 0.0375,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
@@ -87,20 +94,27 @@
     {
       "Id": "x1",
       "UIName": "STD",
+	  "Name": "Standard",
+      "Description": "AutoCannon fires a single Shot",
       "isBaseMode": true,
-      "AIHitChanceCap": 0.1
+      "AIHitChanceCap": 0.1,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1
     },
     {
       "Id": "x2",
       "UIName": "RF",
+	  "Name": "RapidFire",
+      "Description": "AutoCannon fires 2 Shots with a 15% chance to Misfire. Mitigated by Jam Reduction.",
       "isBaseMode": false,
       "ShotsWhenFired": 1,
       "RefireModifier": 3,
-      "HeatGenerated": 4,
+      "HeatGenerated": 3,
       "AIHitChanceCap": 0.4,
       "DamageOnJamming": true,
-      "FlatJammingChance": 0.3,
-      "GunneryJammingMult": 0.02,
+      "FlatJammingChance": 0.15,
+      "GunneryJammingMult": 0.01,
       "GunneryJammingBase": 1
     }
   ],

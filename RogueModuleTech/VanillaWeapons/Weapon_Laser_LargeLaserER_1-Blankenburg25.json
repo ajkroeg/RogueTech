@@ -11,12 +11,16 @@
         "VariableDmg: 10",
         "ERLaser",
         "IsLaser",
-        "BlankenburgLaser",
-        "LosTech"
+        "BlankenburgLaser"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02009"
+      "SortKey": "02402"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

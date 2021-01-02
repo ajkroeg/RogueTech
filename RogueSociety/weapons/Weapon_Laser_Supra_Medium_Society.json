@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/e/l/heavy"
+      },
+      {
+        "CategoryID": "CritsPPC2"
       }
     ],
     "ComponentExplosion": {
@@ -16,7 +19,12 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "02005"
+      "SortKey": "02444"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",
@@ -69,7 +77,7 @@
     "UIName": "Medium Supra Laser (S)",
     "Id": "Weapon_Laser_Supra_Medium_Society",
     "Name": "Medium Supra Laser (S)",
-    "Details": "Society Scientists working on analyzing the Inner Sphere Bombast Laser found they could marry the principles to the Clan Improved Heavy Laser, allowing a pilot to fire these lasers at variable settings and with an even greater energy output. \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>\n\n <b><color=#3366ff>Damage Mode Deals 33% Increased Damage and Additional 20% Armor Damage at -50% reduced Range, Ranged has +50% Range and +1 Improved Accuracy with -33% reduced Damage</color> </b>",
+    "Details": "Society Scientists working on analyzing the Inner Sphere Bombast Laser found they could marry the principles to the Clan Improved Heavy Laser, allowing a pilot to fire these lasers at variable settings and with an even greater energy output. \n\n <b><color=#3366ff>Damage Mode Deals 33% Increased Damage and Additional 20% Armor Damage at -50% reduced Range, Ranged has +50% Range and +1 Improved Accuracy with -33% reduced Damage</color> </b>",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
@@ -84,7 +92,7 @@
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],
-    "Modes": [
+  "Modes": [
     {
       "Id": "Std",
       "UIName": "STD",
@@ -94,12 +102,12 @@
       "Id": "Rng",
       "UIName": "RNG",
       "isBaseMode": false,
-	  "AccuracyModifier": -1,
+      "AccuracyModifier": -1,
       "DamagePerShot": -14,
       "HeatGenerated": 7,
       "MaxRange": 180.0,
       "ShortRange": 45.0,
-      "MiddleRange": 90.0,
+      "MediumRange": 90.0,
       "LongRange": 135.0,
       "Instability": -2,
       "FireTerrainChance": -0.025
@@ -108,12 +116,12 @@
       "Id": "Dmg",
       "UIName": "DMG",
       "isBaseMode": false,
-	  "ArmorDamageModifier": 1.2,
+      "ArmorDamageModifier": 1.2,
       "DamagePerShot": 14,
       "HeatGenerated": 7,
       "MaxRange": -180.0,
       "ShortRange": -45.0,
-      "MiddleRange": -90.0,
+      "MediumRange": -90.0,
       "LongRange": -135.0,
       "Instability": 4.3,
       "FireTerrainChance": 0.0625

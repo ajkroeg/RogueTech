@@ -2,6 +2,9 @@
   "Custom": {
     "Category": [
       {
+        "CategoryID": "HandHeldNoArmMelee"
+      },
+      {
         "CategoryID": "HandHeld"
       },
       {
@@ -18,8 +21,12 @@
         "AccuracyUnit: Battle Armor",
         "AccuracyUnit2: +10",
 		"HandHeldAmmo: 10",
+		"AmmoCost: 150",
         "HandHeldArmored"
       ]
+    },
+	"AmmoCost" : {
+      "PerUnitCost" : 150
     },
     "InventorySorter": {
       "SortKey": "01414"
@@ -50,7 +57,7 @@
   "AmmoCategory": "MagShot",
   "StartingAmmoCapacity": 10,
   "HeatGenerated": 0,
-  "Damage": 30,
+  "Damage": 15,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -73,9 +80,9 @@
   "IndirectFireCapable": false,
   "RefireModifier": 1,
   "ShotsWhenFired": 1,
-  "ProjectilesPerShot": 4,
+  "ProjectilesPerShot": 5,
   "AttackRecoil": 4,
-  "Instability": 3,
+  "Instability": 1,
   "ProjectileScale": {
     "x": 0.3,
     "y": 0.3,

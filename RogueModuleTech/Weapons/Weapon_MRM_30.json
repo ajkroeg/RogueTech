@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/m/s/mrm"
+      },
+      {
+        "CategoryID": "CritsMRM4"
       }
     ],
     "BonusDescriptions": {
@@ -14,6 +17,11 @@
     },
     "InventorySorter": {
       "SortKey": "03029"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Missile",

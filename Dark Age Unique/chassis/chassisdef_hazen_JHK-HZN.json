@@ -1,5 +1,43 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.23
+    },
+    "AssemblyVariant": {
+      "PrefabID": "jadehawk",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Distracting",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_Actuator_Prototype_JadeTalons",
@@ -19,15 +57,6 @@
       "IsFixed": false,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Distracting",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -39,7 +68,7 @@
     "UIName": "Jade Hawk",
     "Id": "chassisdef_hazen_JHK-HZN",
     "Name": "Jade Hawk",
-    "Details": "Malvina Hazen was part of the group assigned to designing the Jadehawk , while the khan was a galaxy commander one she shared an especially close bond with Khan Hazen. This mech was her last gift to her brother.",
+    "Details": "Malvina Hazen was part of the group assigned to designing the Jadehawk, while the Khan was a galaxy commander one she shared an especially close bond with Khan Hazen. This mech was her last gift to her brother.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.23</color></b>",
     "Icon": "uixTxrIcon_jadehawk"
   },
   "VariantName": "JHK-HZN",
@@ -59,7 +88,7 @@
   "PrefabIdentifier": "chrPrfMech_spiderBase-001",
   "PrefabBase": "spider",
   "Tonnage": 75,
-  "InitialTonnage": 3.31,
+  "InitialTonnage": 7.5,
   "weightClass": "HEAVY",
   "BattleValue": 9124000,
   "Heatsinks": 0,

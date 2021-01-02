@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.19
+    },
+    "AssemblyVariant": {
+      "PrefabID": "direwolf",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Targeting_Long",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -22,17 +37,15 @@
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -40,8 +53,7 @@
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -49,8 +61,7 @@
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -58,17 +69,7 @@
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Targeting_Long",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -81,7 +82,7 @@
     "UIName": "Dire Wolf",
     "Id": "chassisdef_dire_wolf_DW-X",
     "Name": "Dire Wolf",
-    "Details": "This variant carries a Targeting Computer to guide the fire of a Large Pulse Laser, Heavy Medium Laser, twin ER Micro Lasers, an Ultra AC/10 and the solid shot of an LB 5-X autocannon. To provide missile support, the Daishi X carries an ATM 6 with a ton of each ammunition type, a head mounted Streak SRM-2, and an SRM-4 and LRM-15. The SRM-4 and LRM-15 are each equipped with an Artemis IV FCS.",
+    "Details": "This variant carries a Targeting Computer to guide the fire of a Large Pulse Laser, Heavy Medium Laser, twin ER Micro Lasers, an Ultra AC/10 and the solid shot of an LB 5-X autocannon. To provide missile support, the Daishi X carries an ATM 6 with a ton of each ammunition type, a head mounted Streak SRM-2, and an SRM-4 and LRM-15. The SRM-4 and LRM-15 are each equipped with an Artemis IV FCS.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.19</color></b>",
     "Icon": "Direwolf1"
   },
   "VariantName": "DW-X",
@@ -146,7 +147,7 @@
       "InventorySlots": 6,
       "MaxArmor": 45,
       "MaxRearArmor": -1,
-      "InternalStructure": 26
+      "InternalStructure": 16
     },
     {
       "Location": "LeftArm",
@@ -170,9 +171,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 200,
+      "MaxArmor": 170,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 85
     },
     {
       "Location": "LeftTorso",
@@ -196,9 +197,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 240,
-      "MaxRearArmor": 115,
-      "InternalStructure": 125
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "CenterTorso",
@@ -238,9 +239,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 340,
-      "MaxRearArmor": 165,
-      "InternalStructure": 175
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",
@@ -264,9 +265,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 240,
-      "MaxRearArmor": 115,
-      "InternalStructure": 125
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "RightArm",
@@ -290,27 +291,27 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 200,
+      "MaxArmor": 170,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 85
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 240,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 135
+      "InternalStructure": 105
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 240,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 135
+      "InternalStructure": 105
     }
   ],
   "LOSSourcePositions": [

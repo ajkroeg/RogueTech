@@ -1,5 +1,25 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.16
+    },
+    "AssemblyVariant": {
+      "PrefabID": "grimdark",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Myomer_TSM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_PrimaryCPU",
@@ -37,20 +57,30 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Actuator_Large_Vibrosword",
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_Actuator_Prototype_JadeTalons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_Actuator_Prototype_JadeTalons",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Myomer_TSM",
+      "ComponentDefID": "Gear_Actuator_Large_Vibrosword",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "SimGameUID": "",
-      "IsFixed": false,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -72,7 +102,7 @@
     "UIName": "Bestial AutoMech",
     "Id": "chassisdef_grimdark",
     "Name": "Bestial AutoMech",
-    "Details": "Classified",
+    "Details": "Classified\n\n<b><color=#e62e00>Quirk: TSM</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_grimdark"
   },
   "VariantName": "GRD",

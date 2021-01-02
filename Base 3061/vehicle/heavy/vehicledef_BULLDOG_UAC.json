@@ -11,6 +11,7 @@
       "unit_advanced",
       "unit_bracket_med",
       "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "steiner",
@@ -74,41 +75,43 @@
       "Faction_Neutral",
       "Faction_Employer",
       "Faction_Target",
-      "Faction_TargetsAlly"
+      "Faction_TargetsAlly",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_BULLDOG_UAC",
   "Description": {
+    "Cost": 3425608,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Bulldog (UAC)",
     "Id": "vehicledef_BULLDOG_UAC",
     "Name": "Bulldog (UAC)",
-    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Trading speed or weapons for armor, the Heavy Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
-    "Icon": "Bulldog",
-    "Cost": 3705600,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Trading speed or weapons for armor, the Heavy Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       207     30\n<b>Left</b>         154     30\n<b>Right</b>       154     30\n<b>Rear</b>        125     30\n<b>Turret</b>      160     30\n\n<b>Total</b>      800    150\n",
+    "Icon": "Bulldog"
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 185,
+      "CurrentArmor": 207,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 185,
+      "AssignedArmor": 207,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 150,
+      "CurrentArmor": 154,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 150,
+      "AssignedArmor": 154,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 150,
+      "CurrentArmor": 154,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 150,
+      "AssignedArmor": 154,
       "DamageLevel": "Functional"
     },
     {
@@ -120,9 +123,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 150,
+      "CurrentArmor": 160,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 150,
+      "AssignedArmor": 160,
       "DamageLevel": "Functional"
     }
   ],
@@ -260,7 +263,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_engine_240",
+      "ComponentDefID": "Gear_Engine_240",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

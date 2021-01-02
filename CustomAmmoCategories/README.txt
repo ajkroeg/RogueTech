@@ -15,7 +15,7 @@ WARNING! This version of CAC can be used only with ModTek 0.7.6.5+ cause it util
 click on right side of HUD weapon slot to switch mode (near hit chance)
 click on center of HUD weapon slot to switch ammo (near ammo count)
 ctrl+left click on weapon slot will eject current ammo 
-ctrl+T will toggle attack direction marks visibility (circles under meches feets)
+ctrl+T will toggle attack direction marks visibility (circles under mechs feets)
 NOTE: ammo can't be ejected if mech moved this round
      after ejection mech can't jump and sprint until end of round
     
@@ -37,6 +37,15 @@ CACIncomingStabilityMult - float - multipicator for all incoming stability (weap
 
 {
 "debugLog":true, - enable debug log 
+"ShowEvasiveAsNumber": true, - if true near evasive pips bar its amount will be showed as number
+"EvasiveNumberFontSize" : 24 - font size for evasive pips count
+"EvasiveNumberWidth": 25 - size of background for evasive pips count. You should adjust this if changed font size. 
+"EvasiveNumberHeight": 20
+"ResetHeatSinkMessageTemplate":"USED HEAT SINKS:{0}=>{1}", - template for reset used heatsinks message
+"ApplyHeatSinkMessageTemplate":"APPLY HEAT SINKS:{0}=>{1} HCAP:{1} USED:{2}=>{3}", - template for allied heatsinks message
+"ApplyHeatSinkActorStat":"CACOverrallHeatSinked", - actor's stat name for overall heat sinked during battle
+"OverrallShootsCountWeaponStat": "CACOverallShoots" - actor's stat name for overall shoots from weapon during battle
+"AmmoGenericBoxUINameAsName": true - if true for fake ammo box UIName needed to buy ammo without box Name of ammunition will be used rather than UIName.
 "modHTTPServer":false, - enable debug http server
 "modHTTPListen":"http://localhost:65080/" - debug http server url, if enabled
 "forbiddenRangeEnable:true, - enable or disable forbidden range mechanic, if false ForbiddenRange always counts as 0 
@@ -53,7 +62,7 @@ CACIncomingStabilityMult - float - multipicator for all incoming stability (weap
 "BurningForestDesignMask":"DesignMaskBurningForest", - design mask for burning forest
 "BurnedForestDesignMask":"DesignMaskBurnedForest",  - design mask for burned forest
 "BurningTerrainDesignMask":"DesignMaskBurningTerrain" - design mask for burning terrain
-"BurningForestCellRadius":3, - size of hex cell in grid used for terrain effects supported values 3,4 (you should not change this until you know what doing)
+"BurningForestCellRadius":3, - obsolete. You should avoid change this value
 "BurningForestTurns":3, - rounds forest on fire
 "AdditinalAssets": ["nuked"], - additional assets for VFX to load on init
 "BurningForestStrength":30, - heat damage for burning forest
@@ -175,8 +184,8 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "ShutdownHeatChance":25,
   "UseHBSMercySetting":true
 },
-"AdvancedCirtProcessing":true, - if false vanilla crit processing used. Eg only meches, crit to can inflicted to empty slot. 
-                                If true crit to occupied slots and to meches, vehicles and turrets. 
+"AdvancedCirtProcessing":true, - if false vanilla crit processing used. Eg only mechs, crit to can inflicted to empty slot. 
+                                If true crit to occupied slots and to mechs, vehicles and turrets. 
 "APMinCritChance": 0.1, - Minimal crit chance on AP processing.
                           Basics: 
                             advanced crit calculations:
@@ -248,11 +257,11 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
 "NullifyDestoryedLocationDamage": true - if true damage to destroyed locations will be nullified 
 "DestoryedLocationCriticalAllow": true - if false and on hit locations had 0 structure criticals will not be rolled 
 "uiIcons": [ "weapon_up", "weapon_down" ] - some prewarm icons 
-  "WeaponPanelBackWidthScale": 1.1,   - width scale for weapon panel background
-  "OrderButtonWidthScale": 0.5,   - width scale for order switch buttons
-  "OrderButtonPaddingScale": 0.3,
-  "SidePanelInfoSelfExternal": false, - if true info side panel panel content about selected unit is controlled by external mod
-  "SidePanelInfoTargetExternal": true - if true info side panel panel content about selected target is controlled by external mod
+  "WeaponPanelBackWidthScale": 1.45, - !!you should avoid change this value!!
+  "OrderButtonWidthScale": 0.5, - obsolete 
+  "OrderButtonPaddingScale": 0.3, - obsolete 
+  "SidePanelInfoSelfExternal": false, - if true info side panel content about selected unit is controlled by external mod
+  "SidePanelInfoTargetExternal": true - if true info side panel content about selected target is controlled by external mod
   there two methods in API 
     CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetSelfInfo(AbstractActor actor, Text text) 
     CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetTargetInfo(AbstractActor actor,ICombatant target, Text text)
@@ -261,8 +270,8 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"], - if mech chassis have this tag incoming heat damage from attacks, land mines, burning terrain, components explosions transferred to normal damage instead.
   "InfoPanelDefaultState": false, - if true side info panel is shown by default
   "AttackLogWrite": false - if true csv attack log will be created in CustomAmmoCatogories/AttacksLogs
-  "ShowAttackGroundButton": false - if false no attack ground button will be shown,
-  "ShowWeaponOrderButtons": false - if false no weapon order buttons will be shown
+  "ShowAttackGroundButton": false - obsolete, attack ground button showing always
+  "ShowWeaponOrderButtons": false - obsolete, order buttons showing always
   "ToHitSelfJumped":2, - from AIM
   "ToHitMechFromFront":0, - from AIM
   "ToHitMechFromSide":-1, - from AIM
@@ -271,30 +280,14 @@ NOTE: Current values is my own vision of flame mechanics process, adjust them fo
   "ToHitVehicleFromSide":-1, - from AIM
   "ToHitVehicleFromRear":-2, - from AIM
   "WeaponPanelWidthScale":0.7, - scale for weapon panel
-  "WeaponPanelHeightScale":0.7 - scale for weapon panel
+  "WeaponPanelHeightScale":0.7, - scale for weapon panel
+  "MinefieldDetectorStatName": "MinefieldDetection", - stat name for actor's landmines detection level (float). Default value 1.
+  "MinefieldIFFStatName": "MinefieldIFF", - stat name for actor landmines IFF ability (float). Default value 0. 
+  "AmmoNameInSidePanel": true - if true in side panel AmmunitionDef.Name will be shown instead of AmmunitionDef.UIName
+  "ShowApplyHeatSinkMessage": true - show floatie message on heatsinks appying.
+  "AMSCantFireFloatie": false, - if true if AMS can't fire reason will be shown in floatie message
+  "ShowJammChance": true - if true side panel will show jam chance calculation formula
 }
-
-now CustomAmmoCategories.dll searching CustomAmmoCategories.json in every subfolder of Mods folder. 
-CustomAmmoCategories.json
-[
-{
-	"Id":"LGAUSS", - new ammo category name, precessed for WeaponDef.AmmoCategory and AmmunitionDef.Category fields, using it in other AmmoCategory field will lead load error
-	"BaseCategory":"GAUSS" - base category name. Must bt in (AC2/AC5/AC10/AC20/GAUSS/Flamer/AMS/MG/SRM/LRM), 
-	                         needed for backward compatibility. 
-							 All other game mechanic (for example status effect targeting), except ammo count in battle and mech validator in mech lab will use this value.
-							 !Flamer - is base category for energy ammo (plasma, chemical lasers etc)
-},
-]
-
-KMiSSioNToday at 20:33
-yes. For example mech have 100 armor from 200 and full structure. Min crit chance 0.1. Weapon have APArmorShardsMod = 0.5 and APMaxArmorThickness = 150. APCritChance = 0.5
-shard mod = 1 + (1 - 100/200) = 1.5 
-thickness mod = 1 - 100/150 = 0.33333(3)
-overall chance  = 0.1 (base minimal) * 1.5 (shards) * 0.33333 (thickness) * 0.5 (AP chance) = 0.025
-while armor become lower both shard mod and thickness mod will rise
- 
-LadyAlektoToday at 20:35
-so thickness defines the strength something can easily punch through, while shards defines how likely the hit causes spall to cause damage
 
 Weapon definition
 new fields
@@ -303,7 +296,7 @@ new fields
                         - min and max raduis. Used only in ground attack and indirect attack. Additive for ammo/mode/weapon
 						  If MinMissRadius less than target raduis (for mechs in chassis definition, for vehicels and turrets 5) raduis value will be used.
 						  If MaxMissRadius less or equal than MinMissRadius value MinMissRadius * 3 will be used.
-						  actual scatter radius = ((MaxMissRadius - MinMissRadius) * (hitRoll - toHitChance) / (1 - toHitChance) + MinMissRadius) * Random.Range(Constants.ResolutionConstants.MissOffsetHorizontalMin, Constants.ResolutionConstants.MissOffsetHorizontalMax)
+						  actual scatter radius = ((MaxMissRadius - MinMissRadius) * (hitRoll - toHitChance) / (1 - toHitChance) + MinMissRadius)
   "evasivePipsMods": {  - list of modifiers for values by current evasive pips count. Additive per weapon/ammo/mode. 
                           Overall formula value = [base value] * ([evasive pips count]^[mod value]). Example base damage = 35, evasive pips count = 7, mod value = -1
                           damage = 35 * (7^-1) = 35 * 0.142857(142857) = 5.
@@ -528,9 +521,9 @@ new fields
   "AOECapable" : false, - if true weapon will included in AOE damage calculations. If true set in weapon definition 
                             all shoots will have AoE effect (even for energy weapon). If true, it can't be overridden by ammo.
   "AOERange": 100, - Area of effect range. If AOECapable in weapon is set to true this value will be used. If AOECapable is true, it can't be overridden by ammo.
-  "AOEDamage": 0 - AoE damage. 
-  "AOEHeatDamage": 0 - AoE heat. 
-  "AOEInstability": 0 - instability AoE damage 
+  "AOEDamage": 0 - AoE damage. Same rules as for AOERange
+  "AOEHeatDamage": 0 - AoE heat. Same rules as for AOERange 
+  "AOEInstability": 0 - instability AoE damage. Same rules as for AOERange 
   "SpreadRange": 0, - Area of projectiles spread effect. If > 0 projectiles will include in spread calculations. Per weapon, ammo, mode values are additive.
                          if used for missiles, and target have AMS it will fire no matter if it is not advanced and target is not primary.
   "IFFDef" : "IFFComponentDefId", if not empty and target have component with such defId it will exclude form AoE and spread targets list. 
@@ -599,6 +592,8 @@ new fields
 	[{
 		"Id": "x4",  - Must be unique per weapon
 		"UIName": "x4", - This string will be displayed near weapon name
+		"Name": "x4", - This string will be displayed in side panel. If absent UIName used.
+		"Description":"", - This string will be displayed in side panel if this mode is selected.
     "APDamage": 10, - damage amount always inflicted to inner structure trough armor. If armor breached this damage will be added to normal damage. Additive per mode/ammo/weapon, default 0.
     "APCriticalChanceMultiplier": 0.5, - armor pierce crit chance multiplier. Additive per mode/ammo/weapon, default 0.
                                     NOTE: if effective APDamage > 0 crit roll is placed anyway. But if even if APDamage = 0 and APCriticalChanceMultiplier is set per mode ammo or weapon crit will be placed on each hit without damage to inner structure (like AP autocannon ammo). So weapon can inflict AP damage + AP crit or AP crit alone.
@@ -755,7 +750,7 @@ new fields
     "MaxheatLevel":{"Low":0.3,"High":0.5}, - lock by heat relative to maximum heat. If current heat level is less Low or greater High, mode using will be forbidden.
                                              NOTE! If two or more lock options defined check logic will be: at first checked HeatLevel(if available) if pass 
                                              check OverheatLevel(if available) if pass check (MaxheatLevel is available) if all available options pass mode is allowed. 
-                                             NOTE! Heat level have sense only for meches, for vehicles and turrets check is always passed. 
+                                             NOTE! Heat level have sense only for mechs, for vehicles and turrets check is always passed. 
                                              NOTE! If all modes fail check weapon will be disabled.
   }
 	}]
@@ -763,6 +758,13 @@ new fields
   
 Ammo definition
 {
+   "Custom" : {} - custom section on ammunition will be merged to all boxes definitions using this ammo. 
+   "AutoRefill": "Automatic" - how this ammunition will be refilled after battle. Available values
+							  "Automatic" - same behavior as before. Default
+							  "Shop" - ammo will be bought automatically if available in system store and player have sufficient c-bills amount
+							  "Manual" - player have to buy ammo by himself
+							  NOTE! "Shop" and "Manual" is not recommended to use at current development stage
+   "AvailableOnPlanet": [], - tags list planet should have to ammo (without boxes) can be bought.
    "HideIfOnlyVariant": true, - if true this ammo name will be hidden if only variant for this mode. Default false.
    "Description" : {
       "Id" : "Ammunition_LBX10ECM",
@@ -848,7 +850,7 @@ Ammo definition
                          if this weapon is missile launcher this value shows how difficult to intercept missile with AMS. Negative value - is harder, 
 						 positive is easer.
    "AlwaysIndirectVisuals": false, if true missiles will always plays indirect visuals, even if direct line of sight exists
-   "HeatGeneratedModifier" : 1,
+   "HeatGeneratedModifier" : 1, - heat generated modifier multiplicative for ammo/mode default 1
    "ArmorDamageModifier" : 1,
    "ISDamageModifier" : 1,
    "CriticalDamageModifier" : 1,
@@ -921,15 +923,30 @@ Ammo definition
 					if mode unguided is false or not set i'm looking at weapon. 
 					if weapon unguided is true launch will be unguided if not set or false launch will be guided
    "MineField":{
-      "InstallCellRange": 0, - radius in in-game cells to install minefield. On impact each hex cell containing at least one map cell with in radius will have minefield installed
-                                0 - means only hex containing cell where impact occurs (hex size controlling by BurningForestCellRadius setting)
+      "UIName": "cool landmine", - UI name. It is good idea to fill this field
+	  "stealthLevel": 1, - Inital landmine stealth level. If effective stealth level is 1 landmine is visible on map but its type and damage marked as unknown
+	                       If effective stealth level <= 0 landmine is visible and its info and type is showed in side panel.
+						   If effective stealth level > 1 landmine is fully invisible.
+						   effective stealth level = inital stealth level - team's landmines detection level for current hex.
+						   Landmines detection level is highest <MinefieldDetectorStatName> value form team's actors (and team's allies) 
+						   which basic sensors (from CAE) cover this current hex. 
+						   Default inital landmine stealth level is 1.
+	  "IFFLevel": 1, - Inital IFF level. If effective IFFLevel > 0 landmine will not explode if triggered by creator's team member or its ally and for creator and its allies 
+	                   effective stealth level is always 0. If landmine with IFFLevel > 0 is triggered by enemy and its <MinefieldIFFStatName> > landmine effective IFFLevel
+					   landmine will not explode. If landmine IFFLevel = 0 it is hostile to all. 
+	  "burnReaction": "None" - How landmine reacts on hex burn.
+	                           "None" - nothing happens. Default
+							   "Destroy" - minefield vanished 
+							   "LooseElectronic" - stealth level becomes 1, IFFlevel becomes 0
+	  "InstallCellRange": 0, - radius in in-game cells to install minefield. On impact each hex cell containing at least one map cell with in radius will have minefield installed
+                                0 - means only hex containing cell where impact occurs
       "Count": 1, - count of land mines in each affected hex
       "Heat": 10, - heat damage by each landmine
       "Chance": 0.8, - chance of explosion 
       "Damage": 100, - normal damage on explosion 
       "AOEDamage" : 100, - area of effect damage
       "AOERange" : 90, - area of effect range 
-      "AOEHeat" : 40, - area of effect heat damage (for non meches added to AOEDamage)
+      "AOEHeat" : 40, - area of effect heat damage (for non mechs added to AOEDamage)
       "AOEInstability": 0, - AoE stability damage
       "VFXprefab": "WFX_Nuke", - visual effect played on landmine explosion
       "VFXMinDistance": 30, - minimal distance between landmine explosion visual effects (to control its count if there are many explosions to not overwhelm GPU). Min value 20
@@ -1073,7 +1090,7 @@ Ammo definition
 								   		  "name" - audio event name 
 										  "none" - none additional sound for this type name doesn't matter
 							 may be set per ammo, mode and weapon. Mode have priority than ammo than weapon
-   "ChassisTagsAccuracyModifiers":{ - Accuracy for mods tags (Meches - MechTags, Vehicles - VehicleTags, Turrets - turret tags) AIM aware
+   "ChassisTagsAccuracyModifiers":{ - Accuracy for mods tags (mechs - MechTags, Vehicles - VehicleTags, Turrets - turret tags) AIM aware
       "unit_assault":-10,
       "unit_mech":10,
    },
@@ -1131,6 +1148,26 @@ Ammo definition
         }
     ]
 }
+
+Note:
+ MinMissRadius,MaxMissRadius,AMSDamage,MissileHealth have special processing
+ For this values weapon have statistic values "CAC_<name>" and "CAC_<name>_Mod" (eg CAC_MinMissRadius and CAC_MinMissRadius_Mod etc)
+ Effective value formula value = (<value from ammo> + <value from mode> + <CAC_<name> statistic value>) * (<CAC_MinMissRadius_Mod statistic value>)
+ For CAC_<name> default value is from definition, for CAC_<name>_Mod is 1.0
+
+Note on damage modifiers
+you can register your own modifier via API
+	void CustAmmoCategories.DamageModifiersCache.RegisterExternalModes(string id, - id should be unique
+		Func<Weapon, string> nameDelegate,                                    - delegate not get name of your modifier base on weapon and you internal weapon's state
+																					  if you return string.Empty or null next delegates will not be invoked
+		Func<Weapon,float> damageDelegate,                                     - delegate for damage. Function should return multiplier
+		Func<Weapon, float> apDelegate,                                       - delegate for AP damage. Function should return multiplier
+		Func<Weapon, float> heatDelegate,                                     - delegate for heat. Function should return multiplier
+		Func<Weapon, float> stabilityDelegate                                 - delegate for stability. Function should return multiplier
+	)
+if your internal state for weapon has bee changed you should invoke 
+	void CustAmmoCategories.DamageModifiersCache.ClearDamageCache(this Weapon weapon) to clear damage calculations cache for weapon. 
+    Invoking weapon panel slots refreshing is also your responsibility and should be performed after cache reseting
 
 Note on toHit modifiers
 CustAmmoCategories.ToHitModifiersHelper.registerModifier(

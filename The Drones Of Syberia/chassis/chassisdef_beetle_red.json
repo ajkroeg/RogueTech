@@ -1,5 +1,25 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 0.96
+    },
+    "AssemblyVariant": {
+      "PrefabID": "beetledrone",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structure_wheeled_conversiongear",
@@ -36,16 +56,6 @@
       "SimGameUID": "",
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "IsFixed": false,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -57,7 +67,7 @@
     "UIName": "AutoMech",
     "Id": "chassisdef_beetle_red",
     "Name": "AutoMech",
-    "Details": "The more luxurious drone from Syberian Drone Works, It has what appears to be a XL engine and upgraded armor and firepower.",
+    "Details": "The more luxurious drone from Syberian Drone Works, It has what appears to be a XL engine and upgraded armor and firepower.\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96</color></b>",
     "Icon": "BeetleRed"
   },
   "VariantName": "Bee-17989",

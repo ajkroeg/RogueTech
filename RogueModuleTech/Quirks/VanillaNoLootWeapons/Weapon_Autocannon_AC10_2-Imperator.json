@@ -12,7 +12,7 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "ImperatorAC+",
+        "ImperatorAC",
         "RapidFireAC: 30%",
         "DakkaBoom: 60",
         "IsAC"
@@ -20,6 +20,11 @@
     },
     "InventorySorter": {
       "SortKey": "01003"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",

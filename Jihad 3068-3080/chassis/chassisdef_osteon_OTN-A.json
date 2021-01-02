@@ -4,9 +4,27 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
+    },
+    "DropCostFactor": {
+      "DropModifier": 1.18
+    },
+    "AssemblyVariant": {
+      "PrefabID": "osteon",
+      "Exclude": false,
+      "Include": true
     }
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_MultiTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_clanferrolamellor",
@@ -14,8 +32,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -25,8 +42,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -36,8 +52,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -47,7 +62,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -58,19 +72,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_MultiTrack",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": null,
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -80,8 +82,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -91,19 +92,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_315",
+      "ComponentDefID": "Gear_Engine_315",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -113,8 +112,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -124,8 +122,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -135,8 +132,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -149,8 +145,8 @@
     "UIName": "Osteon",
     "Id": "chassisdef_osteon_OTN-A",
     "Name": "Osteon",
-    "Details": "The Osteon-A uses a trio of Mech Mortar/8s to lay down suppressing fire against conventional infantry, Battle Armor, ProtoMechs, and other light 'Mechs. Six tons of mortar ammunition provide an ample supply for a battle, but the lack of CASE or CASE II protection may concern some warriors. To augment this long range power, the 'Mech carries a single ER Large Laser in the left torso. For close in work, the Osteon-A carries a Medium Pulse Laser in the right torso, and each arm carries a pair of Improved Heavy Medium Lasers. To dissipate the additional heat from these weapons, the 'Mech carries a total of fourteen Double Heat Sinks.",
-    "Icon": "uixTxrIcon_marauderiic"
+    "Details": "The Osteon-A uses a trio of Mech Mortar/8s to lay down suppressing fire against conventional infantry, Battle Armor, ProtoMechs, and other light 'Mechs. Six tons of mortar ammunition provide an ample supply for a battle, but the lack of CASE or CASE II protection may concern some warriors. To augment this long range power, the 'Mech carries a single ER Large Laser in the left torso. For close in work, the Osteon-A carries a Medium Pulse Laser in the right torso, and each arm carries a pair of Improved Heavy Medium Lasers. To dissipate the additional heat from these weapons, the 'Mech carries a total of fourteen Double Heat Sinks.\n\n<b><color=#e62e00>Quirk: Multi Trac</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+    "Icon": "Osteon"
   },
   "VariantName": "OTN-A",
   "ChassisTags": {

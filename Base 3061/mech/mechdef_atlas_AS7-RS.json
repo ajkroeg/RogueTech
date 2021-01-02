@@ -20,6 +20,7 @@
       "Faction_Employer",
       "Faction_Target",
       "Faction_TargetsAlly",
+      "Republic",
       "comstar",
       "steiner",
       "davion",
@@ -68,7 +69,8 @@
       "SelfEmployed_Yang",
       "SecuritySolutionsInc",
       "PaladinProtectionLLC",
-      "HouseKhulan"
+      "HouseKhulan",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -82,7 +84,7 @@
     "UIName": "Atlas AS7-RS",
     "Id": "mechdef_atlas_AS7-RS",
     "Name": "Atlas AS7-RS",
-    "Details": "A Succession Wars era attempt at recreating the Atlas II's loadout, the AS7-RS downgrades the AutoCannon, LRMs and SRMs while trading out the Medium Lasers for a pair of arm mounted Large Lasers.",
+    "Details": "A Succession Wars era attempt at recreating the Atlas II's loadout, the AS7-RS downgrades the AutoCannon, LRMs and SRMs while trading out the Medium Lasers for a pair of arm mounted Large Lasers.\n\n<b><color=#e62e00>Quirk: Battle Fists</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 524048,
@@ -119,7 +121,7 @@
       "Location": "CenterTorso",
       "CurrentArmor": 235,
       "CurrentRearArmor": 70,
-      "CurrentInternalStructure": 160,
+      "CurrentInternalStructure": 155,
       "AssignedArmor": 235,
       "AssignedRearArmor": 70,
       "DamageLevel": "Functional"
@@ -196,7 +198,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,

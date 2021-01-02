@@ -4,6 +4,14 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.16
+    },
+    "AssemblyVariant": {
+      "PrefabID": "jagermech",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -12,8 +20,7 @@
       "ComponentDefID": "Special_Anti_Air_Targeting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -26,7 +33,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermech_JM7-F",
     "Name": "JagerMech",
-    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5, providing ranged fire support only surpassed by Assault class Battlemechs.",
+    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5, providing ranged fire support only surpassed by Assault class Battlemechs.\n\n<b><color=#e62e00>Quirk: Anti-Air Targeting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "VariantName": "JM7-F",
@@ -97,9 +104,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 100,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 50
+      "InternalStructure": 55
     },
     {
       "Location": "LeftTorso",
@@ -137,9 +144,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
     },
     {
       "Location": "RightTorso",
@@ -169,9 +176,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 100,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 50
+      "InternalStructure": 55
     },
     {
       "Location": "LeftLeg",

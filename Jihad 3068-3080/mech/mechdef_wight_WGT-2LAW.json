@@ -10,6 +10,7 @@
       "unit_advanced",
       "unit_bracket_high",
       "unit_jumpOK",
+      "Republic",
       "kurita"
     ],
     "tagSetSourceFile": ""
@@ -24,8 +25,8 @@
     "UIName": "Wight WGT-2LAW",
     "Id": "mechdef_wight_WGT-2LAW",
     "Name": "Wight WGT-2LAW",
-    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.",
-    "Icon": "uixTxrIcon_panther"
+    "Details": "Developed as much to replace units lost as to prove the enduring industrial strength of the Draconis Combine, the Wight is a daring and innovative Mech design.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
+    "Icon": "Wight"
   },
   "simGameMechPartCost": 132451,
   "Version": 1,
@@ -138,7 +139,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_175",
+      "ComponentDefID": "Gear_Engine_175",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -320,7 +321,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
+      "ComponentDefID": "Weapon_PPC_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,

@@ -5,6 +5,9 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.11
+    },
     "AssemblyVariant": {
       "PrefabID": "DragonX",
       "Exclude": false,
@@ -13,6 +16,14 @@
     "ChassisDefaults": []
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Stable",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_endosteel",
@@ -31,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_260",
+      "ComponentDefID": "Gear_Engine_260",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -60,14 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Stable",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -79,7 +82,7 @@
     "UIName": "Dragon",
     "Id": "chassisdef_dragon_x_DRX-O",
     "Name": "Dragon",
-    "Details": "Designed and produced in limited numbers by Luthien Armor Works, the DRX Dragon II Omni is a sidegrade of what would later become the DRK-11K.",
+    "Details": "Designed and produced in limited numbers by Luthien Armor Works, the DRX Dragon II Omni is a sidegrade of what would later become the DRK-11K.\n\n<b><color=#e62e00>Quirk: Stable</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>",
     "Icon": "GrandDragon"
   },
   "VariantName": "DRX-O",

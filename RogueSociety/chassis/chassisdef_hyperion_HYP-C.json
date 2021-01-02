@@ -1,12 +1,30 @@
 {
   "Custom": {
     "ArmActuatorSupport": {
-      "RightLimit": "Lower",
-      "LeftLimit": "Lower"
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+    },
+    "DropCostFactor": {
+      "DropModifier": 1.41
+    },
+    "AssemblyVariant": {
+      "PrefabID": "hyperion",
+      "Exclude": false,
+      "Include": true
     },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Distracting",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
@@ -14,8 +32,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -25,19 +42,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_375",
+      "ComponentDefID": "Gear_Engine_375",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -47,8 +62,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -58,8 +72,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -69,19 +82,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Distracting",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -94,7 +95,7 @@
     "UIName": "Hyperion",
     "Id": "chassisdef_hyperion_HYP-C",
     "Name": "Hyperion",
-    "Details": "",
+    "Details": "null\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.41</color></b>",
     "Icon": "Leviathan"
   },
   "VariantName": "HYP-C",

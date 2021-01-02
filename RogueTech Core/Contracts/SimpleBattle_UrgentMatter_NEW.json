@@ -1,34 +1,8 @@
 {
     "ID": "SimpleBattle_UrgentMatter_NEW",
-    "RandomSpawns": {
-        "Enable": true
-    },
-    "HotDropProtection": {
-        "Enable": false
-    },
-    "AdditionalLances": {
-        "Enable": false,
-        "EnemyLanceCount": 2,
-        "AllyLanceCount": 1
-    },
-    "ExtendedLances": {
-        "Enable": true,
-        "EnemyLanceSize": 6,
-        "AllyLanceSize": 5
-    },
-    "ExtendedBoundaries": {
-        "Enable": true,
-        "IncreaseBoundarySizeByPercentage": 0.5
-    },
-    "DynamicWithdraw": {
-        "Enable": false
-    },
-    "AdditionalPlayerMechs": {
-        "Enable": false
-    },
-    "contractName": "Urgent Matter - (Test 1)",
+    "contractName": "An Urgent Matter",
     "contractDisplayStyle": "BaseCampaignNormal",
-    "difficulty": 2,
+    "difficulty": 5,
     "difficultyUIModifier": 0,
     "weight": 100,
     "scope": "STANDARD",
@@ -37,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "This contract will self destruct in 10 days. Maybe.",
-    "longDescription": "This is a mechanics test for contract expiration and drop limits.",
+    "shortDescription": "We have an extremely time sensitive mission for you. The remains of an enemy company are preparing to extract. Strike fast and hit them before they escape.",
+    "longDescription": "We've only got time to load one Leopard, but we know the enemy force will be small as well.",
     "salvagePotential": 16,
     "requirementList": [
         {
@@ -53,13 +27,20 @@
                 ],
                 "tagSetSourceFile": ""
             },
-            "RequirementComparisons": []
+            "RequirementComparisons": [
+                {
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 0,
+                    "valueConstant": null
+                }
+            ]
         }
     ],
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 4,
+    "maxNumberOfPlayerUnits": 6,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": 400,
     "mechMinTonnages": [
@@ -125,7 +106,7 @@
             "encounterChunk": {
                 "EncounterObjectGuid": "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract": false,
+            "enableChunkFromContract": true,
             "controlledByContractChunkGroupList": [],
             "requirementList": []
         }
@@ -294,8 +275,8 @@
     "contractRewardOverride": -1,
     "travelOnly": false,
     "useTravelCostPenalty": false,
-    "usesExpiration": true,
-    "expirationTimeOverride": 10,
+    "usesExpiration": false,
+    "expirationTimeOverride": -1,
     "negotiatedSalary": 1,
     "negotiatedSalvage": 0,
     "excludedFromProceduralGeneration": false,
@@ -336,7 +317,7 @@
                         },
                         "customUnitName": null,
                         "customHeraldryDefId": null,
-                        "unitType": "Mech",
+                        "unitType": "Vehicle",
                         "unitDefId": "mechDef_None",
                         "unitTagSet": {
                             "items": [],
@@ -512,9 +493,7 @@
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [
-                        "spawn_poorly_maintained_25"
-                    ],
+                    "items": ["spawn_poorly_maintained_50"],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": 0,
@@ -672,7 +651,7 @@
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [],
+                    "items": ["spawn_poorly_maintained_50"],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": 0,

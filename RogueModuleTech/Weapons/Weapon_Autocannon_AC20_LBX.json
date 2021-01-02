@@ -3,17 +3,24 @@
     "Category": [
       {
         "CategoryID": "w/a/a/lbx"
+      },
+      {
+        "CategoryID": "CritsAutoCannon6"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "WpnRecoil: 3",
-        "LBX",
-        "LosTech"
+        "LBX"
       ]
     },
     "InventorySorter": {
       "SortKey": "01024"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",

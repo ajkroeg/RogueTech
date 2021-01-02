@@ -1,5 +1,23 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.05
+    },
+    "AssemblyVariant": {
+      "PrefabID": "waneta",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_JumpAttack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_LAM",
@@ -27,8 +45,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -43,7 +60,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_Engine_LAM",
+      "ComponentDefID": "Gear_Engine_LAM",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -69,15 +86,6 @@
       "SimGameUID": "",
       "IsFixed": false,
       "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_JumpAttack",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
       "DamageLevel": "Functional"
     },
     {
@@ -87,8 +95,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -98,8 +105,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -112,7 +118,7 @@
     "UIName": "Waneta",
     "Id": "chassisdef_waneta_s-wn-3lam",
     "Name": "Waneta",
-    "Details": "Special Ride designed for Agent X.",
+    "Details": "Special Ride designed for Agent X.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.05</color></b>",
     "Icon": "WanetaLAM"
   },
   "VariantName": "S-WN-3LAM",
@@ -125,7 +131,7 @@
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_waneta",
-  "PrefabIdentifier": "chrprfmech_wanetabase-001",
+  "PrefabIdentifier": "chrprfmech_lightninglambase-001",
   "PrefabBase": "waneta",
   "Tonnage": 55,
   "InitialTonnage": 5.5,

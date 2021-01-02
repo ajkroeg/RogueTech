@@ -18,7 +18,9 @@
         {
             "Scope": "StarSystem",
             "RequirementTags": {
-                "items": ["planet_other_gamesworld"],
+                "items": [
+                    "planet_other_gamesworld"
+                ],
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
@@ -26,35 +28,33 @@
                 "tagSetSourceFile": ""
             },
             "RequirementComparisons": [
-		{
-		  "obj": "Employer.Solaris7",
-		  "op": "Equal",
-		  "val": 1,
-		  "valueConstant": null
-		}
+                {
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 1,
+                    "valueConstant": null
+                }
             ]
         },
-	{
-	      "Scope": "Company",
-	      "RequirementTags": {
-		"items": [
-		  	"company_solaris_season_medium"
-		],
-		"tagSetSourceFile": ""
-	      },
-	      "ExclusionTags": {
-		"items": [
-
-		],
-			"tagSetSourceFile": ""
-		},
-      "RequirementComparisons": []
-    }
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [
+                    "company_solaris_season_medium"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
+        }
     ],
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
     "encounterPlayStyle": "SinglePlayer",
-     "maxNumberOfPlayerUnits": 4,
+    "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": -1,
     "mechMinTonnages": [
@@ -3118,7 +3118,7 @@
     "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
-    "disableAfterAction": true,
+    "disableAfterAction": false,
     "contractRewardOverride": -1,
     "travelOnly": false,
     "useTravelCostPenalty": false,
@@ -3670,8 +3670,7 @@
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [
-                    ],
+                    "items": [],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": 2,
@@ -3686,22 +3685,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -3728,22 +3727,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -3770,22 +3769,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -3812,22 +3811,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -5198,9 +5197,7 @@
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [
-
-                    ],
+                    "items": [],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": 0,
@@ -5215,22 +5212,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -5257,22 +5254,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -5299,22 +5296,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {
@@ -5341,22 +5338,22 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-				"unit_medium",
-				"unit_mech",
-				"unit_solaris"				    
-			    ],
+                                "unit_medium",
+                                "unit_mech",
+                                "unit_solaris"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "unitExcludedTagSet": {
                             "items": [
-				"unit_generic",
-				"unit_nuke",
-				"unit_powerarmor",
-				"unit_protomech"		    
-			    ],
+                                "unit_generic",
+                                "unit_nuke",
+                                "unit_powerarmor",
+                                "unit_protomech"
+                            ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
                         "spawnEffectTags": {

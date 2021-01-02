@@ -33,105 +33,98 @@
   "Description": {
     "Cost": 186024,
     "Rarity": 1,
-    "Purchasable": true,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Clint IIC CLNT-IIC-1",
     "Id": "mechdef_clint_iic_CLNT-IIC-1",
     "Name": "Clint IIC CLNT-IIC-1",
-    "Details": "When General Aleksandr Kerensky led most of the Star League Defense Force into exile in 2784, they brought prototypes of the Clint BattleMech with them. After the annihilation of Clan Wolverine, Clan Snow Raven revisited these prototypes and was able to begin mass-production of the 'Mech in 2830 and introduced 2842. They ensured that it kept up with advances in Clan technology, eventually becoming the design that is now known as the Clint IIC. This speedy medium 'Mech is armed with a Type KOV LB-10X Autocannon and a pair of Series 2d ER Medium Lasers. This makes the Clint IIC an effective light 'Mech killer. It is capable of ranging far beyond supply lines thanks to its four tons of ammunition, though it only uses ten standard heat sinks and seven tons of standard armor.",
+    "Details": "When General Aleksandr Kerensky led most of the Star League Defense Force into exile in 2784, they brought prototypes of the Clint BattleMech with them. After the annihilation of Clan Wolverine, Clan Snow Raven revisited these prototypes and was able to begin mass-production of the 'Mech in 2830 and introduced 2842. They ensured that it kept up with advances in Clan technology, eventually becoming the design that is now known as the Clint IIC. This speedy medium 'Mech is armed with a Type KOV LB-10X Autocannon and a pair of Series 2d ER Medium Lasers. This makes the Clint IIC an effective light 'Mech killer. It is capable of ranging far beyond supply lines thanks to its four tons of ammunition, though it only uses ten standard heat sinks and seven tons of standard armor.\n\n<b><color=#e62e00>Quirk: Variable Range Targeting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "Clintiic"
   },
   "simGameMechPartCost": 186024,
-  "Version": 1,
   "Locations": [
     {
       "Location": "Head",
       "CurrentArmor": 45,
-      "CurrentRearArmor": -1,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 16,
       "AssignedArmor": 45,
-      "AssignedRearArmor": -1,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftArm",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 45,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": -1,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftTorso",
       "CurrentArmor": 70,
-      "CurrentRearArmor": 30,
+      "CurrentRearArmor": 20,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 70,
-      "AssignedRearArmor": 30,
+      "AssignedRearArmor": 20,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
-      "CurrentArmor": 93,
-      "CurrentRearArmor": 35,
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 25,
       "CurrentInternalStructure": 60,
-      "AssignedArmor": 93,
-      "AssignedRearArmor": 35,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 25,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
       "CurrentArmor": 70,
-      "CurrentRearArmor": 30,
+      "CurrentRearArmor": 20,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 70,
-      "AssignedRearArmor": 30,
+      "AssignedRearArmor": 20,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightArm",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 45,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": -1,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": -1,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 80,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": -1,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_clanferrosfibrous",
+      "ComponentDefID": "emod_armorslots_clstandard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -140,6 +133,8 @@
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -148,46 +143,48 @@
       "ComponentDefID": "Gear_Cockpit_CLAN_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_AdvancedTC_Clan",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_Evasion",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportB_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_Crit",
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_FCS_Generic_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_Range",
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_Recoil",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -196,14 +193,18 @@
       "ComponentDefID": "Gear_Gyro_Generic_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_240",
+      "ComponentDefID": "Gear_Engine_240",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -212,6 +213,8 @@
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -220,6 +223,8 @@
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -228,6 +233,8 @@
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -236,14 +243,18 @@
       "ComponentDefID": "Gear_Engine_Heatsinks",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_kit_cdhs",
+      "ComponentDefID": "emod_kit_shs",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -253,6 +264,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -262,6 +274,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -271,6 +284,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -280,6 +294,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -289,6 +304,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -298,6 +314,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -307,6 +324,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -316,6 +334,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -325,6 +344,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -334,6 +354,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -343,6 +364,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -352,6 +374,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -361,6 +384,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -370,6 +394,7 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -379,6 +404,27 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HandHeld_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HandHeld_Slot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -387,6 +433,18 @@
       "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -395,14 +453,28 @@
       "ComponentDefID": "Weapon_Autocannon_AC10_LBX_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -411,6 +483,8 @@
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -419,30 +493,78 @@
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

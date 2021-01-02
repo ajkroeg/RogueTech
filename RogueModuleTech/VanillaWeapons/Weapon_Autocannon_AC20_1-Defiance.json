@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon4"
       }
     ],
     "BonusDescriptions": {
@@ -16,6 +19,11 @@
     },
     "InventorySorter": {
       "SortKey": "01004"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -50,6 +58,8 @@
   "AttackRecoil": 4,
   "Instability": 25,
   "FlatJammingChance": 0.15,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.08,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {

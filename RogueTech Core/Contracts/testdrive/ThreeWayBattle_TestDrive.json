@@ -43,6 +43,12 @@
                     "op": "Equal",
                     "val": 0,
                     "valueConstant": null
+                },
+		{
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 0,
+                    "valueConstant": null
                 }
             ]
         },
@@ -134,7 +140,7 @@
         }
     ],
     "encounterPlayStyle": "SinglePlayer",
-     "maxNumberOfPlayerUnits": 4,
+     "maxNumberOfPlayerUnits": 12,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": -1,
     "mechMinTonnages": [
@@ -2516,7 +2522,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Heads up Commander, its a hostile {TEAM_TAR_ALLY.FactionDef.Demonym} lance! This is the Secondary Objective version.",
+                    "words": "Heads up Commander, its a hostile {TEAM_TAR_ALLY.FactionDef.Demonym} lance!  ",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2598,7 +2604,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.",
+                    "words": "Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander!  ",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2680,7 +2686,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "More {TEAM_EMP.FactionDef.Demonym} forces on the field! This is the Secondary Objective Version.",
+                    "words": "More {TEAM_EMP.FactionDef.Demonym} forces on the field!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

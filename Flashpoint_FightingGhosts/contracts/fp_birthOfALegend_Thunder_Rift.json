@@ -2112,7 +2112,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "More enemy {TEAM_TAR_ALLY.FactionDef.Demonym} forces incoming. This is the Secondary Objective version.",
+                    "words" : "More enemy {TEAM_TAR_ALLY.FactionDef.Demonym} forces incoming.  ",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2276,7 +2276,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "More {TEAM_EMP.FactionDef.Demonym} forces on the field! This is the Secondary Objective Version.",
+                    "words" : "More {TEAM_EMP.FactionDef.Demonym} forces on the field!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3382,7 +3382,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d2",
+                        "pilotDefId" : "pilot_d2_recruit_high",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3415,7 +3415,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d2",
+                        "pilotDefId" : "pilot_d2_recruit_high",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3448,7 +3448,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d2",
+                        "pilotDefId" : "pilot_d2_recruit_high",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3481,7 +3481,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d2",
+                        "pilotDefId" : "pilot_d2_recruit_high",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

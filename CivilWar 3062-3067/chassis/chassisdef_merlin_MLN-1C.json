@@ -3,6 +3,14 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
+    },
+    "DropCostFactor": {
+      "DropModifier": 1.06
+    },
+    "AssemblyVariant": {
+      "PrefabID": "merlin",
+      "Exclude": false,
+      "Include": true
     }
   },
   "FixedEquipment": [
@@ -11,8 +19,7 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -25,7 +32,7 @@
     "UIName": "Merlin",
     "Id": "chassisdef_merlin_MLN-1C",
     "Name": "Merlin",
-    "Details": "Introduced in 3068, the Merlin 1C swaps the Medium Lasers for ER Mediums.\n",
+    "Details": "Introduced in 3068, the Merlin 1C swaps the Medium Lasers for ER Mediums.\n\n<b><color=#e62e00>Quirk: Easy to Maintain</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "Merlin"
   },
   "VariantName": "MLN-1C",

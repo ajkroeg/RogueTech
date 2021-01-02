@@ -5,7 +5,7 @@
       "unit_superheavytank",
       "unit_noconvoy",
       "WordOfBlake",
-      "betrayers",
+      "Republic",
       "comstar",
       "davion",
       "ives",
@@ -48,27 +48,29 @@
       "KellHounds",
       "SteelBeast",
       "FlakJackals",
-      "nautilus"
+      "nautilus",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_OBJECT404_SUPERHEAVY_TANK",
   "Description": {
-    "Id": "vehicledef_OBJECT404_SUPERHEAVY_TANK",
-    "Name": "Object-404",
-    "Details": "\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
-    "Icon": "",
-    "Cost": 85351000,
+    "Cost": 84720999,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "UIName": "Obj-404",
+    "Id": "vehicledef_OBJECT404_SUPERHEAVY_TANK",
+    "Name": "Obj-404",
+    "Details": "\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>\n\n<b>Armor:</b> Reactive Plating\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       635    140\n<b>Left</b>         555    140\n<b>Right</b>       555    140\n<b>Rear</b>        400    140\n<b>Turret</b>      603    140\n\n<b>Total</b>      2748    700\n",
+    "Icon": ""
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 615,
+      "CurrentArmor": 635,
       "CurrentInternalStructure": 140,
-      "AssignedArmor": 615,
+      "AssignedArmor": 635,
       "DamageLevel": "Functional"
     },
     {
@@ -94,9 +96,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 595,
+      "CurrentArmor": 603,
       "CurrentInternalStructure": 140,
-      "AssignedArmor": 595,
+      "AssignedArmor": 603,
       "DamageLevel": "Functional"
     }
   ],
@@ -271,7 +273,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Special_Distracting",
+      "ComponentDefID": "Special_Tank_Monolithic",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -333,7 +335,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "emod_engine_400",
+      "ComponentDefID": "Gear_Engine_400",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

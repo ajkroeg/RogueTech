@@ -1,7 +1,7 @@
 {
    "Description": {
       "Id": "Ammunition_AC20_AP",
-      "Name": "AC/20 Ammo",
+      "Name": "Armor Piercing AC/20 Ammo",
       "UIName": "AP",
       "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
       "Icon": null,
@@ -28,5 +28,8 @@
       }
    ],
    "ColorSpeedChange": 5,
-   "ColorChangeRule": "t0"
+   "ColorChangeRule": "t0",
+   "APArmorShardsMod": 1,
+  "APMaxArmorThickness": 200,
+  "APCriticalChanceMultiplier": 0.5
 }

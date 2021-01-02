@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.19
+    },
+    "AssemblyVariant": {
+      "PrefabID": "direwolf",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Targeting_Long",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,15 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Targeting_Long",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,7 +82,7 @@
     "UIName": "Dire Wolf",
     "Id": "chassisdef_dire_wolf_DW-B",
     "Name": "Dire Wolf",
-    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for 'Great Death') by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.",
+    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for 'Great Death') by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.19</color></b>",
     "Icon": "Direwolf1"
   },
   "VariantName": "DW-B",
@@ -137,7 +143,7 @@
       "InventorySlots": 6,
       "MaxArmor": 45,
       "MaxRearArmor": -1,
-      "InternalStructure": 26
+      "InternalStructure": 16
     },
     {
       "Location": "LeftArm",
@@ -161,9 +167,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 200,
+      "MaxArmor": 170,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 85
     },
     {
       "Location": "LeftTorso",
@@ -187,9 +193,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 240,
-      "MaxRearArmor": 115,
-      "InternalStructure": 125
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "CenterTorso",
@@ -229,9 +235,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 340,
-      "MaxRearArmor": 165,
-      "InternalStructure": 175
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",
@@ -255,9 +261,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 240,
-      "MaxRearArmor": 115,
-      "InternalStructure": 125
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "RightArm",
@@ -281,27 +287,27 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 200,
+      "MaxArmor": 170,
       "MaxRearArmor": -1,
-      "InternalStructure": 105
+      "InternalStructure": 85
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 240,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 135
+      "InternalStructure": 105
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 240,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 135
+      "InternalStructure": 105
     }
   ],
   "LOSSourcePositions": [

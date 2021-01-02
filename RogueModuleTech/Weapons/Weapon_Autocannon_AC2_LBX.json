@@ -3,16 +3,23 @@
     "Category": [
       {
         "CategoryID": "w/a/a/lbx"
+      },
+      {
+        "CategoryID": "CritsAutoCannon2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "LBX",
-        "LosTech"
+        "LBX"
       ]
     },
     "InventorySorter": {
       "SortKey": "01021"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",

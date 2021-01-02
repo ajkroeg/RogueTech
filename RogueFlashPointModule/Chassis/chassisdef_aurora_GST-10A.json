@@ -1,5 +1,8 @@
 {
   "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.12
+    },
     "AssemblyVariant": {
       "PrefabID": "Ghost",
       "Exclude": false,
@@ -10,20 +13,18 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_Ghost",
+      "ComponentDefID": "Special_Improved_Sensors",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Sensors",
+      "ComponentDefID": "emod_armorslots_Ghost",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -36,7 +37,7 @@
     "UIName": "Ghost",
     "Id": "chassisdef_aurora_GST-10A",
     "Name": "Ghost",
-    "Details": "Debuted in 3144 on the Tennessee Valley Arena and piloted by Marie Costa, the most striking piece of technology this machine features is a Void Signature System followed by the Clan-spec Ferro-Fibrous Armor that replaced its original Capellan-style Starshield Stealth Armor and its eleven Double Heat Sinks. In the weapons section, a single MML-9 launcher appears where once there were twin MML-3s, while the mech losses the Light PPCs in favor of more ER Medium Lasers (now three). Missing is Beagle active probe while an Improved Narc Missile Beacon",
+    "Details": "Debuted in 3144 on the Tennessee Valley Arena and piloted by Marie Costa, the most striking piece of technology this machine features is a Void Signature System followed by the Clan-spec Ferro-Fibrous Armor that replaced its original Capellan-style Starshield Stealth Armor and its eleven Double Heat Sinks. In the weapons section, a single MML-9 launcher appears where once there were twin MML-3s, while the mech losses the Light PPCs in favor of more ER Medium Lasers (now three). Missing is Beagle active probe while an Improved Narc Missile Beacon\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.12</color></b>",
     "Icon": "Ghost"
   },
   "VariantName": "GST-10A",
@@ -108,9 +109,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 90,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 40
     },
     {
       "Location": "LeftTorso",
@@ -126,9 +127,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "CenterTorso",
@@ -152,9 +153,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
     },
     {
       "Location": "RightTorso",
@@ -174,9 +175,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "RightArm",
@@ -200,27 +201,27 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 90,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 40
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 130,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 60
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 130,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 60
     }
   ],
   "LOSSourcePositions": [

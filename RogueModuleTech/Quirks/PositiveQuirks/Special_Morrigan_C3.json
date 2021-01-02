@@ -11,10 +11,8 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "WeightedQuirk: 50%",
-                "C3LanceSensors: +6%, 210",
-                "C3LanceSight: +6%, 210",
-                "C3: 2, 300",
-                "Sharer"
+                "C3Sytem: 2, 20%, 9%, 6%, 300",
+                "BoostedC3Sytem: 4"
             ]
         },
         "Flags": {
@@ -61,15 +59,15 @@
     "CriticalComponent": false,
     "Auras": [
         {
-            "Id": "Gear_C3i",
-            "Name": "MC3i",
+            "Id": "C3SystemEnemy",
+            "Name": "C3 Scan",
             "ReticleColor": "#00e600",
             "Range": 300,
             "RemoveOnSensorLock": false,
             "State": "Persistent",
             "ApplySelf": false,
             "AllyStealthAffection": "None",
-            "EnemyStealthAffection": "NegativeTwo",
+            "EnemyStealthAffection": "NegativeOne",
             "IsPositiveToAlly": false,
             "IsNegativeToEnemy": true,
             "ownerVFX": [],
@@ -88,15 +86,15 @@
                     },
                     "targetingData": {
                         "effectTriggerType": "Passive",
-                        "specialRules": "NotSet",
                         "effectTargetType": "EnemiesWithinRange",
                         "range": 0.0,
+                        "forceVisRebuild": true,
                         "showInTargetPreview": false,
                         "showInStatusPanel": false
                     },
                     "effectType": "StatisticEffect",
                     "Description": {
-                        "Id": "C3-SensorInfo",
+                        "Id": "C3M-SensorInfo",
                         "Name": "C3 Sensor Information",
                         "Details": "Shares Sensor Information on nearby Targets",
                         "Icon": "uixSvgIcon_equipment_Cockpit"
@@ -108,17 +106,73 @@
                         "modValue": "2",
                         "modType": "System.Int32"
                     }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "range": 0.0,
+                        "forceVisRebuild": true,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3DetectionStrengthSignature",
+                        "Name": "C3 Signature Detection",
+                        "Details": "C3 Signature Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SensorSignatureModifier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.2",
+                        "modType": "System.Single"
+                    }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "range": 0.0,
+                        "forceVisRebuild": true,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3DetectionStrengthVisibility",
+                        "Name": "C3 Visibility Detection",
+                        "Details": "C3 Visibility Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SpottingVisibilityMultiplier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.2",
+                        "modType": "System.Single"
+                    }
                 }
             ]
         },
         {
-            "Id": "Gear_C3iVisual",
-            "Name": "MC3i",
-            "ReticleColor": "#ff9900",
-            "Range": 210,
+            "Id": "C3System_Allies",
+            "Name": "C3 Network",
+            "ReticleColor": "#00e600",
+            "Range": 300,
             "RemoveOnSensorLock": false,
             "State": "Persistent",
-            "ApplySelf": true,
+            "ApplySelf": false,
             "AllyStealthAffection": "None",
             "EnemyStealthAffection": "None",
             "IsPositiveToAlly": true,
@@ -145,7 +199,7 @@
                     },
                     "effectType": "StatisticEffect",
                     "Description": {
-                        "Id": "MorriganC3Sensor",
+                        "Id": "C3AllySensor",
                         "Name": "SLIC Black Ops",
                         "Details": "Increased Sight/Sensors/Health.",
                         "Icon": "uixSvgIcon_equipment_Cockpit"
@@ -154,7 +208,7 @@
                     "statisticData": {
                         "statName": "SensorDistanceAbsolute",
                         "operation": "Float_Multiply",
-                        "modValue": "1.06",
+                        "modValue": "1.09",
                         "modType": "System.Single"
                     }
                 },
@@ -171,7 +225,7 @@
                     },
                     "effectType": "StatisticEffect",
                     "Description": {
-                        "Id": "MorriganC3Spotting",
+                        "Id": "C3AllySight",
                         "Name": "SPOTTING DISTANCE INCREASED",
                         "Details": "Increases spotting distance by 50m.",
                         "Icon": "uixSvgIcon_equipment_Cockpit"
@@ -191,14 +245,37 @@
         {
             "durationData": {
                 "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "ECMPassiveJam",
+                "Name": "ECMPassiveJam",
+                "Details": "Passive Jamming Protection",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "LV_ECM_JAMMED",
+                "operation": "Int_Add",
+                "modValue": "-4",
+                "modType": "System.Int32"
+            }
+        },
+        {
+            "durationData": {
+                "duration": -1,
                 "stackLimit": 1
             },
             "targetingData": {
                 "effectTriggerType": "Passive",
-                "specialRules": "NotSet",
                 "effectTargetType": "Creator",
-                "range": 0.0,
-                "forcePathRebuild": false,
                 "forceVisRebuild": true,
                 "showInTargetPreview": false,
                 "showInStatusPanel": false

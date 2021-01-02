@@ -27,27 +27,29 @@
       "PaladinProtectionLLC",
       "BlackWidowCompany",
       "BaumannGroup",
-      "BountyHunterAssociates"
+      "BountyHunterAssociates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_CARRIER_HEAVY_LRM_EXTENDED",
   "Description": {
+    "Cost": 7132992,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Heavy ER-LRM Carrier",
     "Id": "vehicledef_CARRIER_HEAVY_LRM_EXTENDED",
     "Name": "Heavy ER-LRM Carrier",
-    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Designed to support allies from range, the Carrier can hang back behind friendly lines where it's lack of armor isn't a concern.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
-    "Icon": "LRMcarrier",
-    "Cost": 8705400,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Designed to support allies from range, the Carrier can hang back behind friendly lines where it's lack of armor isn't a concern.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>\n\n<b>Armor:</b> Hardened\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        93     40\n<b>Left</b>          80     40\n<b>Right</b>        80     40\n<b>Rear</b>         70     40\n<b>Turret</b>       85     40\n\n<b>Total</b>      408    200\n",
+    "Icon": "HeavyLRMcarrier"
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 85,
+      "CurrentArmor": 93,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 85,
+      "AssignedArmor": 93,
       "DamageLevel": "Functional"
     },
     {
@@ -130,35 +132,21 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Ammo_AmmunitionBox_Swarmi_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Right",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_FTL_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_FTL_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -227,7 +215,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_engine_160",
+      "ComponentDefID": "Gear_Engine_160",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

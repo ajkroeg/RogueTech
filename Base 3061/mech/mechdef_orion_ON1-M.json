@@ -12,6 +12,7 @@
       "unit_predator",
       "unit_indirectFire",
       "unit_solaris",
+      "Republic",
       "WordOfBlake",
       "comstar",
       "auriganmercenaries",
@@ -24,6 +25,7 @@
       "liao",
       "locals",
       "magistracyofcanopus",
+      "taurianconcordat",
       "marian",
       "outworld",
       "rasalhague",
@@ -36,6 +38,7 @@
       "oberon",
       "tortuga",
       "valkyrate",
+      "castile",
       "aurigandirectorate",
       "auriganrestoration",
       "FlakJackals",
@@ -58,7 +61,8 @@
       "HouseKhulan",
       "BlackWidowCompany",
       "BaumannGroup",
-      "BountyHunterAssociates"
+      "BountyHunterAssociates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -72,7 +76,7 @@
     "UIName": "Orion ON1-M",
     "Id": "mechdef_orion_ON1-M",
     "Name": "Orion ON1-M",
-    "Details": "The M variant is an upgrade using Star League technology first fielded in 3049. Replacing the standard engine with a Hermes 300 XL Engine and shaving off a half-ton of armor allows the 'Mech to retain the same speed while mounting a number of upgrades.",
+    "Details": "The M variant is an upgrade using Star League technology first fielded in 3049. Replacing the standard engine with a Hermes 300 XL Engine and shaving off a half-ton of armor allows the 'Mech to retain the same speed while mounting a number of upgrades.\n\n<b><color=#e62e00>Quirk: Anti-Air Targeting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>",
     "Icon": "uixTxrIcon_orion"
   },
   "simGameMechPartCost": 405000,
@@ -186,7 +190,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,

@@ -3,12 +3,13 @@
     "Category": [
       {
         "CategoryID": "w/a/g/taser"
-      }
+      },
+	  {"CategoryID": "CritsHeatWeapon2"}
     ],
     "ComponentExplosion": {
       "ExplosionDamage": 10,
-      "HeatDamage": 10,
-      "StabilityDamage": 10
+      "HeatDamage": 5,
+      "StabilityDamage": 5
     },
     "BonusDescriptions": {
       "Bonuses": [
@@ -19,7 +20,7 @@
         "WpnRecoil: 3",
         "ExplodiumFlat: 25%",
         "IsGauss",
-        "WeaponBoom: 10",
+        "WeaponGaussBoom: 10",
         "NoAA"
       ]
     },
@@ -72,7 +73,7 @@
   "DamageOnJamming": true,
   "FlatJammingChance": 0.25,
   "GunneryJammingMult": 0.01,
-  "GunneryJammingBase": 0,
+  "GunneryJammingBase": 1,
   "ProjectileScale": {
     "x": 0.6,
     "y": 0.6,

@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.11
+    },
+    "AssemblyVariant": {
+      "PrefabID": "summoner",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Comms",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_350",
+      "ComponentDefID": "Gear_Engine_350",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,15 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Comms",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,7 +82,7 @@
     "UIName": "Summoner",
     "Id": "chassisdef_summoner_SMN-B",
     "Name": "Summoner",
-    "Details": "A missile bombardment configuration, the B configuration carries a pair of LRM-20 launchers for long range engagements. For close combat, the Summoner B has two SRM-4 launchers. A Narc Missile Beacon allows the Summoner to designate targets for missile fire from other friendly units. The Summoner B has further protection through the use of an Anti-Missile System which gives it increased protection from missile attacks.",
+    "Details": "A missile bombardment configuration, the B configuration carries a pair of LRM-20 launchers for long range engagements. For close combat, the Summoner B has two SRM-4 launchers. A Narc Missile Beacon allows the Summoner to designate targets for missile fire from other friendly units. The Summoner B has further protection through the use of an Anti-Missile System which gives it increased protection from missile attacks.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.11</color></b>",
     "Icon": "uixTxrIcon_summoner"
   },
   "VariantName": "SMN-B",

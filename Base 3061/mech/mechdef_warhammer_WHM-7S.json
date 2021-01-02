@@ -9,6 +9,7 @@
       "unit_lance_vanguard",
       "unit_advanced",
       "unit_bracket_med",
+      "Republic",
       "steiner",
       "davion",
       "locals",
@@ -25,7 +26,8 @@
       "PaladinProtectionLLC",
       "BlackWidowCompany",
       "BaumannGroup",
-      "BountyHunterAssociates"
+      "BountyHunterAssociates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -39,7 +41,7 @@
     "UIName": "Warhammer WHM-7S",
     "Id": "mechdef_warhammer_WHM-7S",
     "Name": "Warhammer",
-    "Details": "The 7S Warhammer was the official upgraded version built for the Federated Commonwealth by Olivettie Weaponry. Built out of their Sudeten factory starting in 3050, the 7S retained the small lasers of the original but updated the rest of the weaponry. It carried two arm-mounted ER PPCs, two Defiance P5M medium pulse lasers in the side torsos, and two Coventry T4H Streak SRM-2 launchers in place of the SRM-6 launcher. Eighteen double heat sinks handled the additional waste heat and one ton of reloads for the Streak launchers was carried in the center torso.",
+    "Details": "The 7S Warhammer was the official upgraded version built for the Federated Commonwealth by Olivettie Weaponry. Built out of their Sudeten factory starting in 3050, the 7S retained the small lasers of the original but updated the rest of the weaponry. It carried two arm-mounted ER PPCs, two Defiance P5M medium pulse lasers in the side torsos, and two Coventry T4H Streak SRM-2 launchers in place of the SRM-6 launcher. Eighteen double heat sinks handled the additional waste heat and one ton of reloads for the Streak launchers was carried in the center torso.\n\n<b><color=#e62e00>Quirk: Searchlight</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.1</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
   "simGameMechPartCost": 305000,
@@ -127,7 +129,6 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -139,7 +140,6 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -151,7 +151,6 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -163,7 +162,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -175,7 +173,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -187,7 +184,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -199,7 +195,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -211,19 +206,17 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_280",
+      "ComponentDefID": "Gear_Engine_280",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -235,7 +228,6 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -247,7 +239,6 @@
       "SimGameUID": null,
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -259,7 +250,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -271,7 +261,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -283,7 +272,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -295,7 +283,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -307,7 +294,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -319,7 +305,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -331,7 +316,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -343,7 +327,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -355,7 +338,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -367,7 +349,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -379,7 +360,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -391,7 +371,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -403,7 +382,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -415,7 +393,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -427,7 +404,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -439,7 +415,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -451,7 +426,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -463,7 +437,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -475,7 +448,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -487,7 +459,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -499,7 +470,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -511,7 +481,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -523,7 +492,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -535,7 +503,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -547,7 +514,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -559,7 +525,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -571,7 +536,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -583,7 +547,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -595,7 +558,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -607,7 +569,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -619,7 +580,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -631,7 +591,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -643,7 +602,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -655,7 +613,6 @@
       "SimGameUID": "",
       "GUID": null,
       "IsFixed": false,
-      "prefabName": null,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

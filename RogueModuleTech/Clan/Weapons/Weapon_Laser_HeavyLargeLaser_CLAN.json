@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/e/l/heavy"
+      },
+      {
+        "CategoryID": "CritsLaser2"
       }
     ],
     "BonusDescriptions": {
@@ -11,7 +14,12 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "02008"
+      "SortKey": "02461"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

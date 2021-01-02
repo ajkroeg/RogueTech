@@ -9,6 +9,9 @@
       },
       {
         "CategoryID": "w/e/l/laser"
+      },
+      {
+        "CategoryID": "CritsLaser2"
       }
     ],
     "BonusDescriptions": {
@@ -31,7 +34,7 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "02010"
+      "SortKey": "02355"
     },
     "Flags": {
       "flags": [
@@ -261,7 +264,7 @@
       "statisticData": {
         "statName": "LV_TAG",
         "operation": "Set",
-        "modValue": "0.25_6_-2",
+        "modValue": "0.25_6_2",
         "modType": "System.String"
       }
     },

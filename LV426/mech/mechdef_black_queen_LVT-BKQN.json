@@ -19,7 +19,9 @@
       "illyrian",
       "lothian",
       "FlakJackals",
-      "LocalsBrockwayRefugees"
+      "LocalsBrockwayRefugees",
+      "Solaris7",
+      "unit_carapaciesh"
     ],
     "tagSetSourceFile": ""
   },
@@ -33,14 +35,14 @@
     "UIName": "Black Queen LVT-BKQN",
     "Id": "mechdef_black_queen_LVT-BKQN",
     "Name": "XenoQueen LVT-BKQN",
-    "Details": "The Leviathan is an attempt at creating the most powerful and supersized mech imaginable.",
+    "Details": "The Leviathan is an attempt at creating the most powerful and supersized mech imaginable.\n\n<b><color=#e62e00>Quirk: Intimidating</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
     "Icon": "uixTxrIcon_xenorauder"
   },
   "simGameMechPartCost": 990849,
   "Version": 1,
   "RequiredToSpawnCompanyTags": {
     "items": [
-      "fp_SuprisedGuests_1"
+      "fp_SuprisedGuests_2"
     ],
     "tagSetSourceFile": ""
   },
@@ -172,7 +174,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_425",
+      "ComponentDefID": "Gear_Engine_425",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -273,14 +275,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MediumLaserER_JuryRigged",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_AMS_Advanced",
       "ComponentDefType": "Weapon",
@@ -290,7 +284,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_HEAVY_MRM_20",
+      "ComponentDefID": "Weapon_MRM_30",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -314,7 +308,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Pirate_PLASMA",
+      "ComponentDefID": "Weapon_PPC_HEAVY",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -329,10 +323,26 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_MediumLaserER_JuryRigged",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_AOE_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -346,6 +356,30 @@
     },
     {
       "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Tandem_MRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Acid_MRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_AOE_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -353,7 +387,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightArm",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -361,55 +395,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Swarm_HMRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Acid_HMRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_AOE_AC20",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "RightArm",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,

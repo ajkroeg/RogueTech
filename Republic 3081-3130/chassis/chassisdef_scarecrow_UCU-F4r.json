@@ -4,6 +4,14 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.02
+    },
+    "AssemblyVariant": {
+      "PrefabID": "scarecrow",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "CustomParts": {
@@ -16,8 +24,7 @@
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -30,7 +37,7 @@
     "UIName": "Scarecrow",
     "Id": "chassisdef_scarecrow_UCU-F4r",
     "Name": "Scarecrow",
-    "Details": "This variant went by the unfortunate nickname Hobbled Scarecrow - it was an attempt to produce a version of the Scarecrow that could serve more ably in combat against other BattleMechs, although thin armor and limited speed made the Scarecrow a poor choice for such battles even with the revised weapons loadout. The Hobbled Scarecrow lacked the Machine Gun Arrays of the original and the Chameleon Light Polarization Shield, mounting three Medium Lasers instead, one located in each arm and one in the right torso.",
+    "Details": "This variant went by the unfortunate nickname Hobbled Scarecrow - it was an attempt to produce a version of the Scarecrow that could serve more ably in combat against other BattleMechs, although thin armor and limited speed made the Scarecrow a poor choice for such battles even with the revised weapons loadout. The Hobbled Scarecrow lacked the Machine Gun Arrays of the original and the Chameleon Light Polarization Shield, mounting three Medium Lasers instead, one located in each arm and one in the right torso.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.02</color></b>",
     "Icon": "Scarecrow"
   },
   "VariantName": "UCU-F4r",
@@ -46,7 +53,7 @@
   "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
   "PrefabBase": "blackjack",
   "Tonnage": 40,
-  "InitialTonnage": 4.5,
+  "InitialTonnage": 4,
   "weightClass": "MEDIUM",
   "BattleValue": 4067000,
   "Heatsinks": 0,
@@ -107,9 +114,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 70,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 35
+      "InternalStructure": 30
     },
     {
       "Location": "LeftTorso",
@@ -121,9 +128,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 110,
-      "MaxRearArmor": 55,
-      "InternalStructure": 55
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "CenterTorso",
@@ -159,9 +166,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 140,
-      "MaxRearArmor": 70,
-      "InternalStructure": 70
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "RightTorso",
@@ -173,9 +180,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 110,
-      "MaxRearArmor": 55,
-      "InternalStructure": 55
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "RightArm",
@@ -195,27 +202,27 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 70,
+      "MaxArmor": 60,
       "MaxRearArmor": -1,
-      "InternalStructure": 35
+      "InternalStructure": 30
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 110,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 55
+      "InternalStructure": 50
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 110,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 55
+      "InternalStructure": 50
     }
   ],
   "LOSSourcePositions": [

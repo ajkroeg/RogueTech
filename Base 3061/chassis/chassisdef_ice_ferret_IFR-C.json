@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.04
+    },
+    "AssemblyVariant": {
+      "PrefabID": "iceferret",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_360",
+      "ComponentDefID": "Gear_Engine_360",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,15 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Sensors",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,7 +82,7 @@
     "UIName": "Ice Ferret",
     "Id": "chassisdef_ice_ferret_IFR-C",
     "Name": "Ice Ferret",
-    "Details": "A fire support configuration of the Ice Ferret, the C configuration has a trio of LRM-5 launchers, each linked to an Artemis IV fire control system for increased missile accuracy. For close range defense, the 'Mech has a single ER Small Laser.",
+    "Details": "A fire support configuration of the Ice Ferret, the C configuration has a trio of LRM-5 launchers, each linked to an Artemis IV fire control system for increased missile accuracy. For close range defense, the 'Mech has a single ER Small Laser.\n\n<b><color=#e62e00>Quirk: Improved Sensors</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.04</color></b>",
     "Icon": "uixTxrIcon_iceferret"
   },
   "VariantName": "IFR-C",

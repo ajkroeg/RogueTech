@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_ArrowIV_Inferno",
-        "Name": "AC/20 Ammo",
+        "Name": "Inferno Arrow IV Ammo",
         "UIName": "Inferno",
         "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
         "Icon": null,
@@ -33,12 +33,12 @@
     "FireTerrainStrength": 15,
     "FireTerrainCellRadius": 7,
     "FireOnSuccessHit": true,
-	"MissileHealth": 24,
-	"statusEffects": [
-		{
+    "MissileHealth": 24,
+    "statusEffects": [
+        {
             "durationData": {
                 "duration": 1,
-				"ticksOnActivations": true,
+                "ticksOnActivations": true,
                 "useActivationsOfTarget": true,
                 "stackLimit": 45
             },

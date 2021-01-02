@@ -25,8 +25,12 @@
         "HeatDamage: +50",
         "AreaOfEffect: 60",
         "AreaOfEffectHeatDmg: +20",
-        "TBOLT20Ammo: 1"
+        "TBOLT20Ammo: 1",
+      "AmmoCost: 1000"
       ]
+    },
+	"AmmoCost" : {
+      "PerUnitCost" : 1000
     },
     "InventorySorter": {
       "SortKey": "000049"
@@ -43,7 +47,7 @@
     "UIName": "Ammo TBM 20 NEMP",
     "Id": "Ammo_AmmunitionBox_Thunderbolt_TB20_NEMP",
     "Name": "Thunderbolt 20 NEMP Ammo",
-    "Details": "This Thunderbolt Missile was retooled to fire a specialized NEMP Warhead disabling everything around the impact. NEMP warhead is designed to be detonated above the Earth's surface. The explosion releases a blast of gamma rays, which scrambles electronics. \n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
+    "Details": "This Thunderbolt Missile was retooled to fire a specialized NEMP Warhead disabling everything around the impact. NEMP warhead is designed to be detonated above the Earth's surface. The explosion releases a blast of gamma rays, which scrambles electronics. \n\n <b><color=#00ffff> Ctrl+click on ammunition counter to eject ammo.</color> </b>",
     "Icon": "thunderbolt"
   },
   "BonusValueA": "",
@@ -143,57 +147,6 @@
         "appliesEachTick": false,
         "effectsPersistAfterDestruction": false,
         "statName": "WalkSpeed",
-        "operation": "Float_Multiply",
-        "modValue": "0.6",
-        "modType": "System.Single",
-        "additionalRules": "NotSet",
-        "targetCollection": "NotSet",
-        "targetWeaponCategory": "NotSet",
-        "targetWeaponType": "NotSet",
-        "targetAmmoCategory": "NotSet",
-        "targetWeaponSubType": "NotSet"
-      },
-      "tagData": null,
-      "floatieData": null,
-      "actorBurningData": null,
-      "vfxData": null,
-      "instantModData": null,
-      "poorlyMaintainedEffectData": null
-    },
-    {
-      "durationData": {
-        "duration": 2,
-        "ticksOnActivations": true,
-        "useActivationsOfTarget": true,
-        "ticksOnEndOfRound": false,
-        "ticksOnMovements": false,
-        "stackLimit": 6,
-        "clearedWhenAttacked": false
-      },
-      "targetingData": {
-        "effectTriggerType": "OnHit",
-        "triggerLimit": 0,
-        "extendDurationOnTrigger": 0,
-        "specialRules": "NotSet",
-        "effectTargetType": "NotSet",
-        "range": 0,
-        "forcePathRebuild": false,
-        "forceVisRebuild": false,
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "TSEMP-Effect2",
-        "Name": "Move Impaired",
-        "Details": "The Mech's Movement is reduced.",
-        "Icon": "uixSvgIcon_status_sensorsImpaired"
-      },
-      "nature": "Debuff",
-      "statisticData": {
-        "appliesEachTick": false,
-        "effectsPersistAfterDestruction": false,
-        "statName": "RunSpeed",
         "operation": "Float_Multiply",
         "modValue": "0.6",
         "modType": "System.Single",

@@ -1,5 +1,24 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.02
+    },
+    "AssemblyVariant": {
+      "PrefabID": "yurei",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Comms",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_LAM",
@@ -27,8 +46,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -43,7 +61,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_Engine_LAM",
+      "ComponentDefID": "Gear_Engine_LAM",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -68,15 +86,6 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Comms",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "SimGameUID": "",
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -87,8 +96,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -98,8 +106,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "IsFixed": false,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -112,7 +119,7 @@
     "UIName": "Yurei",
     "Id": "chassisdef_yurei_S-YR-3LAM",
     "Name": "Yurei",
-    "Details": "Of the three designs that formed the Spectral LAM series built and deployed by the Word of Blake, the Yurei was the middleweight design",
+    "Details": "Of the three designs that formed the Spectral LAM series built and deployed by the Word of Blake, the Yurei was the middleweight design\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.02</color></b>",
     "Icon": "YureiLAM"
   },
   "VariantName": "S-YR-3LAM",

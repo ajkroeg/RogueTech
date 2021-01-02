@@ -1,11 +1,11 @@
 {
     "Name": "RogueTech Core",
     "Enabled": true,
-    "Version": "INSERTFANCYNAME Alpha 1.1",
+    "Version": "Treadnought 1.0.9.3",
     "Description": "Contains the basic rules of RogueTech - Core Module",
     "Author": "LadyAlekto",
     "Website": "",
-    "Contact": "fakeemail@fakeemail.com",
+    "Contact": "https://discord.gg/roguetech",
     "CustomResourceTypes": [
         "MEBonusDescriptions",
         "MECriticalEffects",
@@ -40,10 +40,25 @@
         "LogoPath": "uixTxr_landingLogo.png",
         "FailedLogoPath": "usethelauncher.png"
     },
-    "Manifest": [
-	{ "Type": "BackgroundDef", "Path": "backgrounds" },
-	{ "Type": "BackgroundQuestionDef", "Path": "backgroundquestions" },
-	{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
+    "Manifest": [	
+	{
+			"Type": "MechDef",
+			"Path": "DummyMech"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "DummyChassis"
+		},
+	{
+            "Type": "CCCategories",
+            "Path": "CritCategories/",
+            "ShouldMergeJSON": false
+        },
+		{
+            "Type": "MECriticalEffects",
+            "Path": "WeaponCrits/",
+            "ShouldMergeJSON": false
+        },	
         {
             "Type": "SVGAsset",
             "Path": "icons",
@@ -103,6 +118,10 @@
         {
             "Type": "AbilityDef",
             "Path": "abilities"
+        },
+		{
+            "Type": "AbilityDef",
+            "Path": "UAVAbilities"
         },
         {
             "Type": "PilotDef",
@@ -191,7 +210,7 @@
         "AbilityRealizer",
         "Rogue Munitions",
         "BiggerDrops",
-        "BTRandomStartByDifficultyMenu",
+        "IRTweaks",
         "CBTBehaviorsEnhanced",
         "CleverGirl",
         "CAB-Tanks",
@@ -206,12 +225,11 @@
         "CustomSalvage",
         "CustomUnits",
         "DisorderlyWithdrawal",
-        "DropCostPerMech",
+        "DropCostsEnhanced",
         "EvasivePipsGainedAdditionalRestorer",
         "FastWorkOrderMover",
         "FYLS",
         "InnerSphereMap",
-        "GlobalDifficulty",
         "HideCareerModeDays",
         "HighDifficultyLanceSpawnFixer",
         "IttyBittyLivingSpace",
@@ -222,7 +240,7 @@
         "Mission Control",
         "MonthlyMoraleReset",
         "Monthly Tech Adjustment",
-        "More is Less",
+        "ShellShuffler",
         "OnePointArmorStep",
         "PanicSystem",
         "Pilot Fatigue",

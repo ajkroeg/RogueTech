@@ -1,12 +1,29 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.06
+    },
+    "AssemblyVariant": {
+      "PrefabID": "mongoose",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Easy_To_Pilot",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_quirk_ChameleonLightPolarizationShield",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -15,15 +32,6 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Easy_To_Pilot",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
       "DamageLevel": "Functional"
     }
   ],
@@ -36,7 +44,7 @@
     "UIName": "Mongoose",
     "Id": "chassisdef_gunslinger_MON-66GX",
     "Name": "Mongoose",
-    "Details": "This Mongoose variant was developed for the SLDF Gunslinger Program, but never saw service.",
+    "Details": "This Mongoose variant was developed for the SLDF Gunslinger Program, but never saw service.\n\n<b><color=#e62e00>Quirk: Easy to Pilot</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.06</color></b>",
     "Icon": "mongoose"
   },
   "VariantName": "MON-66GX",

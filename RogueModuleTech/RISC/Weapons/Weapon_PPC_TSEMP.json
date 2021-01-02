@@ -3,7 +3,8 @@
     "Category": [
       {
         "CategoryID": "w/e/p/tsemp"
-      }
+      },
+	  {"CategoryID": "CritsHeatWeapon4"}
     ],
     "ComponentExplosion": {
       "ExplosionDamage": 35,
@@ -14,19 +15,19 @@
       "Bonuses": [
         "Haywire",
         "ImpMove: 60%",
-        "ImpAccuracy: -3",
+        "PPCDEBUFF: 4",
         "ImpHeatSink: -80%",
         "WpnRecoil: 2",
         "RecoilExponent: 0.5",
         "AccuracyExponent: -0.3",
         "ExplodiumFlat: 20",
-        "WeaponBoom: 35",
+        "CapacitorBoom: 35",
         "NoAA",
         "MineClearanceBoom: 1"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02013"
+      "SortKey": "02291"
     },
     "Flags": {
       "flags": [
@@ -37,7 +38,7 @@
   },
   "Category": "Energy",
   "Type": "PPC",
-  "WeaponSubType": "PPCER",
+  "WeaponSubType": "PPCSnub",
   "MinRange": 0,
   "MaxRange": 430,
   "RangeSplit": [
@@ -69,7 +70,7 @@
   "DamageOnJamming": true,
   "FlatJammingChance": 0.2,
   "GunneryJammingMult": 0.01,
-  "GunneryJammingBase": 0,
+  "GunneryJammingBase": 1,
   "AdditionalImpactVFX": "WFX_SPlasma",
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
@@ -157,7 +158,10 @@
         "duration": 2,
         "ticksOnActivations": true,
         "useActivationsOfTarget": true,
-        "stackLimit": 6
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": -1,
+        "clearedWhenAttacked": false
       },
       "targetingData": {
         "effectTriggerType": "OnHit",
@@ -169,21 +173,21 @@
         "forcePathRebuild": false,
         "forceVisRebuild": false,
         "showInTargetPreview": false,
-        "showInStatusPanel": false
+        "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "TSEMP-Effect",
-        "Name": "TSEMP",
-        "Details": "The Mech's Systems have been scrambled.",
-        "Icon": "uixSvgIcon_shipUpgrade_power2"
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "EM Interference reduces sensor efficiency.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
       },
       "nature": "Debuff",
       "statisticData": {
-        "statName": "AccuracyModifier",
-        "operation": "Float_Add",
-        "modValue": "3.0",
-        "modType": "System.Single"
+        "statName": "LV_ECM_JAMMED",
+        "operation": "Int_Add",
+        "modValue": "4",
+        "modType": "System.Int32"
       }
     },
     {

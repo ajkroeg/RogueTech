@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.12
+    },
+    "AssemblyVariant": {
+      "PrefabID": "nightgyr",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Combat_Computer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,15 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Combat_Computer",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,7 +82,7 @@
     "UIName": "Night Gyr",
     "Id": "chassisdef_night_gyr_NTG-B",
     "Name": "Night Gyr",
-    "Details": "The Night Gyr B seeks to destroy opponents before they can return fire. A pair of Gauss Rifles and LB-X Autocannon/2s carry out that mandate. Ammo is somewhat lacking, however, so this design cannot stray far from supply, especially as it has no backup energy weapons.",
+    "Details": "The Night Gyr B seeks to destroy opponents before they can return fire. A pair of Gauss Rifles and LB-X Autocannon/2s carry out that mandate. Ammo is somewhat lacking, however, so this design cannot stray far from supply, especially as it has no backup energy weapons.\n\n<b><color=#e62e00>Quirk: Combat Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.12</color></b>",
     "Icon": "uixTxrIcon_nightgyr"
   },
   "VariantName": "NTG-B",

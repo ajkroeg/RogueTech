@@ -2,19 +2,29 @@
   "Custom": {
     "Category": [
       {
+        "CategoryID": "NeverMelee"
+      },
+      {
         "CategoryID": "w/a/g/railgun"
+      },
+      {
+        "CategoryID": "CritsGauss6"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "DmgFallOff: 75%",
         "WpnRecoil: 4",
-        "IsGauss",
-        "IsArtillery"
+        "IsGauss"
       ]
     },
     "InventorySorter": {
       "SortKey": "01417"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -80,15 +90,14 @@
   "InventorySize": 15,
   "Tonnage": 25,
   "AllowedLocations": "Torso",
-  "DisallowedLocations": "Arms",
+  "DisallowedLocations": "All",
   "ImprovedBallistic": true,
   "CriticalComponent": false,
-  "statusEffects": [
-
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "OmniRestriction.{location}",
+      "TurretRestriction.{location}",
       "component_type_stock",
       "range_extreme"
     ],

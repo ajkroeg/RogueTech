@@ -3,9 +3,27 @@
     "ArmActuatorSupport": {
       "RightLimit": "Upper"
     },
+    "DropCostFactor": {
+      "DropModifier": 0.89
+    },
+    "AssemblyVariant": {
+      "PrefabID": "helepolis",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Stable_Weapons",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_Pirate_FuelCell",
@@ -29,16 +47,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Stable_Weapons",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "IsFixed": false,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -50,7 +58,7 @@
     "UIName": "Helepolis",
     "Id": "chassisdef_helepolis_HEP-FC",
     "Name": "Helepolis",
-    "Details": "This belongs in a museum, not the hands of some damn drunken pirate tech!",
+    "Details": "This belongs in a museum, not the hands of some damn drunken pirate tech!\n\n<b><color=#e62e00>Quirk: Stable Weapons</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.89</color></b>",
     "Icon": "helepolis"
   },
   "VariantName": "HEP-FC",

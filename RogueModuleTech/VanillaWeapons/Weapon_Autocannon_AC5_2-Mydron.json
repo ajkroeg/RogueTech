@@ -3,20 +3,28 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "WpnAccuracy: +1",
         "PipsIgnored: 1",
-        "WpnRecoil: 1",
-        "WeaponJAMFlat: 5%",
-        "MydronAC:3",
+        "WeaponJAMFlat: 10%",
+        "MydronAC: 4",
+        "DoesCluster",
         "IsAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01002"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -31,8 +39,8 @@
   ],
   "AmmoCategory": "AC5",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 5,
-  "Damage": 16,
+  "HeatGenerated": 3,
+  "Damage": 14,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
@@ -41,17 +49,21 @@
   "AccuracyModifier": -1,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 1,
-  "APMaxArmorThickness": 32,
+  "APMaxArmorThickness": 42,
   "APCriticalChanceMultiplier": 0.225,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 1,
-  "ShotsWhenFired": 3,
-  "ShotsPerAmmo": 3,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 4,
+  "ShotsPerAmmo": 4,
   "ProjectilesPerShot": 1,
+  "HitGenerator": "Cluster",
+  "ClusteringModifier": 30,
   "AttackRecoil": 2,
   "Instability": 3.8,
-  "FlatJammingChance": 0.05,
+  "FlatJammingChance": 0.08,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.0375,
   "WeaponEffectID": "WeaponEffect-Weapon_AC5",
   "Description": {
@@ -81,11 +93,13 @@
   "FireDelayMultiplier": 1,
   "Modes": [
     {
-      "Id": "x3",
-      "UIName": "Burst(x3)",
+      "Id": "x4",
+      "UIName": "Burst",
+      "Name": "Burst Fire",
+      "Description": "AutoCannon fires a Burst of 4 Projectiles",
       "isBaseMode": true,
-      "HeatMultiplier": 0.33,
-      "APDamageMultiplier": 0.33
+      "HeatMultiplier": 0.2,
+      "APDamageMultiplier": 0.2
     }
   ],
   "statusEffects": [],

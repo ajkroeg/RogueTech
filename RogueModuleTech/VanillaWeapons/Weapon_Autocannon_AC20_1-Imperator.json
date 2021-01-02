@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon4"
       }
     ],
     "ComponentExplosion": {
@@ -14,8 +17,8 @@
       "Bonuses": [
         "ImperatorAC",
         "WpnRecoil: 2",
-        "WeaponJAMFlat: 15%",
-        "RapidFireAC: 30%",
+        "WeaponJAMFlat: 10%",
+        "RapidFireAC: 25%",
         "DakkaBoom: 100",
         "ModesCanMisfire",
         "IsAC"
@@ -23,6 +26,11 @@
     },
     "InventorySorter": {
       "SortKey": "01004"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -37,7 +45,7 @@
   ],
   "AmmoCategory": "AC20",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 15,
+  "HeatGenerated": 20,
   "Damage": 100,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -56,7 +64,6 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
   "Instability": 25,
-  "FlatJammingChance": 0.15,
   "FireTerrainChance": 0.08,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
@@ -89,20 +96,27 @@
       "Id": "x1",
       "UIName": "STD",
       "isBaseMode": true,
-      "AIHitChanceCap": 0.1
+	  "Name": "Standard",
+      "Description": "AutoCannon fires a single Shot",
+      "AIHitChanceCap": 0.1,
+      "FlatJammingChance": 0.1,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1
     },
     {
       "Id": "x2",
       "UIName": "RF",
+	  "Name": "RapidFire",
+      "Description": "AutoCannon fires 2 Shots with a 25% chance to Misfire. Mitigated by Jam Reduction.",
       "isBaseMode": false,
       "ShotsWhenFired": 1,
       "RefireModifier": 5,
-      "HeatGenerated": 15,
+      "HeatGenerated": 20,
       "AIHitChanceCap": 0.4,
       "DamageOnJamming": true,
-      "FlatJammingChance": 0.3,
-      "GunneryJammingMult": 0.06,
-      "GunneryJammingBase": 2
+      "FlatJammingChance": 0.25,
+      "GunneryJammingMult": 0.01,
+      "GunneryJammingBase": 1
     }
   ],
   "statusEffects": [],

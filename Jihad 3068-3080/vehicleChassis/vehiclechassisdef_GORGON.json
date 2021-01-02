@@ -1,12 +1,20 @@
 {
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Goblin",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "Description": {
+    "Cost": 8280879,
+    "Rarity": 2,
+    "Purchasable": false,
+    "UIName": "Gorgon",
     "Id": "vehiclechassisdef_GORGON",
     "Name": "Gorgon",
-    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Trading speed or weapons for armor, the Medium Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>",
-    "Icon": "Gorgon",
-    "Cost": 8494750,
-    "Rarity": 2,
-    "Purchasable": false
+    "Details": "A jack of all trades tank, the Medium tank is the generic stereotype of a tank. Trading speed or weapons for armor, the Medium Tank can soak up a surprisingly heavy level of fire power.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       264     25\n<b>Left</b>         190     25\n<b>Right</b>       190     25\n<b>Rear</b>        150     25\n<b>Turret</b>      240     25\n\n<b>Total</b>      1034    125\n",
+    "Icon": "Gorgon"
   },
   "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_4-6cv",
@@ -79,7 +87,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 235,
+      "MaxArmor": 264,
       "InternalStructure": 25
     },
     {
@@ -87,7 +95,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 185,
+      "MaxArmor": 190,
       "InternalStructure": 25
     },
     {
@@ -95,7 +103,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 185,
+      "MaxArmor": 190,
       "InternalStructure": 25
     },
     {
@@ -124,7 +132,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 230,
+      "MaxArmor": 240,
       "InternalStructure": 25
     }
   ]

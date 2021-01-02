@@ -5,6 +5,14 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.18
+    },
+    "AssemblyVariant": {
+      "PrefabID": "turkina",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": [
       {
         "Location": "Head",
@@ -17,13 +25,22 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_JumpAttack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -33,19 +50,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_285",
+      "ComponentDefID": "Gear_Engine_285",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -55,8 +70,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -66,8 +80,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -77,19 +90,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_JumpAttack",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": null,
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -99,8 +100,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -110,8 +110,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -121,8 +120,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -135,7 +133,7 @@
     "UIName": "Turkina",
     "Id": "chassisdef_turkina_TKR-E",
     "Name": "Turkina",
-    "Details": "A close range variant, the Turkina E is equiped with six Streak SRM-6's and a HAG 40",
+    "Details": "A close range variant, the Turkina E is equiped with six Streak SRM-6's and a HAG 40\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
     "Icon": "uixTxrIcon_turkina"
   },
   "VariantName": "TKR-E",

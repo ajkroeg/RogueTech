@@ -1,12 +1,21 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.29
+    },
+    "AssemblyVariant": {
+      "PrefabID": "atlasiii",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -19,7 +28,7 @@
     "UIName": "Atlas III",
     "Id": "chassisdef_atlas_iii_AS7-D3",
     "Name": "Atlas III",
-    "Details": "The D3's construction reflects its intended role as (almost) a custom design for Commanders. The 'Mech is designed for dealing punishing attacks, while retaining the survivability and speed of the original Atlas.",
+    "Details": "The D3's construction reflects its intended role as (almost) a custom design for Commanders. The 'Mech is designed for dealing punishing attacks, while retaining the survivability and speed of the original Atlas.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.29</color></b>",
     "Icon": "AtlasIII"
   },
   "VariantName": "AS7-D3",
@@ -143,9 +152,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 320,
-      "MaxRearArmor": 160,
-      "InternalStructure": 160
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",

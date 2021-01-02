@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/a/a/lbx"
+      },
+      {
+        "CategoryID": "CritsAutoCannon4"
       }
     ],
     "BonusDescriptions": {
@@ -13,6 +16,11 @@
     },
     "InventorySorter": {
       "SortKey": "01022"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",

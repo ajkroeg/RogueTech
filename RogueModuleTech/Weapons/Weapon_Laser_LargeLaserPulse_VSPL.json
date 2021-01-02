@@ -3,18 +3,26 @@
     "Category": [
       {
         "CategoryID": "w/e/l/vspl"
+      },
+      {
+        "CategoryID": "Critslaser2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "VSPL",
         "HeatPerCharge: -0.3",
-        "EvasiveExponent: -0.4",
+        "EvasiveExponentMinus: -0.4",
         "DmgFallOff: 40%"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02010"
+      "SortKey": "02347"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

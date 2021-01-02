@@ -156,6 +156,12 @@
       "Long": "{0} Damage Resistance",
       "Full": "{0} resistance against all Damage when active"
     },
+	{
+      "Bonus": "ActiveSelfJam",
+      "Short": "{0} Jam",
+      "Long": "{0} Jam",
+      "Full": "{0} EM Jamming on Self when active"
+    },
     {
       "Bonus": "ActiveAccuracy",
       "Short": "{0} Acc",
@@ -223,18 +229,6 @@
       "Full": "{0} weapon heat generated when active"
     },
     {
-      "Bonus": "ActiveBankMaxHeat",
-      "Short": "{0} MaxHeat",
-      "Long": "{0} Maximum Heat",
-      "Full": "{0} maximum heat when active"
-    },
-    {
-      "Bonus": "ActiveBankThreshhold",
-      "Short": "{0} OH.Threshold",
-      "Long": "{0} OH Threshold",
-      "Full": "{0} overheat threshold when active"
-    },
-    {
       "Bonus": "ActiveSkillGunnery",
       "Short": "{0} Gunnery",
       "Long": "{0} Gunnery",
@@ -281,6 +275,12 @@
       "Short": "Volatile",
       "Long": "Volatile Capacitors",
       "Full": "High-Energy Capacitors discharge violently for {0} damage when destroyed during activation"
+    },
+    {
+      "Bonus": "OnlyBeforeMove",
+      "Short": "Only Before Move",
+      "Long": "Only Before Move",
+      "Full": "Can only be activated before movement"
     }
   ]
 }

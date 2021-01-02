@@ -32,6 +32,7 @@
       "elysia",
       "oberon",
       "valkyrate",
+      "jarnfolk",
       "circinus",
       "illyrian",
       "lothian",
@@ -79,7 +80,8 @@
       "Faction_Employer",
       "Faction_Target",
       "Faction_TargetsAlly",
-      "mr-resize-0.75"
+      "mr-resize-0.75",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -88,12 +90,6 @@
   "AssignedArmor": 240,
   "DamageLevel": "Functional",
   "inventory": [
-    {
-      "ComponentDefID": "Turret_Systems_Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
     {
       "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
       "ComponentDefType": "Weapon",
@@ -167,7 +163,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "emod_engine_200",
+      "ComponentDefID": "Gear_Engine_200",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": 2,
       "DamageLevel": "Functional"

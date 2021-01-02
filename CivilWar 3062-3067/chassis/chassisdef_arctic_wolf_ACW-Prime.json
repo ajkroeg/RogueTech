@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.03
+    },
+    "AssemblyVariant": {
+      "PrefabID": "arcticwolf",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Targeting_Short",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_250",
+      "ComponentDefID": "Gear_Engine_250",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,15 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Targeting_Short",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,7 +82,7 @@
     "UIName": "Arctic Wolf",
     "Id": "chassisdef_arctic_wolf_ACW-Prime",
     "Name": "Arctic Wolf",
-    "Details": "The design of the Arctic Wolf is simple: get close, unleash a torrent of missiles, and get out.  Like the Pack Hunter, some materials used in the design were obtained from the Kell Hounds, though the design is Clan-tech in every way that matters.",
+    "Details": "The design of the Arctic Wolf is simple: get close, unleash a torrent of missiles, and get out.  Like the Pack Hunter, some materials used in the design were obtained from the Kell Hounds, though the design is Clan-tech in every way that matters.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Short</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
     "Icon": "arcticwolf1"
   },
   "VariantName": "ACW-Prime",

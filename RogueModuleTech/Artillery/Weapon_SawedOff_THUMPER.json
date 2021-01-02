@@ -1,9 +1,13 @@
 {
     "Custom": {
         "Category": [
+      {
+        "CategoryID": "NeverMelee"
+      },
             {
                 "CategoryID": "w/a/o/artillery"
-            }
+            },
+			{ "CategoryID": "CritsArtillery6" }
         ],
         "BonusDescriptions": {
             "Bonuses": [
@@ -86,7 +90,8 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "mr-resize-6",
+			"OmniRestriction.{location}",
+			"TurretRestriction.{location}",
             "range_extreme"
         ],
         "tagSetSourceFile": ""

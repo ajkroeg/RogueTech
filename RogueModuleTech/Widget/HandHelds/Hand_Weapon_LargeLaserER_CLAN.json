@@ -2,33 +2,41 @@
   "Custom": {
     "Category": [
       {
+        "CategoryID": "HandHeldNoArmMelee"
+      },
+      {
         "CategoryID": "HandHeld"
       },
       {
         "CategoryID": "w/s/h/HandHeld"
       }
     ],
-	"MechConfiguration": {},
-	"ComponentExplosion": {
+    "MechConfiguration": { },
+    "ComponentExplosion": {
       "ExplosionDamage": 40,
       "StabilityDamage": 10,
-	  "HeatDamage": 30
+      "HeatDamage": 30
     },
     "BonusDescriptions": {
       "Bonuses": [
-		"HandHeld: 11",
+        "HandHeld: 11",
         "ERLaser",
         "IsLaser",
-		"ExplodiumFlat: 15%",
-		"WeaponBoom: 10"
+        "ExplodiumFlat: 20%",
+        "CapacitorBoom: 10"
       ]
     },
     "InventorySorter": {
       "SortKey": "02009"
     },
-	"HandHeld": {
+    "HandHeld": {
       "Tonnage": 11,
       "HandsUsed": true
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "weaponCategoryID": "Special",
@@ -87,17 +95,15 @@
   "AllowedLocations": "CenterTorso",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "FlatJammingChance": 0.15,
-      "GunneryJammingMult": 0.02,
-      "GunneryJammingBase": 5,
+  "FlatJammingChance": 0.2,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "DamageOnJamming": true,
-  "statusEffects": [
-
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "component_type_stock",
-	  "LaserIns.{location}",
+      "LaserIns.{location}",
       "range_very-long"
     ],
     "tagSetSourceFile": ""

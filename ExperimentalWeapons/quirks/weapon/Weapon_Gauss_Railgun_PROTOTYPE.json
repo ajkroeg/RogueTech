@@ -5,8 +5,7 @@
 				"VariableDmg: 50",
 				"WpnCrits: +50%",
 				"WpnRecoil: 8",
-				"IsGauss",
-				"IsArtillery"
+				"IsGauss"
 			]
 		},
 		"InventorySorter": {
@@ -20,9 +19,8 @@
 			]
 		},
 		"Category": [
-			{
-				"CategoryID": "w/a/g/railgun"
-			}
+			{ "CategoryID": "w/a/g/railgun" },
+			{ "CategoryID": "CritsGauss2" }
 		]
 	},
 	"Category": "Ballistic",
@@ -96,7 +94,7 @@
 			"MinRange": -200.0,
 			"MaxRange": -600.0,
 			"ShortRange": -200.0,
-			"MiddleRange": -350.0,
+			"MediumRange": -350.0,
 			"LongRange": -600.0,
 			"DistantVariance": 2.0,
 			"DistantVarianceReversed": true,

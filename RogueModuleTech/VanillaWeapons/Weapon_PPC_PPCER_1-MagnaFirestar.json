@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/e/p/erppc"
+      },
+      {
+        "CategoryID": "CritsPPC2"
       }
     ],
     "BonusDescriptions": {
@@ -10,12 +13,16 @@
         "MagnaPPC",
         "PPCDEBUFF: 1",
         "WpnRecoil: 2",
-        "LosTech",
-        "MineClearanceBoom: 1"
+        "MineClearanceBoom: 2"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02015"
+      "SortKey": "02237"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",
@@ -39,8 +46,8 @@
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
-  "APArmorShardsMod": 0.2,
-  "APMaxArmorThickness": 71.0,
+  "APArmorShardsMod": 0.25,
+  "APMaxArmorThickness": 82.0,
   "APCriticalChanceMultiplier": 0.1375,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -73,7 +80,7 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "ClearMineFieldRadius": 8,
+  "ClearMineFieldRadius": 16,
   "statusEffects": [
     {
       "durationData": {

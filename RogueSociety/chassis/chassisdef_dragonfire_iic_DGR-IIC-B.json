@@ -5,9 +5,27 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.2
+    },
+    "AssemblyVariant": {
+      "PrefabID": "dragonfireiic",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Rugged",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
@@ -15,8 +33,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -26,8 +43,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -37,19 +53,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "Gear_Engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -59,8 +73,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -70,8 +83,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -81,19 +93,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Rugged",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": null,
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -103,13 +103,12 @@
       "HardpointSlot": 0,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "chrprfweap_dragonfire_centertorso_laser_eh1",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 10833113,
+    "Cost": 13240472,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -117,14 +116,15 @@
     "UIName": "Dragon Fire IIC",
     "Id": "chassisdef_dragonfire_iic_DGR-IIC-B",
     "Name": "Dragon Fire IIC",
-    "Details": "Despite being designed by the Star League before the Exodus, the Dragon Fire was not seen in the Inner Sphere until the 3050s. However, an updated version of the original Star League design was developed as proposed to Clan leadership during the Golden Century but was never adopted in favor of  Omnimechs designs. Not willing to give up on the design, several members of the Society continued redesigning the Dragon Fire in secret. By the Wars of Reaving, the Dragon Fire IIC Omnimech is vastly more advanced than it's Inner Sphere cousin.",
+    "Details": "Despite being designed by the Star League before the Exodus, the Dragon Fire was not seen in the Inner Sphere until the 3050s. However, an updated version of the original Star League design was developed as proposed to Clan leadership during the Golden Century but was never adopted in favor of  Omnimechs designs. Not willing to give up on the design, several members of the Society continued redesigning the Dragon Fire in secret. By the Wars of Reaving, the Dragon Fire IIC Omnimech is vastly more advanced than it's Inner Sphere cousin.\n\n<b><color=#e62e00>Quirk: Rugged</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.2</color></b>",
     "Icon": "DragonFire"
   },
   "VariantName": "DGR-IIC-B",
   "ChassisTags": {
     "items": [
-      "SocietyMech",
-      "OmniMech"
+      "ClanMech",
+      "OmniMech",
+      "SocietyMech"
     ],
     "tagSetSourceFile": ""
   },

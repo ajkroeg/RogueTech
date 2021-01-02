@@ -4,9 +4,27 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
+    },
+    "DropCostFactor": {
+      "DropModifier": 1.18
+    },
+    "AssemblyVariant": {
+      "PrefabID": "osteon",
+      "Exclude": false,
+      "Include": true
     }
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_MultiTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": null,
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_clanferrolamellor",
@@ -14,8 +32,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -25,8 +42,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -36,8 +52,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -47,8 +62,7 @@
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -58,19 +72,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_MultiTrack",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": null,
-      "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -80,8 +82,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -91,19 +92,17 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_315",
+      "ComponentDefID": "Gear_Engine_315",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -113,8 +112,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -124,8 +122,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -135,8 +132,7 @@
       "HardpointSlot": -1,
       "SimGameUID": null,
       "GUID": null,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -149,8 +145,8 @@
     "UIName": "Osteon",
     "Id": "chassisdef_osteon_OTN-G",
     "Name": "Osteon",
-    "Details": "A fire-support variant, the Osteon-G carries two Arrow IV missile launchers with 5 tons of ammuntion. Two ER Medium Lasers and two Medium Pulse Lasers provide close-range firepower.",
-    "Icon": "uixTxrIcon_marauderiic"
+    "Details": "A fire-support variant, the Osteon-G carries two Arrow IV missile launchers with 5 tons of ammuntion. Two ER Medium Lasers and two Medium Pulse Lasers provide close-range firepower.\n\n<b><color=#e62e00>Quirk: Multi Trac</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
+    "Icon": "Osteon"
   },
   "VariantName": "OTN-G",
   "ChassisTags": {

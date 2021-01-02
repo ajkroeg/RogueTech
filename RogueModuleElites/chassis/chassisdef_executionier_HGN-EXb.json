@@ -3,6 +3,14 @@
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.25
+    },
+    "AssemblyVariant": {
+      "PrefabID": "highlander",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -11,8 +19,7 @@
       "ComponentDefID": "Special_Reinforced_Legs",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -25,13 +32,13 @@
     "UIName": "Highlander",
     "Id": "chassisdef_executionier_HGN-EXb",
     "Name": "Highlander",
-    "Details": "The 'Vollstrecker', or Executioner, is a Steiner Elite Battlemech, agile like a medium 'Mech and armed to the Teeth, is this a true Lyran Military doctrine Scout.",
+    "Details": "The 'Vollstrecker', or Executioner, is a Steiner Elite Battlemech, agile like a medium 'Mech and armed to the Teeth, is this a true Lyran Military doctrine Scout.\n\n<b><color=#e62e00>Quirk: Reinforced Legs</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.25</color></b>",
     "Icon": "Highlander2"
   },
   "VariantName": "HGN-EXb",
   "ChassisTags": {
     "items": [
-      "mr-resize-1.11",
+      "mr-resize-0.9",
       "EliteMech"
     ],
     "tagSetSourceFile": ""
@@ -106,9 +113,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 150,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 75
+      "InternalStructure": 80
     },
     {
       "Location": "LeftTorso",
@@ -124,9 +131,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 190,
-      "MaxRearArmor": 95,
-      "InternalStructure": 95
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
     },
     {
       "Location": "CenterTorso",
@@ -158,9 +165,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 290,
-      "MaxRearArmor": 145,
-      "InternalStructure": 145
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
     },
     {
       "Location": "RightTorso",
@@ -172,9 +179,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 190,
-      "MaxRearArmor": 95,
-      "InternalStructure": 95
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
     },
     {
       "Location": "RightArm",
@@ -190,27 +197,27 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
-      "MaxArmor": 150,
+      "MaxArmor": 160,
       "MaxRearArmor": -1,
-      "InternalStructure": 75
+      "InternalStructure": 80
     },
     {
       "Location": "LeftLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 190,
+      "MaxArmor": 200,
       "MaxRearArmor": -1,
-      "InternalStructure": 95
+      "InternalStructure": 100
     },
     {
       "Location": "RightLeg",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 190,
+      "MaxArmor": 200,
       "MaxRearArmor": -1,
-      "InternalStructure": 95
+      "InternalStructure": 100
     }
   ],
   "LOSSourcePositions": [

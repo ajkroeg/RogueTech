@@ -3,6 +3,9 @@
     "Category": [
       {
         "CategoryID": "w/m/l/lrm"
+      },
+      {
+        "CategoryID": "CritsCLANLRM2"
       }
     ],
     "InventorySorter": {
@@ -13,6 +16,11 @@
         "IsLRM",
         "Indirect",
         "DoesCluster"
+      ]
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
       ]
     }
   },

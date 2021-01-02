@@ -33,35 +33,36 @@
   },
   "ChassisID": "vehiclechassisdef_PUMA-2_CLAN",
   "Description": {
+    "Cost": 34161046,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "Puma PAT-IIC-2",
     "Id": "vehicledef_PUMA-2_CLAN",
     "Name": "Puma PAT-IIC-2",
-    "Details": "A clantech upgrade to the Royal Puma, this support tank is assigned to second line units.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/120 Meters.</color></b>",
-    "Icon": "Puma",
-    "Cost": 35032238,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "A clantech upgrade to the Royal Puma, this support tank is assigned to second line units.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor (C)\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       342     50\n<b>Left</b>         240     50\n<b>Right</b>       240     50\n<b>Rear</b>        150     50\n<b>Turret</b>      288     50\n\n<b>Total</b>      1260    250\n",
+    "Icon": "Puma"
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 280,
+      "CurrentArmor": 342,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 280,
+      "AssignedArmor": 342,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 230,
+      "CurrentArmor": 240,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 230,
+      "AssignedArmor": 240,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 230,
+      "CurrentArmor": 240,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 230,
+      "AssignedArmor": 240,
       "DamageLevel": "Functional"
     },
     {
@@ -73,9 +74,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 260,
+      "CurrentArmor": 288,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 260,
+      "AssignedArmor": 288,
       "DamageLevel": "Functional"
     }
   ],
@@ -152,7 +153,7 @@
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -248,6 +249,13 @@
     },
     {
       "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
       "ComponentDefID": "Tank_CASE_CLAN",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -268,13 +276,6 @@
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_Guardian_ECM_CLAN",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
       "ComponentDefID": "Tank_Turret",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -282,7 +283,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_engine_285",
+      "ComponentDefID": "Gear_Engine_285",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -394,28 +395,28 @@
     },
     {
       "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
       "ComponentDefID": "Tank_Coolant_System",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -5,7 +5,7 @@
     "Description": "Nuclear Weapons",
     "Author": "LadyAlekto",
     "Website": "",
-    "Contact": "fakeemail@fakeemail.com",
+    "Contact": "https://discord.gg/roguetech",
     "DependsOn": [
         "RogueTech Core"
     ],
@@ -31,6 +31,8 @@
         {
             "Type": "VehicleDef",
             "Path": "vehicle"
-        }
+        },
+		{ "Type": "AmmunitionDef", "Path": "ammunition" },
+		{ "Type": "AmmunitionBoxDef", "Path": "AmmoBox" }
     ]
 }

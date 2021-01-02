@@ -27,7 +27,8 @@
       "clansmokejaguar",
       "clancloudcobra",
       "clannovacat",
-      "clanburrock"
+      "clanburrock",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -41,7 +42,7 @@
     "UIName": "DireStar DS-Prime",
     "Id": "mechdef_direstar_DS-Prime",
     "Name": "Dire Wolf DS-Prime",
-    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for 'Great Death') by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.",
+    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for 'Great Death') by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>",
     "Icon": "Direstar"
   },
   "simGameMechPartCost": 2907245,
@@ -51,7 +52,7 @@
       "Location": "Head",
       "CurrentArmor": 35,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 26,
+      "CurrentInternalStructure": 16,
       "AssignedArmor": 35,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
@@ -60,7 +61,7 @@
       "Location": "LeftArm",
       "CurrentArmor": 60,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 60,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
@@ -69,7 +70,7 @@
       "Location": "LeftTorso",
       "CurrentArmor": 70,
       "CurrentRearArmor": 10,
-      "CurrentInternalStructure": 125,
+      "CurrentInternalStructure": 105,
       "AssignedArmor": 70,
       "AssignedRearArmor": 10,
       "DamageLevel": "Functional"
@@ -78,16 +79,16 @@
       "Location": "CenterTorso",
       "CurrentArmor": 70,
       "CurrentRearArmor": 10,
-      "CurrentInternalStructure": 175,
+      "CurrentInternalStructure": 155,
       "AssignedArmor": 70,
-      "AssignedRearArmor": 15,
+      "AssignedRearArmor": 10,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
       "CurrentArmor": 70,
       "CurrentRearArmor": 10,
-      "CurrentInternalStructure": 125,
+      "CurrentInternalStructure": 105,
       "AssignedArmor": 70,
       "AssignedRearArmor": 10,
       "DamageLevel": "Functional"
@@ -96,7 +97,7 @@
       "Location": "RightArm",
       "CurrentArmor": 60,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 105,
+      "CurrentInternalStructure": 85,
       "AssignedArmor": 60,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
@@ -105,7 +106,7 @@
       "Location": "LeftLeg",
       "CurrentArmor": 40,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 135,
+      "CurrentInternalStructure": 105,
       "AssignedArmor": 40,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
@@ -114,7 +115,7 @@
       "Location": "RightLeg",
       "CurrentArmor": 40,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 135,
+      "CurrentInternalStructure": 105,
       "AssignedArmor": 40,
       "AssignedRearArmor": -1,
       "DamageLevel": "Functional"
@@ -271,7 +272,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -279,7 +280,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -287,7 +288,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -295,7 +296,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -303,7 +304,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -311,7 +312,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -319,7 +320,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -327,7 +328,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -335,7 +336,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -343,7 +344,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,
@@ -351,7 +352,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+      "ComponentDefID": "Weapon_PPCER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,

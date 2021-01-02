@@ -1,8 +1,10 @@
 {
     "Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/m/s/hmrm" }
-		],
+        "Category": [
+            {
+                "CategoryID": "a/m/s/hmrm"
+            }
+        ],
         "Flags": {
             "flags": [
                 "not_broken"
@@ -15,27 +17,31 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AcidSRM: 1%",
-				"WpnAccuracy: -1",
-				"HMRMDamage: -1",
-				"ArmorDmgMod: +50%",
-				"StructureDmgMod: -50%",
-				"MissileHP: 3",
-                "HMRMAmmo: 120"
+                "AcidSRM: 1%",
+                "WpnAccuracy: -1",
+                "HMRMDamage: -1",
+                "ArmorDmgMod: +50%",
+                "StructureDmgMod: -50%",
+                "MissileHP: 3",
+                "HMRMAmmo: 120",
+                "AmmoCost: 44"
             ]
-        },		
+        },
+        "AmmoCost": {
+            "PerUnitCost": 44
+        },
         "InventorySorter": {
             "SortKey": "000037"
         },
-  "TRGBColor" : { 
-    "Color" : "#367F40",
-    "SkipText": true
-  }
+        "TRGBColor": {
+            "Color": "#367F40",
+            "SkipText": true
+        }
     },
     "AmmoID": "Ammunition_HMRM_AX",
     "Capacity": 120,
     "Description": {
-        "Cost": 90000,
+        "Cost": 52500,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Generic",
@@ -43,7 +49,7 @@
         "UIName": "Ammo HMRM AX",
         "Id": "Ammo_AmmunitionBox_Acid_HMRM",
         "Name": "HMRM AX Ammo",
-        "Details": "This warhead replaces the normal explosive charge of the standard heavy medium-range missile with a small tank of a gelled Acid, weakening a Targets resistance. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. \n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
+        "Details": "This warhead replaces the normal explosive charge of the standard heavy medium-range missile with a small tank of a gelled Acid, weakening a Targets resistance. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. ",
         "Icon": "MRM"
     },
     "BonusValueA": "",

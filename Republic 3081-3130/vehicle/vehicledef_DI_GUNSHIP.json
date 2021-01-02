@@ -5,6 +5,7 @@
       "unit_vehicle",
       "unit_medium",
       "unit_vtol",
+      "society",
       "unit_release",
       "unit_lance_vanguard",
       "unit_advanced",
@@ -84,27 +85,29 @@
       "clannovacat",
       "BlackWidowCompany",
       "BaumannGroup",
-      "BountyHunterAssociates"
+      "BountyHunterAssociates",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_DI_GUNSHIP",
   "Description": {
+    "Cost": 3556209,
+    "Rarity": 0,
+    "Purchasable": false,
+    "UIName": "DI Gunship",
     "Id": "vehicledef_DI_GUNSHIP",
     "Name": "DI Gunship",
-    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Intended as a scout or vanguard unit, the Light VTOL is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>",
-    "Icon": "DIMultipurpose",
-    "Cost": 4590667,
-    "Rarity": 0,
-    "Purchasable": false
+    "Details": "A fast unit, the Light VTOL is not designed for protracted combat. Intended as a scout or vanguard unit, the Light VTOL is constantly on the move, probing ahead of the rest of the troops.\n\n <b><color=#ffcc00>VTOL: Ignores Terrain, slow in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Heavy Ferro\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       200     18\n<b>Left</b>         130     18\n<b>Right</b>       130     18\n<b>Rear</b>        100     18\n<b>Turret</b>       15     18\n\n<b>Total</b>      575     90\n",
+    "Icon": "DIMultipurpose"
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 180,
+      "CurrentArmor": 200,
       "CurrentInternalStructure": 18,
-      "AssignedArmor": 180,
+      "AssignedArmor": 200,
       "DamageLevel": "Functional"
     },
     {
@@ -130,9 +133,9 @@
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 10,
+      "CurrentArmor": 15,
       "CurrentInternalStructure": 18,
-      "AssignedArmor": 10,
+      "AssignedArmor": 15,
       "DamageLevel": "Functional"
     }
   ],
@@ -146,7 +149,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
+      "ComponentDefID": "Weapon_PPC_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -214,7 +217,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_engine_085",
+      "ComponentDefID": "Gear_Engine_085",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_HMRM_Thunder",
-        "Name": "LRM Ammo",
+        "Name": "Thunder HMRM Ammo",
         "UIName": "Thunder",
         "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
         "Icon": null,
@@ -19,8 +19,9 @@
     "CriticalDamageModifier": 1,
     "DamagePerShot": -5.0,
     "MinMissRadius": 10,
-    "MaxMissRadius": 40,
+    "MaxMissRadius": 80,
     "AlwaysIndirectVisuals": true,
+    "CantHitUnaffecedByPathing": true,
 	"MissileHealth": 3,
     "ColorsTable": [
         {
@@ -31,6 +32,10 @@
     "ColorSpeedChange": 5,
     "ColorChangeRule": "t0",
     "MineField": {
+	"UIName": "Thunder",
+		"stealthLevel": 1,
+		"IFFLevel": 1,
+		"burnReaction": "None",
         "InstallCellRange": 0,
         "Count": 1,
         "Heat": 0,

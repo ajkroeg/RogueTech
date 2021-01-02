@@ -1,7 +1,7 @@
 {
    "Description": {
       "Id": "Ammunition_AC10_Caseless",
-      "Name": "AC/10 Ammo",
+      "Name": "Caseless AC/10 Ammo",
       "UIName": "CL",
       "Details": "Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
       "Icon": null,
@@ -13,9 +13,9 @@
    "Category": "AC10",
    "HeatGenerated": 0,
    "RefireModifier": 0,
-   "FlatJammingChance": 0.12,
-   "DamageMultiplier": 0.9,
-   "HeatGeneratedModifier": 1,
+   "FlatJammingChance": 0.09,
+   "DamageMultiplier": 1,
+   "HeatGeneratedModifier": 1.09,
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "CriticalDamageModifier": 1,

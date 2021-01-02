@@ -3,19 +3,28 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "WpnCrits: +50%",
+        "TAC: +50%",
         "WpnRecoil: 1",
-        "WeaponJAMFlat: 10%",
+        "WeaponJAMFlat: 12%",
         "FederatedAC",
         "IsAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01003"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -30,7 +39,7 @@
   ],
   "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 6,
+  "HeatGenerated": 5,
   "Damage": 55,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -39,8 +48,8 @@
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1.5,
-  "APArmorShardsMod": 1,
-  "APMaxArmorThickness": 110,
+  "APArmorShardsMod": 1.5,
+  "APMaxArmorThickness": 180,
   "APCriticalChanceMultiplier": 0.45,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -49,7 +58,9 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
   "Instability": 15,
-  "FlatJammingChance": 0.1,
+  "FlatJammingChance": 0.12,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.05,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {

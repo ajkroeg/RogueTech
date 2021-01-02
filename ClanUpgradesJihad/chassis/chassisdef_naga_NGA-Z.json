@@ -5,6 +5,14 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.13
+    },
+    "AssemblyVariant": {
+      "PrefabID": "naga",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "CustomParts": {
@@ -12,6 +20,14 @@
     "CustomParts": []
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Extended_Torso_Twist",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
@@ -31,7 +47,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_400",
+      "ComponentDefID": "Gear_Engine_400",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -62,15 +78,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Extended_Torso_Twist",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Artillery_ArrowIV_CLAN",
       "ComponentDefType": "Weapon",
@@ -98,7 +105,7 @@
     "UIName": "Naga",
     "Id": "chassisdef_naga_NGA-Z",
     "Name": "Naga",
-    "Details": "The Naga is a fire-support successor to the first-generation Woodsman OmniMech, but is an oddity in many ways. Most of what could be pod space for the design is actually taken up by a pair of fixed Arrow IV Artillery Systems.",
+    "Details": "The Naga is a fire-support successor to the first-generation Woodsman OmniMech, but is an oddity in many ways. Most of what could be pod space for the design is actually taken up by a pair of fixed Arrow IV Artillery Systems.\n\n<b><color=#e62e00>Quirk: Extended Torso Twist</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.13</color></b>",
     "Icon": "uixTxrIcon_naga"
   },
   "VariantName": "NGA-Z",

@@ -1,5 +1,24 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.26
+    },
+    "AssemblyVariant": {
+      "PrefabID": "atlasiic",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Weapon_Melee",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Coventry_Dreadnought",
@@ -26,15 +45,6 @@
       "SimGameUID": "",
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Weapon_Melee",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -46,7 +56,7 @@
     "UIName": "Atlas IIC",
     "Id": "chassisdef_obsidian_skull_AS-IIC-OS",
     "Name": "Atlas IIC",
-    "Details": "The origin of this mech is unknown, but all the mech's equipment indicate it's made by the Society. Its codename 'Obsidian Skull' is only known if you have seen this mech before and left alive to continue living.",
+    "Details": "The origin of this mech is unknown, but all the mech's equipment indicate it's made by the Society. Its codename 'Obsidian Skull' is only known if you have seen this mech before and left alive to continue living.\n\n<b><color=#e62e00>Quirk: Melee Actuators</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.26</color></b>",
     "Icon": "AtlasOS"
   },
   "VariantName": "AS-IIC-OS",
@@ -160,9 +170,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 320,
-      "MaxRearArmor": 160,
-      "InternalStructure": 160
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",

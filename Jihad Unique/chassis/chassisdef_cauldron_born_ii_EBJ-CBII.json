@@ -5,6 +5,14 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.13
+    },
+    "AssemblyVariant": {
+      "PrefabID": "ebonjaguar",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": [
       {
         "Location": "Head",
@@ -17,11 +25,18 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -34,7 +49,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_325",
+      "ComponentDefID": "Gear_Engine_325",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -63,14 +78,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -82,7 +89,7 @@
     "UIName": "Ebon Jaguar",
     "Id": "chassisdef_cauldron_born_ii_EBJ-CBII",
     "Name": "Ebon Jaguar",
-    "Details": "Like An unstoppable Zombie, the mech known as the cauldron born takes the battlefield striking fear into its opponents. </color></b>",
+    "Details": "Like An unstoppable Zombie, the mech known as the cauldron born takes the battlefield striking fear into its opponents. </color></b>\n\n<b><color=#e62e00>Quirk: Narrow/Low Profile</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.13</color></b>",
     "Icon": "cauldronbornII"
   },
   "VariantName": "EBJ-CBII",

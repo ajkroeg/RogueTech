@@ -7,7 +7,8 @@
     ],
     "Flags": {
       "flags": [
-        "no_salvage"
+        "no_salvage",
+        "not_broken"
       ]
     },
     "Weights": {
@@ -21,6 +22,7 @@
       "Bonuses": [
         "EngineWeight: +5%",
         "Activatable",
+        "OnlyBeforeMove",
         "ActiveWalkSpeed: +30%",
         "ActivatedRunSpeed: +40%",
         "ActiveHeatPerTurn: +15",
@@ -28,7 +30,7 @@
         "FailChanceTurn: 15%",
         "FailCritSelf",
         "FailReducPilot",
-        "WeaponBoom: 30"
+        "CapacitorBoom: 30"
       ]
     },
     "InventorySorter": {
@@ -36,6 +38,8 @@
     },
     "ActivatableComponent": {
       "ButtonName": "SuperCharger",
+      "CanActivateAfterMove": false,
+      "CanActivateAfterFire": true,
       "CanNotBeActivatedManualy": false,
       "FailFlatChance": 0.1,
       "FailRoundsStart": 2,
@@ -124,7 +128,7 @@
   "BattleValue": 0,
   "InventorySize": 1,
   "Tonnage": 0,
-  "AllowedLocations": "CenterTorso",
+  "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [],

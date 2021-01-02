@@ -10,12 +10,16 @@
         "PipsIgnored: 1",
         "WpnAccuracy: +1",
         "Streak",
-        "DoesCluster",
-        "LosTech"
+        "DoesCluster"
       ]
     },
     "InventorySorter": {
       "SortKey": "03009"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Missile",

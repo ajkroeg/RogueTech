@@ -9,13 +9,19 @@
       "Bonuses": [
         "WpnAccuracy: +1",
         "PipsIgnored: 1",
-        "WeaponJAMFlat: 2%",
-        "MydronAC:2",
+        "WeaponJAMFlat: 5%",
+        "MydronAC: 4",
+        "DoesCluster",
         "IsAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01001"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -30,8 +36,8 @@
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 3,
-  "Damage": 13,
+  "HeatGenerated": 2,
+  "Damage": 10,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
@@ -40,17 +46,21 @@
   "AccuracyModifier": -1,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 1,
-  "APMaxArmorThickness": 26,
+  "APMaxArmorThickness": 30,
   "APCriticalChanceMultiplier": 0.125,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 1,
-  "ShotsWhenFired": 2,
-  "ShotsPerAmmo": 2,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 3,
+  "ShotsPerAmmo": 3,
   "ProjectilesPerShot": 1,
+  "HitGenerator": "Cluster",
+  "ClusteringModifier": 30,
   "AttackRecoil": 1,
   "Instability": 3.12,
-  "FlatJammingChance": 0.025,
+  "FlatJammingChance": 0.05,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {
@@ -80,11 +90,13 @@
   "FireDelayMultiplier": 1,
   "Modes": [
     {
-      "Id": "x2",
-      "UIName": "Burst(x2)",
+      "Id": "x3",
+      "UIName": "Burst",
+      "Name": "Burst Fire",
+      "Description": "AutoCannon fires a Burst of 3 Projectiles",
       "isBaseMode": true,
-      "HeatMultiplier": 0.5,
-      "APDamageMultiplier": 0.5
+      "HeatMultiplier": 0.25,
+      "APDamageMultiplier": 0.25
     }
   ],
   "statusEffects": [],

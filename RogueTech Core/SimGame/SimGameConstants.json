@@ -61,6 +61,7 @@
 		"DefaultShopRefreshRate": 14,
 		"DefaultShopMaxInventory": 80,
 		"DefaultShopMaxSpecials": 25,
+		/* Contract pay per difficulty now controled through Difficulty Menu */
 		"ContractPricePerDifficulty": 300000,
 		/* ContractTypeMod's are now located in StreamingAssets/Enums/ContractType.json */
 		"ContractPriceVariance" : 0.15,
@@ -274,9 +275,9 @@
 		"MRBSuccessMod" : 1,
 		"MRBGoodFaithMod" : 0.5,
 		"MRBFailureMod" : -2.0,
-		"XPGoodFaithMod" : 0.4,
-		"XPFailureMod" : 0.2,
-		"XPBadFaithMod" : 0,
+		"XPGoodFaithMod" : 2,
+		"XPFailureMod" : 1.5,
+		"XPBadFaithMod" : 0.1,
 		"MRBRepCap" : [
 			50,
 			200,
@@ -620,7 +621,7 @@
 				"TraitDefTactics3"
 			],
 			[
-				"TraitDefTactics4",
+				"TraitDefTactics4"
 			],
 			[
 				"TraitDefTactics5",
@@ -628,7 +629,7 @@
 				"AbilityT5Cautious"
 			],
 			[
-				"TraitDefTactics6",
+				"TraitDefTactics6"
 			],
 			[
 				"TraitDefTactics7"

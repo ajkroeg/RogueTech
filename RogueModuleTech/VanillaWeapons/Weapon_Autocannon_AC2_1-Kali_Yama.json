@@ -8,13 +8,18 @@
     "BonusDescriptions": {
       "Bonuses": [
         "WpnRecoil: 1",
-        "WeaponJAMFlat: 2%",
+        "WeaponJAMFlat: 5%",
         "KaliYamaAC",
         "IsAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01001"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -48,7 +53,9 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
   "Instability": 6.75,
-  "FlatJammingChance": 0.025,
+  "FlatJammingChance": 0.05,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {

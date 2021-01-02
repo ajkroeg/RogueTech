@@ -1,5 +1,8 @@
 {
   "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 0.95
+    },
     "AssemblyVariant": {
       "PrefabID": "Kanazuchi",
       "Exclude": false,
@@ -7,9 +10,18 @@
     }
   },
   "CustomParts": {
+    "FiringArc": 360,
     "MoveCost": "PowerArmor"
   },
   "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Type_InnerSphereStandard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "Head",
       "ComponentDefID": "PA_Controls",
@@ -31,8 +43,7 @@
       "ComponentDefID": "PA_BoardingClaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -40,8 +51,7 @@
       "ComponentDefID": "PA_BoardingClaw",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -49,22 +59,12 @@
       "ComponentDefID": "PA_Legs",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "PA_Legs",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Type_InnerSphereStandard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -80,7 +80,7 @@
     "UIName": "Kanazuchi",
     "Id": "chassisdef_kanazuchi_KZ-1",
     "Name": "Kanazuchi",
-    "Details": "The Kanazuchi, Japanese for 'hammer', is a Draconis Combine battle armor design, one of the heaviest to come from that realm.",
+    "Details": "The Kanazuchi, Japanese for 'hammer', is a Draconis Combine battle armor design, one of the heaviest to come from that realm.\n\n<b><color=#e62e00>Quirk: IS Standard</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.95</color></b>",
     "Icon": "uixTxrIcon_kanazuchi"
   },
   "VariantName": "KZ-1",

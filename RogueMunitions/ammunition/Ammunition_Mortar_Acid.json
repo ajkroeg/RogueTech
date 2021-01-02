@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_Mortar_Acid",
-        "Name": "Mortar Ammo",
+        "Name": "Acid Mortar Ammo",
         "UIName": "Acid",
         "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
         "Icon": null,
@@ -20,6 +20,7 @@
     "AOERange": 45,
     "AOEDamage": 2,
     "AOEInstability": 1,
+    "AOEEffectsFalloff": true,
     "AlwaysIndirectVisuals": true,
     "statusEffects": [
         {

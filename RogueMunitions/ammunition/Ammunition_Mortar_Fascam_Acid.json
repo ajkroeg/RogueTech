@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_Mortar_Fascam_Acid",
-        "Name": "Mortar Ammo",
+        "Name": "Acid FASCAM Mortar Ammo",
         "UIName": "FASCAM",
         "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
         "Icon": null,
@@ -18,10 +18,15 @@
     "CriticalDamageModifier": 1,
     "DamageMultiplier": 0.5,
     "AlwaysIndirectVisuals": true,
+    "CantHitUnaffecedByPathing": true,
     "AccuracyModifier": 5.0,
     "MinMissRadius": 10,
-    "MaxMissRadius": 40,
+    "MaxMissRadius": 80,
     "MineField": {
+	"UIName": "M-FASCAM-A",
+		"stealthLevel": 1,
+		"IFFLevel": 0,
+		"burnReaction": "None",
         "InstallCellRange": 10,
         "Count": 4,
         "Heat": 0,

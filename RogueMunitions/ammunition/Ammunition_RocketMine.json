@@ -1,7 +1,7 @@
 {
     "Description": {
         "Id": "Ammunition_RocketMine",
-        "Name": "LRM Ammo",
+        "Name": "FASCAM Rocket",
         "UIName": "Mine",
         "Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
         "Icon": null,
@@ -13,7 +13,7 @@
     "Category": "RocketMine",
     "AccuracyModifier": 0,
     "MinMissRadius": 10,
-    "MaxMissRadius": 40,
+    "MaxMissRadius": 80,
     "HeatGenerated": 0,
     "HeatGeneratedModifier": 1,
     "ArmorDamageModifier": 1,
@@ -22,8 +22,13 @@
     "SpreadRange": 120,
     "FireOnSuccessHit": true,
     "AlwaysIndirectVisuals": true,
+    "CantHitUnaffecedByPathing": true,
     "HideIfOnlyVariant": true,
     "MineField": {
+	"UIName": "Mine",
+		"stealthLevel": 0,
+		"IFFLevel": 0,
+		"burnReaction": "None",
         "InstallCellRange": 6,
         "Count": 2,
         "Heat": 0,

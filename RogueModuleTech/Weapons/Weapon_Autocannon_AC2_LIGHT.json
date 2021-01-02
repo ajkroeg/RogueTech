@@ -8,11 +8,17 @@
     "BonusDescriptions": {
       "Bonuses": [
         "PipsIgnored: 1",
+        "WeaponJAMFlat: 5%",
         "IsLightAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01011"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -46,6 +52,9 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
   "Instability": 5,
+  "FlatJammingChance": 0.05,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {

@@ -10,12 +10,16 @@
         "VariableDmg: 3",
         "ERLaser",
         "IsLaser",
-        "DiverseOpticsLaser",
-        "LosTech"
+        "DiverseOpticsLaser"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02003"
+      "SortKey": "02362"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "A Solaris Light League 4x4 team mech deathmatch.",
-    "longDescription": "Commander, this is a very straightforward macth: eliminate all your opposition for the win.",
+    "longDescription": "Commander, this is a very straightforward match: eliminate all your opposition for the win.",
     "salvagePotential": 0,
     "requirementList": [
     {
@@ -285,7 +285,7 @@
     "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
-    "disableAfterAction": true,
+    "disableAfterAction": false,
     "contractRewardOverride": -1,
     "travelOnly": false,
     "useTravelCostPenalty": false,
@@ -495,7 +495,7 @@
                     "EncounterObjectGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf"
                 },
                 "name": "Lance_Enemy_OpposingForce",
-                "lanceDefId": "Manual",
+                "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
                         "lance_type_battle",
@@ -523,7 +523,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
 				"unit_light",
@@ -566,7 +566,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
 				"unit_light",
@@ -609,7 +609,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
 				"unit_light",
@@ -652,7 +652,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
 				"unit_light",

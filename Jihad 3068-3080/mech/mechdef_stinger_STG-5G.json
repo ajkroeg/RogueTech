@@ -10,11 +10,10 @@
       "unit_bracket_low",
       "unit_advanced",
       "unit_jumpOK",
+      "Republic",
       "marik",
       "liao",
       "taurianconcordat",
-      "MercenaryReviewBoard",
-      "betrayers",
       "locals",
       "auriganmercenaries",
       "nofaction",
@@ -41,7 +40,8 @@
       "SelfEmployed_Yang",
       "SecuritySolutionsInc",
       "PaladinProtectionLLC",
-      "HouseKhulan"
+      "HouseKhulan",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -55,7 +55,7 @@
     "UIName": "Stinger STG-5G",
     "Id": "mechdef_stinger_STG-5G",
     "Name": "Stinger STG-5G",
-    "Details": "Based on the 3P variant and introduced in 3076, this model also uses Endo Steel chassis and adds an XL Engine. The engine gives the STG-5G a top speed of 111km/h and provides enough weight savings to add more armor and an advanced PPC Capacitor. ",
+    "Details": "Based on the 3P variant and introduced in 3076, this model also uses Endo Steel chassis and adds an XL Engine. The engine gives the STG-5G a top speed of 111km/h and provides enough weight savings to add more armor and an advanced PPC Capacitor. \n\n<b><color=#e62e00>Quirk: Ubiquitous</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
     "Icon": "Stinger"
   },
   "simGameMechPartCost": 57885,
@@ -169,7 +169,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_120",
+      "ComponentDefID": "Gear_Engine_120",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -370,7 +370,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
+      "ComponentDefID": "Weapon_PPC_LIGHT",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "hasPrefabName": false,

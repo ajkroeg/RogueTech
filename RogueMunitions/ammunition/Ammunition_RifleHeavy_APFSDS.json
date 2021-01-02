@@ -1,7 +1,7 @@
 {
   "Description": {
     "Id": "Ammunition_RifleHeavy_APFSDS",
-    "Name": "Heavy Rifle Ammo",
+    "Name": "APFSDS Heavy Rifle Ammo",
     "UIName": "APFSDS",
     "Details": "This is a kinetic energy penetrator, it's damage is velocity dependant so it decreases with range. The great importance of shot placement is abstracted with variable damage.",
     "Icon": null,
@@ -20,7 +20,7 @@
   "APArmorShardsMod": 0.3,
   "APMaxArmorThickness": 45.0,
   "APCriticalChanceMultiplier": 0.05,
-  "DamageVariance": 25,
+  "DamageVariance": 15,
   "DistantVariance": 0.5,
   "isStabilityVariation": true,
   "isDamageVariation": true,

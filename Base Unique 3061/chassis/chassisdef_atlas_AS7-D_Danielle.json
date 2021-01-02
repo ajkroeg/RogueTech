@@ -1,12 +1,21 @@
 {
+  "Custom": {
+    "DropCostFactor": {
+      "DropModifier": 1.23
+    },
+    "AssemblyVariant": {
+      "PrefabID": "atlas",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Intimidating",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     }
   ],
@@ -19,7 +28,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-D_Danielle",
     "Name": "Atlas",
-    "Details": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers. ",
+    "Details": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers. \n\n<b><color=#e62e00>Quirk: Intimidating</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.23</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "VariantName": "AS7-DD",
@@ -142,9 +151,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 15,
-      "MaxArmor": 320,
-      "MaxRearArmor": 160,
-      "InternalStructure": 160
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",

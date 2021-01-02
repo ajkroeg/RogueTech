@@ -17,14 +17,19 @@
       "Bonuses": [
         "BoltOn: 2",
         "InternalAmmoShots: 2",
+        "AMSChance: -10%",
         "IsThunderbolt",
         "Indirect",
         "MissileHP: 6",
         "InternalAmmo: 55",
         "WpnAccuracy: -1",
         "Visibility: +6%",
-        "Signature: +6%"
+        "Signature: +6%",
+        "AmmoCost: 300"
       ]
+    },
+    "AmmoCost": {
+      "PerUnitCost": 300
     },
     "InventorySorter": {
       "SortKey": "03001"
@@ -37,7 +42,7 @@
     },
     "MechConfiguration": {},
     "HandHeld": {
-      "Tonnage": 3,
+      "Tonnage": 2,
       "HandsUsed": false
     }
   },
@@ -45,16 +50,16 @@
   "Type": "LRM",
   "WeaponSubType": "LRM10",
   "MinRange": 150,
-  "MaxRange": 720,
+  "MaxRange": 840,
   "RangeSplit": [
-    180,
-    360,
-    540
+    210,
+    420,
+    630
   ],
   "AmmoCategory": "ThunderboltOS",
   "StartingAmmoCapacity": 2,
   "HeatGenerated": 0,
-  "Damage": 55,
+  "Damage": 60,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -63,8 +68,8 @@
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.25,
-  "APMaxArmorThickness": 250,
-  "APCriticalChanceMultiplier": 0.25,
+  "APMaxArmorThickness": 300,
+  "APCriticalChanceMultiplier": 0.3,
   "IndirectFireCapable": true,
   "RefireModifier": 0,
   "ShotsWhenFired": 1,
@@ -73,7 +78,8 @@
   "Instability": 15,
   "MissileHealth": 6,
   "FireTerrainChance": 0.0625,
-  "ProjectileSpeedMultiplier": 1.4,
+  "ProjectileSpeedMultiplier": 1.2,
+  "AMSHitChance": -0.1,
   "ImprovedBallistic": true,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
   "Description": {
@@ -82,7 +88,7 @@
     "Purchasable": true,
     "Manufacturer": "Solaris Munitions Inc",
     "Model": "Thunderbolt Missile",
-    "UIName": "Thunderbolt Missile",
+    "UIName": "Thunderbolt 2-Pack",
     "Id": "BoltOn_LRM_Thunderbolt_10_2pack",
     "Name": "Thunderbolt Missile",
     "Details": "The Thunderbolt Missile was developed for the arenas of Solaris. Unlike most missile systems, the Thunderbolt was a single missile that smashed into its target. Though it was effective in the arenas, it didn't see widespread use in the field because the single missile was very vulnerable to Anti-Missile Systems. The missile launcher, though small, was awkward to mount and would only fit on the left or right torso of a 'Mech.",

@@ -5,16 +5,31 @@
       "RightLimit": "Upper",
       "CustomDescription": "Omni Mech"
     },
+    "DropCostFactor": {
+      "DropModifier": 1.17
+    },
+    "AssemblyVariant": {
+      "PrefabID": "bloodasp",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Rugged",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "prefabName": "",
-      "hasPrefabName": true,
+      "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
     {
@@ -27,7 +42,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_360",
+      "ComponentDefID": "Gear_Engine_360",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "hasPrefabName": false,
@@ -56,14 +71,6 @@
       "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Rugged",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -75,7 +82,7 @@
     "UIName": "Blood Asp",
     "Id": "chassisdef_blood_asp_BAS-Prime",
     "Name": "Blood Asp",
-    "Details": "Introduced at the turn of the century, the bloodasp was created by the Smoke Jaguars in anticipation of the Clans' return to the Inner Sphere.",
+    "Details": "Introduced at the turn of the century, the bloodasp was created by the Smoke Jaguars in anticipation of the Clans' return to the Inner Sphere.\n\n<b><color=#e62e00>Quirk: Rugged</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.17</color></b>",
     "Icon": "uixTxrIcon_bloodasp"
   },
   "VariantName": "BAS-Prime",
@@ -187,7 +194,7 @@
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 190,
-      "MaxRearArmor": 90,
+      "MaxRearArmor": 95,
       "InternalStructure": 95
     },
     {
@@ -255,7 +262,7 @@
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 190,
-      "MaxRearArmor": 90,
+      "MaxRearArmor": 95,
       "InternalStructure": 95
     },
     {

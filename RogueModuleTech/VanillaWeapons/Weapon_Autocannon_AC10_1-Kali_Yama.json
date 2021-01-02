@@ -3,18 +3,26 @@
     "Category": [
       {
         "CategoryID": "w/a/a/ac"
+      },
+      {
+        "CategoryID": "CritsAutoCannon2"
       }
     ],
     "BonusDescriptions": {
       "Bonuses": [
         "WpnRecoil: 2",
-        "WeaponJAMFlat: 10%",
+        "WeaponJAMFlat: 12%",
         "KaliYamaAC",
         "IsAC"
       ]
     },
     "InventorySorter": {
       "SortKey": "01003"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -29,7 +37,7 @@
   ],
   "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 9,
+  "HeatGenerated": 8,
   "Damage": 70,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -48,7 +56,9 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
   "Instability": 16,
-  "FlatJammingChance": 0.1,
+  "FlatJammingChance": 0.12,
+  "GunneryJammingMult": 0.01,
+  "GunneryJammingBase": 1,
   "FireTerrainChance": 0.05,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {

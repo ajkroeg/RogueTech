@@ -11,7 +11,8 @@
       "unit_bracket_med",
       "unit_generic",
       "unit_totem",
-      "clanjadefalcon"
+      "clanjadefalcon",
+      "Solaris7"
     ],
     "tagSetSourceFile": ""
   },
@@ -25,7 +26,7 @@
     "UIName": "Gyrfalcon GF-WL",
     "Id": "mechdef_gyrfalcon_GF-WL",
     "Name": "Gyrfalcon GF-WL",
-    "Details": "Aleksandr Hazen: Arguably the Gyrfalcon’s most famous MechWarrior, he was Galaxy Commander of Zeta Galaxy during the Clan's desant into the Republic of the Sphere in 3134. Piloting his 'Mech which he named the White Lily, he would artfully cut through enemy forces in the Republic until reaching Prefecture IX's Capital of Skye. With his sibkin, Galaxy Commander Malvina Hazen, they would nearly take the world through his methods. However, he would be killed in action with Prefect Tara Campbell at the hands of her Hatchetman signature weapon.",
+    "Details": "Aleksandr Hazen: Arguably the Gyrfalcon’s most famous MechWarrior, he was Galaxy Commander of Zeta Galaxy during the Clan's desant into the Republic of the Sphere in 3134. Piloting his 'Mech which he named the White Lily, he would artfully cut through enemy forces in the Republic until reaching Prefecture IX's Capital of Skye. With his sibkin, Galaxy Commander Malvina Hazen, they would nearly take the world through his methods. However, he would be killed in action with Prefect Tara Campbell at the hands of her Hatchetman signature weapon.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.09</color></b>",
     "Icon": "GyrFalcon"
   },
   "simGameMechPartCost": 319236,
@@ -61,10 +62,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 132,
-      "CurrentRearArmor": 50,
+      "CurrentRearArmor": 61,
       "CurrentInternalStructure": 90,
       "AssignedArmor": 132,
-      "AssignedRearArmor": 50,
+      "AssignedRearArmor": 61,
       "DamageLevel": "Functional"
     },
     {
@@ -177,7 +178,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_275",
+      "ComponentDefID": "Gear_Engine_275",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -254,16 +255,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_Actuator_Coventry_X75-Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "IsFixed": false,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "emod_arm_part_shoulder",
       "ComponentDefType": "Upgrade",
@@ -278,16 +269,6 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Coventry_X75-Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "IsFixed": false,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },
@@ -357,9 +338,9 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_AC5_CLAN",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
+      "HardpointSlot": 0,
       "SimGameUID": "",
       "IsFixed": false,
       "hasPrefabName": false,
@@ -367,17 +348,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "SimGameUID": "",
-      "IsFixed": false,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_AC5_CLAN",
+      "ComponentDefID": "Weapon_Ultra_Autocannon_5_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "SimGameUID": "",
@@ -390,6 +361,16 @@
       "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Ultra_Autocannon_5_CLAN",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
       "SimGameUID": "",
       "IsFixed": false,
       "hasPrefabName": false,
@@ -417,7 +398,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Directional_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -427,7 +408,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Directional_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -437,7 +418,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Directional_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -447,7 +428,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Directional_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -457,7 +438,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Directional_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",

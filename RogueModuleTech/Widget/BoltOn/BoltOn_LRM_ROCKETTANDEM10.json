@@ -22,8 +22,12 @@
         "IsRocket: 10",
         "InternalAmmo: 4",
         "Visibility: +2%",
-        "Signature: +2%"
+        "Signature: +2%",
+		"AmmoCost: 24"
       ]
+    },
+	"AmmoCost" : {
+      "PerUnitCost" : 24
     },
     "InventorySorter": {
       "SortKey": "03002"
@@ -64,7 +68,7 @@
   "CriticalChanceMultiplier": 0.75,
   "APArmorShardsMod": 0.4,
   "APMaxArmorThickness": 100,
-  "APCriticalChanceMultiplier": 0.06,
+  "APCriticalChanceMultiplier": 0.5,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,
@@ -93,7 +97,7 @@
     "UIName": "Bolt On Tandem Rocket 10",
     "Id": "BoltOn_LRM_ROCKETTANDEM10",
     "Name": "Tandem RL10",
-    "Details": "Tandem Charge Rocket Launcher are a Periphery Favourite to gamble on taking a target out fast, allowing the Rocket to pierce the target and explode internally.<b><color=#F79232>1 SHOT!</color> </b> <b><color=#099ff2>VOLATILE!</color></b>",
+    "Details": "Tandem Charge Rocket Launcher are a Periphery Favourite to gamble on taking a target out fast, allowing the Rocket to pierce the target and explode internally. </b> <b><color=#099ff2>VOLATILE!</color></b>",
     "Icon": "missile-pod"
   },
   "BonusValueA": "",

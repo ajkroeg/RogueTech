@@ -17,14 +17,7 @@
       "marik",
       "kurita",
       "liao",
-      "rasalhague",
-      "EmeraldDawn",
-      "SianTriumphant",
-      "DuchyOfAndurien",
-      "BlackCalderaDefense",
-      "HouseNakano",
-      "BlackCalderaDefense_Hidden",
-      "HouseKhulan"
+      "rasalhague"
     ],
     "tagSetSourceFile": ""
   },
@@ -353,6 +346,22 @@
       "ComponentDefID": "Weapon_Laser_LargeLaserERPulse_CLAN",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     }

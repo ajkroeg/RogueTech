@@ -13,7 +13,7 @@
     "CustomParts": []
   },
   "Description": {
-    "Cost": 1066699,
+    "Cost": 1491699,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Saladin",
@@ -37,7 +37,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

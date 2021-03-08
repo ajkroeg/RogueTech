@@ -12,8 +12,16 @@
       "unit_bracket_med",
       "unit_predator",
       "unit_totem",
+      "unit_jumpOK",
       "Republic",
-      "clanghostbear"
+      "clanwolf",
+      "clanjadefalcon",
+      "clansteelviper",
+      "clandiamondshark",
+      "clanghostbear",
+      "clansmokejaguar",
+      "clannovacat",
+      "society"
     ],
     "tagSetSourceFile": ""
   },

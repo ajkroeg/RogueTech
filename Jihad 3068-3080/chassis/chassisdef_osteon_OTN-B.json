@@ -12,7 +12,15 @@
       "PrefabID": "osteon",
       "Exclude": false,
       "Include": true
-    }
+    },
+    "ChassisDefaults": [
+      {
+        "Location": "Head",
+        "CategoryID": "CockpitFCS",
+        "DefID": "Gear_FCS_Society",
+        "Type": "Upgrade"
+      }
+    ]
   },
   "FixedEquipment": [
     {
@@ -183,7 +191,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 43,

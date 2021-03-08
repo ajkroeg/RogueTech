@@ -14,7 +14,8 @@
       "Pathing": "true",
       "Fire": "true",
       "Landmines": "true",
-      "MoveClamp": 0.5
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": false
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 2,
@@ -271,7 +272,7 @@
     ]
   },
   "Description": {
-    "Cost": 13091750,
+    "Cost": 13161750,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Ifrit Malakim",
@@ -295,7 +296,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 3,
   "LOSSourcePositions": [
     {

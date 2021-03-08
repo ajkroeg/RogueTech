@@ -63,7 +63,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 13,
@@ -77,10 +77,6 @@
     {
       "Location": "Head",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -167,6 +163,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false

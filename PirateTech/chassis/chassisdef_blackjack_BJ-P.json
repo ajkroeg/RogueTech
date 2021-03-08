@@ -42,7 +42,9 @@
   },
   "VariantName": "BJ-P",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "mr-resize-0.9"
+    ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Volatile Fire Support",
@@ -72,7 +74,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 23,

@@ -48,6 +48,12 @@ mechdef_kintaro_KTO-19,Mech,1,7
 mechdef_kintaro_KTO-C,Mech,1,7
 mechdef_kintaro_KTO-K,Mech,1,7
 mechdef_spider_SDR-7M,Mech,1,7
+mechdef_stinger_lam_STG-A5,Mech,1,3
+mechdef_stinger_lam_STG-A10,Mech,1,3
+mechdef_wasp_lam_WSP-100_lam_mk_i,Mech,1,3
+mechdef_wasp_lam_WSP-100A,Mech,1,3
+mechdef_wasp_lam_WSP-105,Mech,1,3
+mechdef_phoenix_hawk_lam_PHX-HK2,Mech,1,3
 mechdef_spider_SDR-C,Mech,1,7
 mechdef_jenner_JR7-K,Mech,1,7
 mechdef_jenner_JR7-C,Mech,1,7
@@ -55,6 +61,8 @@ mechdef_catapult_CPLT-C3,Mech,1,5
 mechdef_catapult_CPLT-K2K,Mech,1,5
 mechdef_catapult_CPLT-K3,Mech,1,5
 mechdef_catapult_CPLT-K5,Mech,1,5
+mechdef_helios_HEL-C,Mech,1,5
+mechdef_helios_HEL-4A,Mech,1,5
 mechdef_granddragon_DRG-5K,Mech,1,5
 mechdef_granddragon_DRG-C,Mech,1,5
 mechdef_wolverine_WVR-7K,Mech,1,7

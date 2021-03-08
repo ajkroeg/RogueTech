@@ -7,7 +7,7 @@
     }
   },
   "Description": {
-    "Cost": 3756992,
+    "Cost": 3769492,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Mithras Light Tank (ERLL)",
@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

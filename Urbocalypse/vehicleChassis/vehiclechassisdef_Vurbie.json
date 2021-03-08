@@ -1,4 +1,11 @@
 {
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "VUrbie",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "CustomParts": {
     "AOEHeight": 55,
     "FiringArc": 50,
@@ -7,7 +14,8 @@
       "Pathing": "true",
       "Fire": "true",
       "Landmines": "true",
-      "MoveClamp": 0.5
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": false
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 2,
@@ -284,7 +292,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 3,
   "LOSSourcePositions": [
     {

@@ -11,7 +11,7 @@
     "CustomParts": []
   },
   "Description": {
-    "Cost": 1990272,
+    "Cost": 2451072,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "HVAC/20 Carrier",
@@ -24,9 +24,9 @@
   "MovementCapDefID": "movedef_3-5cv",
   "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_heavy_tracked",
-  "HardpointDataDefID": "hardpointdatadef_ac2carrier",
-  "PrefabIdentifier": "chrprfvhcl_ac2carrierbase",
-  "PrefabBase": "ac2carrier",
+  "HardpointDataDefID": "hardpointdatadef_carriertac20",
+  "PrefabIdentifier": "chrprfvhcl_carriertac20",
+  "PrefabBase": "carriertac20",
   "Tonnage": 60,
   "weightClass": "HEAVY",
   "BattleValue": 993,
@@ -35,7 +35,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

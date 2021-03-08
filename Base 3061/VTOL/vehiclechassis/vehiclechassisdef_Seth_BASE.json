@@ -14,7 +14,8 @@
       "Pathing": "true",
       "Fire": "true",
       "Landmines": "true",
-      "MoveClamp": 0.5
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": false
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 2,
@@ -295,7 +296,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 3,
   "LOSSourcePositions": [
     {
@@ -342,7 +343,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 180,
+      "MaxArmor": 200,
       "InternalStructure": 42
     },
     {

@@ -13,6 +13,7 @@
       "unit_littlefriend",
       "Republic",
       "clansgeneric",
+      "clanbloodspirit",
       "clanwolf",
       "clanfiremandrill",
       "clanstaradder",
@@ -156,7 +157,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_Crit",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -164,7 +165,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -172,7 +173,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_TargetingTrackingSystem_Range",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -328,7 +329,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

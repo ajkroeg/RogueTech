@@ -7,7 +7,7 @@
     }
   },
   "Description": {
-    "Cost": 1416000,
+    "Cost": 1544000,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Bulldog (HVAC)",
@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

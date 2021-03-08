@@ -21,7 +21,8 @@
       "Fire": "true",
       "Landmines": "true",
       "MoveCostBiome": "true",
-      "MoveClamp": 0.5
+      "MoveClamp": 0.5,
+      "AllowPartialMovement": false
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 2,
@@ -260,7 +261,7 @@
     ]
   },
   "Description": {
-    "Cost": 3969094,
+    "Cost": 4029094,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Anhur Transport VTOL",
@@ -284,7 +285,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 3,
   "LOSSourcePositions": [
     {

@@ -11,7 +11,7 @@
     "MoveClamp": 0.5
   },
   "Description": {
-    "Cost": 16772464,
+    "Cost": 16832464,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Hadur Fast Support Vehicle",
@@ -35,7 +35,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

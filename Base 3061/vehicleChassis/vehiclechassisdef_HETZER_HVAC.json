@@ -11,7 +11,7 @@
     "CustomParts": []
   },
   "Description": {
-    "Cost": 568000,
+    "Cost": 740800,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Hetzer Wheeled Assault Gun",
@@ -35,7 +35,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 3,
   "LOSSourcePositions": [
     {

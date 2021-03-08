@@ -19,28 +19,13 @@
       "clanwolf",
       "clanjadefalcon",
       "clanhellshorses",
-      "locals",
-      "auriganmercenaries",
-      "LocalsBrockwayRefugees",
-      "MasonsMarauders",
-      "SteelBeast",
-      "KellHounds",
-      "RazorbackMercs",
-      "HostileMercenaries",
-      "RedHareRegiment",
-      "EdCorbu",
-      "SecuritySolutionsInc",
-      "PaladinProtectionLLC",
-      "BlackWidowCompany",
-      "BaumannGroup",
-      "BountyHunterAssociates",
-      "Solaris7"
+      "locals"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_HADUR",
   "Description": {
-    "Cost": 16772464,
+    "Cost": 16832464,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Hadur Fast Support Vehicle",
@@ -120,6 +105,13 @@
       "MountedLocation": "Turret",
       "ComponentDefID": "Weapon_Artillery_ArrowIV_CLAN",
       "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },

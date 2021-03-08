@@ -7,7 +7,7 @@
     }
   },
   "Description": {
-    "Cost": 2089600,
+    "Cost": 2281600,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Pike Support Vehicle*",
@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

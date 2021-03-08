@@ -8,7 +8,6 @@
       "unit_role_sniper",
       "unit_bracket_med",
       "unit_advanced",
-      "unit_jumpOK",
       "clandiamondshark",
       "clansnowraven"
     ],
@@ -123,14 +122,6 @@
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_CLAN_Standard",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_Society",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,

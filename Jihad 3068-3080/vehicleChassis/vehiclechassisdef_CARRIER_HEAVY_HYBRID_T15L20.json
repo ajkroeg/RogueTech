@@ -20,9 +20,9 @@
   "MovementCapDefID": "movedef_2-3cv",
   "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_assault_tracked",
-  "HardpointDataDefID": "hardpointdatadef_heavylrm",
-  "PrefabIdentifier": "chrprfvhcl_heavylrmbase",
-  "PrefabBase": "heavylrm",
+  "HardpointDataDefID": "hardpointdatadef_carrierttbolt",
+  "PrefabIdentifier": "chrprfvhcl_carrierttbolt",
+  "PrefabBase": "carrierttbolt",
   "Tonnage": 80,
   "weightClass": "ASSAULT",
   "BattleValue": 993,
@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

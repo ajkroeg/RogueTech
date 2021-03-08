@@ -1,7 +1,6 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-1.59",
       "unit_vehicle",
       "unit_medium",
       "unit_hover",
@@ -9,10 +8,7 @@
       "unit_lance_assassin",
       "unit_advanced",
       "unit_bracket_high",
-      "liao",
-      "EmeraldDawn",
-      "SianTriumphant",
-      "HouseKhulan"
+      "liao"
     ],
     "tagSetSourceFile": ""
   },

@@ -16,6 +16,7 @@
       "unit_assault",
       "Republic",
       "clansgeneric",
+      "clanbloodspirit",
       "clanburrock",
       "clancloudcobra",
       "clancoyote",
@@ -74,6 +75,12 @@
       "DamageLevel": "Functional",
       "prefabName": "chrPrfWeap_apc_turret_generic_eh1",
       "hasPrefabName": true
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
     },
     {
       "ComponentDefID": "Weapon_Laser_LargeLaser_Chemical_CLAN",

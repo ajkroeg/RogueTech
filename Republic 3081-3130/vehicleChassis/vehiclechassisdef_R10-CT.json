@@ -8,7 +8,7 @@
     "CustomWeights": [
       {
         "ComponentDefID": "Gear_Coolant_Truck",
-        "Tonnage": 10
+        "Tonnage": 20
       }
     ]
   },
@@ -37,7 +37,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

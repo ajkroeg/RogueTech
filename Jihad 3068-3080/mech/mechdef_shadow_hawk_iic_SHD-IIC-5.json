@@ -8,6 +8,7 @@
       "unit_role_sniper",
       "unit_bracket_high",
       "unit_advanced",
+      "unit_jumpOK",
       "Republic",
       "clandiamondshark",
       "comstar",
@@ -469,6 +470,26 @@
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot_half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "SimGameUID": "",

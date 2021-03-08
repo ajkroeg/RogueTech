@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {
@@ -87,7 +87,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 95,
+      "MaxArmor": 110,
       "InternalStructure": 30
     },
     {

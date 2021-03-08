@@ -6,7 +6,6 @@
       "unit_elite",
       "unit_bracket_med",
       "unit_indirectFire",
-      "unit_jumpOK",
       "unit_mech",
       "unit_medium",
       "unit_ready",
@@ -385,54 +384,6 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "SimGameUID": "",
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Linked_GhostArmor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
       "hasPrefabName": false,
       "DamageLevel": "Functional"
     },

@@ -39,7 +39,7 @@
   "VariantName": "MCIII-Z",
   "ChassisTags": {
     "items": [
-      "mr-resize-0.68",
+      "mr-resize-0.75",
       "ClanMech",
       "PrototypeMech"
     ],
@@ -72,7 +72,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 28,

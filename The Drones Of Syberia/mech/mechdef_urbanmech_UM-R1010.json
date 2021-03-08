@@ -2,7 +2,7 @@
   "MechTags": {
     "items": [
       "unit_bracket_low",
-      "BLACKLISTED",
+      "unit_jumpOK",
       "nautilus",
       "nofaction",
       "comstar",
@@ -30,6 +30,12 @@
   },
   "simGameMechPartCost": 77816,
   "Version": 1,
+  "RequiredToSpawnCompanyTags": {
+    "items": [
+      "flashpoint_boyandhistrash_complete"
+    ],
+    "tagSetSourceFile": ""
+  },
   "Locations": [
     {
       "Location": "Head",
@@ -156,14 +162,6 @@
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_AdvancedMaterials2",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "hasPrefabName": false,

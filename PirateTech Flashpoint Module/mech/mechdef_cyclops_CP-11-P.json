@@ -40,7 +40,7 @@
     "UIName": "Cyclops CP-11-P",
     "Id": "mechdef_cyclops_CP-11-P",
     "Name": "Cyclops CP-11-P",
-    "Details": "Cyclops 11-Zs use their imposing presence and unique communications equipment to control the battlefield. Carrying the same Battle Computer as the C10, is this variant enhanced with several LosTech including a C3 Master Computer, further increasing the lances power.\n\n<b><color=#e62e00>Quirk: Battle Computer</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
+    "Details": "Cyclops 11-Zs use their imposing presence and unique communications equipment to control the battlefield. Carrying the same Battle Computer as the C10, is this variant enhanced with several LosTech including a C3 Master Computer, further increasing the lances power.\n\n<b><color=#e62e00>Quirk: Battle Computer TC7000</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.16</color></b>",
     "Icon": "uixTxrIcon_cyclops"
   },
   "simGameMechPartCost": 476429,
@@ -76,10 +76,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 155,
-      "CurrentRearArmor": 60,
+      "CurrentRearArmor": 62,
       "CurrentInternalStructure": 145,
       "AssignedArmor": 155,
-      "AssignedRearArmor": 60,
+      "AssignedRearArmor": 62,
       "DamageLevel": "Functional"
     },
     {
@@ -415,6 +415,14 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "hasPrefabName": false,

@@ -7,7 +7,7 @@
     }
   },
   "Description": {
-    "Cost": 5943066,
+    "Cost": 6391066,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Behemoth (Ranger)",
@@ -31,7 +31,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "LOSSourcePositions": [
     {

@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "unit_jumpOK",
       "unit_mech",
       "unit_Heavy",
       "unit_lance_assassin",
@@ -11,6 +10,7 @@
       "unit_bracket_high",
       "BLACKLISTED",
       "clansgeneric",
+      "clanbloodspirit",
       "clanwolf",
       "clanfiremandrill",
       "clanstaradder",

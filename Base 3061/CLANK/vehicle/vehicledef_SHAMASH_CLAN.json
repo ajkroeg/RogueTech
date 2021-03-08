@@ -1,7 +1,6 @@
 {
   "VehicleTags": {
     "items": [
-      "mr-resize-1.64",
       "unit_vehicle",
       "unit_vehicle_clan",
       "unit_light",
@@ -13,6 +12,7 @@
       "unit_predator",
       "Republic",
       "clansgeneric",
+      "clanbloodspirit",
       "clanwolf",
       "clanfiremandrill",
       "clanstaradder",

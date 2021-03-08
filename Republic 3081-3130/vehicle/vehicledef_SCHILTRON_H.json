@@ -18,44 +18,28 @@
       "marik",
       "rasalhague",
       "steiner",
-      "locals",
-      "auriganmercenaries",
-      "LocalsBrockwayRefugees",
-      "MasonsMarauders",
-      "RazorbackMercs",
-      "HostileMercenaries",
-      "SteelBeast",
-      "KellHounds",
-      "RazorbackMercs",
-      "HostileMercenaries",
-      "RedHareRegiment",
-      "SecuritySolutionsInc",
-      "PaladinProtectionLLC",
-      "BlackWidowCompany",
-      "BaumannGroup",
-      "BountyHunterAssociates",
-      "Solaris7"
+      "locals"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "vehiclechassisdef_SCHILTRON_H",
   "Description": {
-    "Cost": 19163153,
+    "Cost": 19559143,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Schiltron H",
     "Id": "vehicledef_SCHILTRON_H",
     "Name": "Schiltron H",
-    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack.  Intended as a vanguard unit, the Assault Tank packs a brutal array of short or medium ranged weapons.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       230     40\n<b>Left</b>         159     40\n<b>Right</b>       159     40\n<b>Rear</b>         84     40\n<b>Turret</b>      200     40\n\n<b>Total</b>      832    200\n",
+    "Details": "A monster of a unit, these heavily armed vehicles are the epitome of the Tank.  Line breakers and fire support platforms, these are usually found in the front of an attack.  Intended as a vanguard unit, the Assault Tank packs a brutal array of short or medium ranged weapons.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fusion: Expensive engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Ferro-Fibrous\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       238     40\n<b>Left</b>         159     40\n<b>Right</b>       159     40\n<b>Rear</b>         84     40\n<b>Turret</b>      200     40\n\n<b>Total</b>      840    200\n",
     "Icon": "Schiltron"
   },
   "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 230,
+      "CurrentArmor": 238,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 230,
+      "AssignedArmor": 238,
       "DamageLevel": "Functional"
     },
     {
@@ -139,9 +123,9 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Narc_Beacon_Improved",
+      "ComponentDefID": "Ammo_AmmunitionBox_MagShot",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
@@ -160,14 +144,14 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_FCS_Improved",
+      "ComponentDefID": "Gear_BeagleActiveProbe",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_Generic_AP",
+      "ComponentDefID": "Gear_FCS_Improved",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -76,7 +76,7 @@
                 "ArmorFactor: +15%",
 				"StealthSensors: 30%, 3, 2, 3, 4",
 				"MimeticStealth: 30%, 3, 4",
-                "StealthReserved: 6",
+                "StealthReserved: 1",
                 "Visibility: -30%",
                 "Signature: -30%",
 		"TEHeatgen: +15%",
@@ -331,7 +331,7 @@
                 "Details" : "Makes the carrier much harder to detect with stealth",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
-            "statisticData" : 
+            "statisticData" :
             {
                 "statName" : "LV_STEALTH",
                 "operation" : "Set",
@@ -363,15 +363,15 @@
                 "Details" : "Makes the carrier much harder to see with eyes",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
-            "statisticData" : 
+            "statisticData" :
             {
                 "statName" : "LV_MIMETIC",
                 "operation" : "Set",
-                "modValue": "0.7_3_4",
+                "modValue": "3_0.23_1_4",
                 "modType": "System.String"
             },
             "nature" : "Buff"
-        },  
+        },
 		{
             "durationData": {
                 "duration": -1,

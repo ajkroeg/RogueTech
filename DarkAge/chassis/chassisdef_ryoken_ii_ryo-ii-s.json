@@ -12,7 +12,14 @@
       "Exclude": false,
       "Include": true
     },
-    "ChassisDefaults": []
+    "ChassisDefaults": [
+      {
+        "Location": "Head",
+        "CategoryID": "CockpitFCS",
+        "DefID": "Gear_FCS_Society",
+        "Type": "Upgrade"
+      }
+    ]
   },
   "FixedEquipment": [
     {
@@ -74,7 +81,7 @@
   "SpotterDistanceMultiplier": 1.1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1.1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "PunchesWithLeftArm": true,
   "MeleeDamage": 38,

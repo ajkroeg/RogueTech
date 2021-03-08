@@ -146,7 +146,7 @@
     "UIName": "Viper",
     "Id": "chassisdef_viper_VPR-G",
     "Name": "Viper",
-    "Details": "A fast and manoeuvrable OmniMech, the 40 ton Viper was introduced in 2940 by Clan Fire Mandrill. Emphasising speed and armour over firepower, the Viper is outgunned by most 35-40 ton OmniMechs, with only 8.5 tons of podspace. A 320 rated XL Engine powers the Viper and 8 Jump Jets are hardwired into the chassis, further improving the mobility. The Viper G is armed with 4 AP Gauss Rifles, a Plasma Cannon and an Improved Heavy Medium Laser. A Light Active Probe augments the Viper’s Scout capabilities. <b><color=#e62e00>Drop Cost Multiplier: 1.03.</color></b>\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
+    "Details": "Introduced in 2940, the Viper is a 40 ton OmniMech that emphasises speed and armour, with only 8.5 tons of podspace available for weapons. A 320 rated XL Engine powers the Viper and 8 Jump Jets are hardwired into the chassis, further improving the mobility. The Viper G is armed with 4 AP Gauss Rifles, a Plasma Cannon and an Improved Heavy Medium Laser. A Light Active Probe augments the Viper’s Scout capabilities. <b><color=#e62e00>Drop Cost Multiplier: 1.03.</color></b>\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.03</color></b>",
     "Icon": "uixTxrIcon_viper"
   },
   "VariantName": "VPR-G",
@@ -158,7 +158,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Striker",
-  "YangsThoughts": "A fast and manoeuvrable OmniMech, the 40 ton Viper was introduced in 2940 by Clan Fire Mandrill. Emphasising speed and armour over firepower, the Viper is outgunned by most 35-40 ton OmniMechs, with only 8.5 tons of podspace. A 320 rated XL Engine powers the Viper and 8 Jump Jets are hardwired into the chassis, further improving the mobility. The Viper G is armed with 4 AP Gauss Rifles, a Plasma Cannon and an Improved Heavy Medium Laser. A Light Active Probe augments the Viper’s Scout capabilities. <b><color=#e62e00>Drop Cost Multiplier: 1.03.</color></b>",
+  "YangsThoughts": "Introduced in 2940, the Viper is a 40 ton OmniMech that emphasises speed and armour, with only 8.5 tons of podspace available for weapons. A 320 rated XL Engine powers the Viper and 8 Jump Jets are hardwired into the chassis, further improving the mobility. The Viper G is armed with 4 AP Gauss Rifles, a Plasma Cannon and an Improved Heavy Medium Laser. A Light Active Probe augments the Viper’s Scout capabilities. <b><color=#e62e00>Drop Cost Multiplier: 1.03.</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_viper",
@@ -184,7 +184,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 4,
   "PunchesWithLeftArm": true,
   "MeleeDamage": 20,
@@ -217,12 +217,12 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "Omni": true,
-          "WeaponMountID": "Missile"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         },
         {
-          "Omni": true,
-          "WeaponMountID": "AntiPersonnel"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         }
       ],
       "Tonnage": 0,
@@ -235,12 +235,12 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "Omni": true,
-          "WeaponMountID": "Missile"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         },
         {
-          "Omni": true,
-          "WeaponMountID": "AntiPersonnel"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         }
       ],
       "Tonnage": 0,
@@ -257,24 +257,20 @@
           "Omni": true
         },
         {
-          "Omni": true,
-          "WeaponMountID": "Missile"
+          "WeaponMountID": "Special",
+          "Omni": false
         },
         {
-          "Omni": false,
-          "WeaponMountID": "Special"
+          "WeaponMountID": "Special",
+          "Omni": false
         },
         {
-          "Omni": false,
-          "WeaponMountID": "Special"
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         },
         {
-          "Omni": false,
-          "WeaponMountID": "SpecialMelee"
-        },
-        {
-          "Omni": false,
-          "WeaponMountID": "SpecialMelee"
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -287,12 +283,8 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "Omni": true,
-          "WeaponMountID": "Missile"
-        },
-        {
-          "Omni": true,
-          "WeaponMountID": "AntiPersonnel"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         }
       ],
       "Tonnage": 0,
@@ -305,12 +297,20 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "Omni": true,
-          "WeaponMountID": "Missile"
+          "WeaponMount": "Ballistic",
+          "Omni": true
         },
         {
-          "Omni": true,
-          "WeaponMountID": "AntiPersonnel"
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
         }
       ],
       "Tonnage": 0,

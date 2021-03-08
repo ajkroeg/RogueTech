@@ -37,7 +37,9 @@
   },
   "VariantName": "BJ-3",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "mr-resize-0.9"
+    ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
@@ -67,7 +69,7 @@
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
-  "Signature": 0,
+  "Signature": 1,
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 23,
